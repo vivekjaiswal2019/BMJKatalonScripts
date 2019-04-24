@@ -1,0 +1,1088 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test TS" time="343" tests="5" failures="0" errors="0">
+   <testsuite name="Test TS" tests="5" failures="0" errors="0" time="343" timestamp="2019-04-12 15:49:29" hostname="vivek.jaiswal - mum-lap-389.global.internal" id="Test Suites/Test TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190412_154922"/>
+         <property name="logFiles" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190412_154922\\execution0.log"/>
+         <property name="attachments" value="E:\\Katalon Studio\\Screenshots\\Tags_UKCAT.png, E:\\Katalon Studio\\Screenshots\\Tags_TropicalHealth.png, E:\\Katalon Studio\\Screenshots\\Tags_MRCGP.png"/>
+         <property name="hostName" value="vivek.jaiswal - mum-lap-389.global.internal"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="c2d2c8be90996fc18af9835d01d0bdb3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Create Account" classname="Test Cases/Create Account" status="PASSED">
+         <system-out><![CDATA[2019-04-12 15:49:30 - [TEST_CASE][PASSED] - Test Cases/Create Account: Test Cases/Create Account
+
+2019-04-12 15:49:32 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:49:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-12 15:49:33 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-12 15:49:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:49:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-12 15:50:00 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-12 15:50:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri")): Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is clicked on
+
+2019-04-12 15:50:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is clicked on
+
+2019-04-12 15:50:03 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter your email address", false): Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:50:03 - [MESSAGE][PASSED] - Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:50:03 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a password", false): Text 'Please enter a password' is present on page 
+
+2019-04-12 15:50:04 - [MESSAGE][PASSED] - Text 'Please enter a password' is present on page 
+
+2019-04-12 15:50:04 - [TEST_STEP][PASSED] - verifyTextPresent("Please confirm your password", false): Text 'Please confirm your password' is present on page 
+
+2019-04-12 15:50:04 - [MESSAGE][PASSED] - Text 'Please confirm your password' is present on page 
+
+2019-04-12 15:50:04 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "Rave"): Text 'Rave' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:05 - [MESSAGE][PASSED] - Text 'Rave' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:05 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:05 - [TEST_STEP][PASSED] - verifyTextPresent("Password must contain at least one number and one uppercase and lowercase letters and one special character (!@#$%^&*-_), and should be of 8-20 characters", false): Text 'Password must contain at least one number and one uppercase and lowercase letters and one special character (!@#$%^&*-_), and should be of 8-20 characters' is present on page 
+
+2019-04-12 15:50:05 - [MESSAGE][PASSED] - Text 'Password must contain at least one number and one uppercase and lowercase letters and one special character (!@#$%^&*-_), and should be of 8-20 characters' is present on page 
+
+2019-04-12 15:50:05 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "Ra"): Text 'Ra' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:06 - [MESSAGE][PASSED] - Text 'Ra' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:06 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:06 - [TEST_STEP][PASSED] - verifyTextPresent("Your new password and confirmed password must match", false): Text 'Your new password and confirmed password must match' is present on page 
+
+2019-04-12 15:50:06 - [MESSAGE][PASSED] - Text 'Your new password and confirmed password must match' is present on page 
+
+2019-04-12 15:50:06 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), "testnewa@gmail.com"): Text 'testnewa@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:07 - [MESSAGE][PASSED] - Text 'testnewa@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:08 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:08 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:08 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:08 - [TEST_STEP][PASSED] - focus(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri")): Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is focused
+
+2019-04-12 15:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is focused
+
+2019-04-12 15:50:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri'
+
+2019-04-12 15:50:10 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri'
+
+2019-04-12 15:50:10 - [TEST_STEP][PASSED] - verifyTextPresent("To continue, you must agree to the BMJ OnExamination terms, conditions and privacy policy", false): Text 'To continue, you must agree to the BMJ OnExamination terms, conditions and privacy policy' is present on page 
+
+2019-04-12 15:50:11 - [MESSAGE][PASSED] - Text 'To continue, you must agree to the BMJ OnExamination terms, conditions and privacy policy' is present on page 
+
+2019-04-12 15:50:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:11 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:11 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:12 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:12 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:12 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:12 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Create Account/input_Communication preference (1)"), STOP_ON_FAILURE): Object 'Object Repository/Page_BMJ OnExamination Create Account/input_Communication preference (1)' is checked
+
+2019-04-12 15:50:13 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Create Account/input_Communication preference (1)' is checked
+
+2019-04-12 15:50:13 - [TEST_STEP][PASSED] - focus(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri")): Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is focused
+
+2019-04-12 15:50:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is focused
+
+2019-04-12 15:50:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri'
+
+2019-04-12 15:50:15 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri'
+
+2019-04-12 15:50:15 - [TEST_STEP][PASSED] - verifyTextPresent("The email address entered already exists.", false): Text 'The email address entered already exists.' is present on page 
+
+2019-04-12 15:50:15 - [MESSAGE][PASSED] - Text 'The email address entered already exists.' is present on page 
+
+2019-04-12 15:50:15 - [TEST_STEP][NOT_RUN] - openBrowser("https://testmy.onexamination.com/login.aspx"): NOT_RUN: openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2019-04-12 15:50:15 - [MESSAGE][NOT_RUN] - NOT_RUN: openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2019-04-12 15:50:15 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), "testnewa@gmail.com"): Text 'testnewa@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:16 - [MESSAGE][PASSED] - Text 'testnewa@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:16 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten'
+
+2019-04-12 15:50:16 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:17 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma'
+
+2019-04-12 15:50:17 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Create Account/input_Communication preference (1)")): Object 'Object Repository/Page_BMJ OnExamination Create Account/input_Communication preference (1)' is checked
+
+2019-04-12 15:50:17 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Create Account/input_Communication preference (1)' is checked
+
+2019-04-12 15:50:17 - [TEST_STEP][PASSED] - focus(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri")): Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is focused
+
+2019-04-12 15:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri' is focused
+
+2019-04-12 15:50:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri'
+
+2019-04-12 15:50:21 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Page_BMJ OnExamination Create Account/input_terms conditions and pri'
+
+2019-04-12 15:50:21 - [TEST_STEP][PASSED] - verifyTextPresent("Tick to receive information and special offers about BMJs products and services. BMJ will mainly contact you by email but occasionally by post, telephone, or SMS.", false): Text 'Tick to receive information and special offers about BMJs products and services. BMJ will mainly contact you by email but occasionally by post, telephone, or SMS.' is present on page 
+
+2019-04-12 15:50:21 - [MESSAGE][PASSED] - Text 'Tick to receive information and special offers about BMJs products and services. BMJ will mainly contact you by email but occasionally by post, telephone, or SMS.' is present on page 
+
+2019-04-12 15:50:21 - [TEST_STEP][PASSED] - verifyElementNotChecked(findTestObject("Page_BMJ OnExamination Create Account/input_Communication preference"), 0): Object 'Object Repository/Page_BMJ OnExamination Create Account/input_Communication preference' is not checked
+
+2019-04-12 15:50:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Create Account/input_Communication preference' is not checked
+
+2019-04-12 15:50:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Sign Out")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Sign Out' is clicked on
+
+2019-04-12 15:50:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Sign Out' is clicked on
+
+2019-04-12 15:50:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-12 15:50:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Signing In Problems" classname="Test Cases/Signing In Problems" status="PASSED">
+         <system-out><![CDATA[2019-04-12 15:50:25 - [TEST_CASE][PASSED] - Test Cases/Signing In Problems: Test Cases/Signing In Problems
+
+2019-04-12 15:50:26 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:50:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-12 15:50:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:50:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-12 15:50:41 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-12 15:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/a_Forgot your password or chan' is clicked on
+
+2019-04-12 15:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/a_Forgot your password or chan' is clicked on
+
+2019-04-12 15:50:45 - [TEST_STEP][PASSED] - verifyTextPresent("Changed your email address?", false): Text 'Changed your email address?' is present on page 
+
+2019-04-12 15:50:46 - [MESSAGE][PASSED] - Text 'Changed your email address?' is present on page 
+
+2019-04-12 15:50:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/input_Invalid email address pl")): Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:48 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter your email address", false): Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:50:48 - [MESSAGE][PASSED] - Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:50:48 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "    "): Text '    ' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:49 - [MESSAGE][PASSED] - Text '    ' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/input_Invalid email address pl")): Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:51 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter your email address", false): Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:50:52 - [MESSAGE][PASSED] - Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:50:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "abc"): Text 'abc' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:52 - [MESSAGE][PASSED] - Text 'abc' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/input_Invalid email address pl")): Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:54 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid email address, please check it is typed correctly", false): Text 'Invalid email address, please check it is typed correctly' is present on page 
+
+2019-04-12 15:50:54 - [MESSAGE][PASSED] - Text 'Invalid email address, please check it is typed correctly' is present on page 
+
+2019-04-12 15:50:54 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "abc@gmail"): Text 'abc@gmail' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:55 - [MESSAGE][PASSED] - Text 'abc@gmail' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/input_Invalid email address pl")): Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:50:58 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid email address, please check it is typed correctly", false): Text 'Invalid email address, please check it is typed correctly' is present on page 
+
+2019-04-12 15:50:58 - [MESSAGE][PASSED] - Text 'Invalid email address, please check it is typed correctly' is present on page 
+
+2019-04-12 15:50:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "@gmail.com"): Text '@gmail.com' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:59 - [MESSAGE][PASSED] - Text '@gmail.com' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:50:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/input_Invalid email address pl")): Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:51:00 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid email address, please check it is typed correctly", false): Text 'Invalid email address, please check it is typed correctly' is present on page 
+
+2019-04-12 15:51:00 - [MESSAGE][PASSED] - Text 'Invalid email address, please check it is typed correctly' is present on page 
+
+2019-04-12 15:51:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "a1b2c3@gmail.com"): Text 'a1b2c3@gmail.com' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:01 - [MESSAGE][PASSED] - Text 'a1b2c3@gmail.com' is set on object 'Object Repository/Page_Sign in problems/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/input_Invalid email address pl")): Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:51:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/input_Invalid email address pl' is clicked on
+
+2019-04-12 15:51:03 - [TEST_STEP][PASSED] - verifyTextPresent("Please check your email account inbox, the message should arrive within 5 minutes.", false): Text 'Please check your email account inbox, the message should arrive within 5 minutes.' is present on page 
+
+2019-04-12 15:51:03 - [MESSAGE][PASSED] - Text 'Please check your email account inbox, the message should arrive within 5 minutes.' is present on page 
+
+2019-04-12 15:51:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Sign in problems/a_Sign In")): NOT_RUN: click(findTestObject("Page_Sign in problems/a_Sign In"))
+
+2019-04-12 15:51:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Sign in problems/a_Sign In"))
+
+2019-04-12 15:51:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan"))
+
+2019-04-12 15:51:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan"))
+
+2019-04-12 15:51:03 - [TEST_STEP][NOT_RUN] - setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): NOT_RUN: setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+2019-04-12 15:51:03 - [MESSAGE][NOT_RUN] - NOT_RUN: setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+2019-04-12 15:51:03 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Sign in problems/input_Invalid email address pl")): NOT_RUN: click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+2019-04-12 15:51:03 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+2019-04-12 15:51:03 - [TEST_STEP][NOT_RUN] - verifyTextPresent("There's been a problem sending your message", false): NOT_RUN: verifyTextPresent("There's been a problem sending your message", false)
+
+2019-04-12 15:51:03 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent("There's been a problem sending your message", false)
+
+2019-04-12 15:51:03 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/a_Sign In")): Object: 'Object Repository/Page_Sign in problems/a_Sign In' is clicked on
+
+2019-04-12 15:51:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/a_Sign In' is clicked on
+
+2019-04-12 15:51:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/a_Forgot your password or chan' is clicked on
+
+2019-04-12 15:51:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/a_Forgot your password or chan' is clicked on
+
+2019-04-12 15:51:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_Sign in problems/Page_Sign in problems/a_contact our support team")): Object: 'Object Repository/Page_Sign in problems/Page_Sign in problems/a_contact our support team' is clicked on
+
+2019-04-12 15:51:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Sign in problems/Page_Sign in problems/a_contact our support team' is clicked on
+
+2019-04-12 15:51:17 - [TEST_STEP][PASSED] - verifyTextPresent("Contact Us", false): Text 'Contact Us' is present on page 
+
+2019-04-12 15:51:18 - [MESSAGE][PASSED] - Text 'Contact Us' is present on page 
+
+2019-04-12 15:51:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-12 15:51:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[2019-04-12 15:51:21 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+2019-04-12 15:51:22 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:51:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-12 15:51:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:51:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-12 15:51:33 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-12 15:51:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:33 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+2019-04-12 15:51:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2019-04-12 15:51:35 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter your email address", false): Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:51:35 - [MESSAGE][PASSED] - Text 'Please enter your email address' is present on page 
+
+2019-04-12 15:51:35 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter your password", false): Text 'Please enter your password' is present on page 
+
+2019-04-12 15:51:36 - [MESSAGE][PASSED] - Text 'Please enter your password' is present on page 
+
+2019-04-12 15:51:36 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:51:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:51:38 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:39 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), ""): Text '' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:51:40 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:51:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:40 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:51:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:51:42 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter your password", false): Text 'Please enter your password' is present on page 
+
+2019-04-12 15:51:43 - [MESSAGE][PASSED] - Text 'Please enter your password' is present on page 
+
+2019-04-12 15:51:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:43 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:43 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "Password2"): Text 'Password2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:51:44 - [MESSAGE][PASSED] - Text 'Password2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:51:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:44 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:51:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:51:46 - [TEST_STEP][PASSED] - verifyTextPresent("Forgot your password or changed your email address?", false): Text 'Forgot your password or changed your email address?' is present on page 
+
+2019-04-12 15:51:46 - [MESSAGE][PASSED] - Text 'Forgot your password or changed your email address?' is present on page 
+
+2019-04-12 15:51:46 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal"): Text 'vivek.jaiswal' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:47 - [MESSAGE][PASSED] - Text 'vivek.jaiswal' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:47 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:51:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:51:49 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid email address entered", false): Text 'Invalid email address entered' is present on page 
+
+2019-04-12 15:51:50 - [MESSAGE][PASSED] - Text 'Invalid email address entered' is present on page 
+
+2019-04-12 15:51:50 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-04-12 15:51:50 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-04-12 15:51:50 - [TEST_STEP][PASSED] - navigateToUrl("https://testmy.onexamination.com/login.aspx"): Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-12 15:51:51 - [MESSAGE][PASSED] - Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-12 15:51:51 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "assa@gmail.com"): Text 'assa@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:52 - [MESSAGE][PASSED] - Text 'assa@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:51:52 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2"): Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:51:53 - [MESSAGE][PASSED] - Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:51:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:51:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:51:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:51:59 - [TEST_STEP][PASSED] - verifyTextPresent("Invalid login details entered", false): Text 'Invalid login details entered' is present on page 
+
+2019-04-12 15:51:59 - [MESSAGE][PASSED] - Text 'Invalid login details entered' is present on page 
+
+2019-04-12 15:51:59 - [TEST_STEP][NOT_RUN] - closeBrowser(): NOT_RUN: closeBrowser()
+
+2019-04-12 15:51:59 - [MESSAGE][NOT_RUN] - NOT_RUN: closeBrowser()
+
+2019-04-12 15:51:59 - [TEST_STEP][PASSED] - navigateToUrl("https://testmy.onexamination.com/login.aspx"): Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-12 15:52:00 - [MESSAGE][PASSED] - Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-12 15:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:52:00 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:52:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2"): Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:52:01 - [MESSAGE][PASSED] - Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:52:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:52:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:52:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:52:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:52:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Sign Out"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Sign Out' is present
+
+2019-04-12 15:52:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:52:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Sign Out' is present
+
+2019-04-12 15:52:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Sign Out")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Sign Out' is clicked on
+
+2019-04-12 15:52:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Sign Out' is clicked on
+
+2019-04-12 15:52:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:52:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:52:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-12 15:52:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Reset Scores" classname="Test Cases/Reset Scores" status="PASSED">
+         <system-out><![CDATA[2019-04-12 15:52:16 - [TEST_CASE][PASSED] - Test Cases/Reset Scores: Test Cases/Reset Scores
+
+2019-04-12 15:52:16 - [TEST_STEP][PASSED] - openBrowser("https://testcontrol.onexamination.com/Support/Default.aspx"): Browser is opened with url: 'https://testcontrol.onexamination.com/Support/Default.aspx'
+
+2019-04-12 15:52:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-12 15:52:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testcontrol.onexamination.com/Support/Default.aspx'
+
+2019-04-12 15:52:26 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-12 15:52:27 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-12 15:52:27 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Control Sign in/Alias"), "rafiqull.sheikh"): Text 'rafiqull.sheikh' is set on object 'Object Repository/Page_Control Sign in/Alias'
+
+2019-04-12 15:52:28 - [MESSAGE][PASSED] - Text 'rafiqull.sheikh' is set on object 'Object Repository/Page_Control Sign in/Alias'
+
+2019-04-12 15:52:28 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Control Sign in/Password"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_Control Sign in/Password'
+
+2019-04-12 15:52:28 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_Control Sign in/Password'
+
+2019-04-12 15:52:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Sign in/Sign In")): Object: 'Object Repository/Page_Control Sign in/Sign In' is clicked on
+
+2019-04-12 15:52:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Sign in/Sign In' is clicked on
+
+2019-04-12 15:52:30 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-12 15:52:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-12 15:52:33 - [TEST_STEP][PASSED] - verifyTextPresent("Help centre", false): Text 'Help centre' is present on page 
+
+2019-04-12 15:52:34 - [MESSAGE][PASSED] - Text 'Help centre' is present on page 
+
+2019-04-12 15:52:34 - [TEST_STEP][PASSED] - verifyTextPresent("New requests", false): Text 'New requests' is present on page 
+
+2019-04-12 15:52:35 - [MESSAGE][PASSED] - Text 'New requests' is present on page 
+
+2019-04-12 15:52:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Exam calendar/a_Users")): Object: 'Object Repository/Page_Control Exam calendar/a_Users' is clicked on
+
+2019-04-12 15:52:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Exam calendar/a_Users' is clicked on
+
+2019-04-12 15:52:36 - [TEST_STEP][PASSED] - verifyTextPresent("Manage users", false): Text 'Manage users' is present on page 
+
+2019-04-12 15:52:37 - [MESSAGE][PASSED] - Text 'Manage users' is present on page 
+
+2019-04-12 15:52:37 - [TEST_STEP][PASSED] - verifyTextPresent("Search for a user", false): Text 'Search for a user' is present on page 
+
+2019-04-12 15:52:37 - [MESSAGE][PASSED] - Text 'Search for a user' is present on page 
+
+2019-04-12 15:52:37 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Control Manage users/Email Address"), "testautomation@gmail.com"): Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_Control Manage users/Email Address'
+
+2019-04-12 15:52:38 - [MESSAGE][PASSED] - Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_Control Manage users/Email Address'
+
+2019-04-12 15:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Manage users/Search Button")): Object: 'Object Repository/Page_Control Manage users/Search Button' is clicked on
+
+2019-04-12 15:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Manage users/Search Button' is clicked on
+
+2019-04-12 15:52:40 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:52:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:52:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Manage users/a_Edit exams")): Object: 'Object Repository/Page_Control Manage users/a_Edit exams' is clicked on
+
+2019-04-12 15:52:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Manage users/a_Edit exams' is clicked on
+
+2019-04-12 15:52:45 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:52:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores")): Object: 'Object Repository/Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores' is clicked on
+
+2019-04-12 15:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores' is clicked on
+
+2019-04-12 15:52:48 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:52:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:52:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Help centre/a_Sign out")): Object: 'Object Repository/Page_Control Help centre/a_Sign out' is clicked on
+
+2019-04-12 15:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Help centre/a_Sign out' is clicked on
+
+2019-04-12 15:52:53 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:52:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:52:55 - [TEST_STEP][PASSED] - navigateToUrl("https://testmy.onexamination.com/login.aspx"): Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-12 15:53:01 - [MESSAGE][PASSED] - Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-12 15:53:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "testautomation@gmail.com"): Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:53:01 - [MESSAGE][PASSED] - Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:53:01 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword1"): Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:53:02 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:53:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:53:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:53:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:53:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Scores")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is clicked on
+
+2019-04-12 15:53:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is clicked on
+
+2019-04-12 15:53:08 - [TEST_STEP][PASSED] - verifyTextPresent("Score Analysis", false): Text 'Score Analysis' is present on page 
+
+2019-04-12 15:53:09 - [MESSAGE][PASSED] - Text 'Score Analysis' is present on page 
+
+2019-04-12 15:53:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are matched.
+
+2019-04-12 15:53:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are matched.
+
+2019-04-12 15:53:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Mean score"), "62.2"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Mean score' are matched.
+
+2019-04-12 15:53:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Mean score' are matched.
+
+2019-04-12 15:53:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Current mean"), "0"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Current mean' are matched.
+
+2019-04-12 15:53:09 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Current mean' are matched.
+
+2019-04-12 15:53:09 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Naive mean"), "0"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Naive mean' are matched.
+
+2019-04-12 15:53:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Naive mean' are matched.
+
+2019-04-12 15:53:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsAnswered"), "0"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsAnswered' are matched.
+
+2019-04-12 15:53:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsAnswered' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Choose Questions" classname="Test Cases/Choose Questions" status="PASSED">
+         <system-out><![CDATA[2019-04-12 15:53:12 - [TEST_CASE][PASSED] - Test Cases/Choose Questions: Test Cases/Choose Questions
+
+2019-04-12 15:53:13 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:53:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-12 15:53:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-12 15:53:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-12 15:53:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-12 15:53:29 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-12 15:53:29 - [TEST_STEP][PASSED] - Height = getPageHeight(): Current page's height is 922
+
+2019-04-12 15:53:29 - [MESSAGE][PASSED] - Current page's height is 922
+
+2019-04-12 15:53:29 - [TEST_STEP][PASSED] - Width = getPageWidth(): Current page's width is 1349
+
+2019-04-12 15:53:30 - [MESSAGE][PASSED] - Current page's width is 1349
+
+2019-04-12 15:53:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "testautomation@gmail.com"): Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:53:32 - [MESSAGE][PASSED] - Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-12 15:53:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword1"): Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:53:33 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-12 15:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-12 15:53:35 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:53:40 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision' is clicked on
+
+2019-04-12 15:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision' is clicked on
+
+2019-04-12 15:53:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions")): Object: 'Object Repository/Page_Exam Revision - BMJ OnExaminat/a_Choose Questions' is clicked on
+
+2019-04-12 15:53:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Exam Revision - BMJ OnExaminat/a_Choose Questions' is clicked on
+
+2019-04-12 15:53:44 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-12 15:53:45 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-12 15:53:45 - [TEST_STEP][PASSED] - verifyTextPresent("Current Options Selected", false): Text 'Current Options Selected' is present on page 
+
+2019-04-12 15:53:46 - [MESSAGE][PASSED] - Text 'Current Options Selected' is present on page 
+
+2019-04-12 15:53:46 - [TEST_STEP][PASSED] - verifyTextPresent("Keywords: None", false): Text 'Keywords: None' is present on page 
+
+2019-04-12 15:53:47 - [MESSAGE][PASSED] - Text 'Keywords: None' is present on page 
+
+2019-04-12 15:53:47 - [TEST_STEP][PASSED] - verifyTextPresent("No of Questions", false): Text 'No of Questions' is present on page 
+
+2019-04-12 15:53:47 - [MESSAGE][PASSED] - Text 'No of Questions' is present on page 
+
+2019-04-12 15:53:47 - [TEST_STEP][PASSED] - verifyTextPresent("Curricula: All", false): Text 'Curricula: All' is present on page 
+
+2019-04-12 15:53:48 - [MESSAGE][PASSED] - Text 'Curricula: All' is present on page 
+
+2019-04-12 15:53:48 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-12 15:53:48 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-12 15:53:48 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Core Questions"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Core Questions' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Core Questions' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Group Learning"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Group Learning' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Group Learning' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Learning Journal"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Learning Journal' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Learning Journal' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Mock Tests"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Mock Tests' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Mock Tests' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Revision Advice"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Revision Advice' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Revision Advice' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Tags"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Tags' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Tags' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Work Hard"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Work Hard' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Work Hard' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), "id", "btnGenerateRight", 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' has attribute 'id' with value 'btnGenerateRight'
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' has attribute 'id' with value 'btnGenerateRight'
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs' is present
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs' is present
+
+2019-04-12 15:53:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test (1)"), "id", "btnGenerateLeft", 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test (1)' has attribute 'id' with value 'btnGenerateLeft'
+
+2019-04-12 15:53:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test (1)' has attribute 'id' with value 'btnGenerateLeft'
+
+2019-04-12 15:53:50 - [TEST_STEP][PASSED] - navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx"): Navigate to 'https://testmy.onexamination.com/Account/Default.aspx' successfully
+
+2019-04-12 15:53:50 - [MESSAGE][PASSED] - Navigate to 'https://testmy.onexamination.com/Account/Default.aspx' successfully
+
+2019-04-12 15:53:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-12 15:53:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:53:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-12 15:53:51 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-12 15:53:51 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-12 15:53:51 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false, 20): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-12 15:53:52 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-12 15:53:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:53:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:53:57 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-12 15:53:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-12 15:53:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Choose Questions")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-12 15:54:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-12 15:54:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:54:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:54:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi' is checked
+
+2019-04-12 15:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi' is checked
+
+2019-04-12 15:54:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa' is checked
+
+2019-04-12 15:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa' is checked
+
+2019-04-12 15:54:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-12 15:54:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-12 15:54:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy' is checked
+
+2019-04-12 15:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy' is checked
+
+2019-04-12 15:54:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif' is checked
+
+2019-04-12 15:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif' is checked
+
+2019-04-12 15:54:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag' is checked
+
+2019-04-12 15:54:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:06 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag' is checked
+
+2019-04-12 15:54:06 - [TEST_STEP][PASSED] - ExpectedPlaceholder = "eg, deep vein thrombosis, diabetes, thyroid": null
+
+2019-04-12 15:54:06 - [TEST_STEP][PASSED] - placeholder = getAttribute(findTestObject("Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK"), "ActualPlaceholder"): Attribute 'ActualPlaceholder' of object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK' is: 'null'
+
+2019-04-12 15:54:06 - [MESSAGE][PASSED] - Attribute 'ActualPlaceholder' of object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK' is: 'null'
+
+2019-04-12 15:54:06 - [TEST_STEP][PASSED] - if (ExpectedPlaceholder == placeholder): null
+
+2019-04-12 15:54:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All curricula_qCat")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-12 15:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-12 15:54:06 - [TEST_STEP][PASSED] - verifyTextPresent("Abstract Reasoning", false): Text 'Abstract Reasoning' is present on page 
+
+2019-04-12 15:54:07 - [MESSAGE][PASSED] - Text 'Abstract Reasoning' is present on page 
+
+2019-04-12 15:54:07 - [TEST_STEP][PASSED] - verifyTextPresent("Decision Analysis", false): Text 'Decision Analysis' is present on page 
+
+2019-04-12 15:54:07 - [MESSAGE][PASSED] - Text 'Decision Analysis' is present on page 
+
+2019-04-12 15:54:07 - [TEST_STEP][PASSED] - verifyTextPresent("Quantitative Reasoning", false): Text 'Quantitative Reasoning' is present on page 
+
+2019-04-12 15:54:08 - [MESSAGE][PASSED] - Text 'Quantitative Reasoning' is present on page 
+
+2019-04-12 15:54:08 - [TEST_STEP][PASSED] - verifyTextPresent("Verbal Reasoning", false): Text 'Verbal Reasoning' is present on page 
+
+2019-04-12 15:54:09 - [MESSAGE][PASSED] - Text 'Verbal Reasoning' is present on page 
+
+2019-04-12 15:54:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:09 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT' is checked
+
+2019-04-12 15:54:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT' is checked
+
+2019-04-12 15:54:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:54:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:54:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:14 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:54:19 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:54:19 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 6 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-12 15:54:20 - [MESSAGE][PASSED] - 6 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-12 15:54:20 - [TEST_STEP][PASSED] - verifyEqual(Count, 6): Actual object '6' and expected object '6' are equal
+
+2019-04-12 15:54:20 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+2019-04-12 15:54:20 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["10 questions", "20 questions", "30 questions", "40 questions", "50 questions", "56 questions"]): Options [10 questions, 20 questions, 30 questions, 40 questions, 50 questions, 56 questions] present.
+
+2019-04-12 15:54:20 - [MESSAGE][PASSED] - Options [10 questions, 20 questions, 30 questions, 40 questions, 50 questions, 56 questions] present.
+
+2019-04-12 15:54:20 - [TEST_STEP][PASSED] - verifyTextPresent("Best Answer Question", false): Text 'Best Answer Question' is present on page 
+
+2019-04-12 15:54:21 - [MESSAGE][PASSED] - Text 'Best Answer Question' is present on page 
+
+2019-04-12 15:54:21 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question' is checked
+
+2019-04-12 15:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question' is checked
+
+2019-04-12 15:54:21 - [TEST_STEP][PASSED] - verifyTextPresent("Problem Solving Question", false): Text 'Problem Solving Question' is present on page 
+
+2019-04-12 15:54:21 - [MESSAGE][PASSED] - Text 'Problem Solving Question' is present on page 
+
+2019-04-12 15:54:21 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question' is checked
+
+2019-04-12 15:54:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question' is checked
+
+2019-04-12 15:54:21 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_No tags_qTag")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-12 15:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-12 15:54:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_My Tags_qTag0")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_My Tags_qTag0' is visible
+
+2019-04-12 15:54:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_My Tags_qTag0' is visible
+
+2019-04-12 15:54:22 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_UKCAT")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_UKCAT' is visible
+
+2019-04-12 15:54:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_UKCAT' is visible
+
+2019-04-12 15:54:22 - [TEST_STEP][NOT_RUN] - verifyElementNotPresent(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_UKCAT"), 0): NOT_RUN: verifyElementNotPresent(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_UKCAT"), 0)
+
+2019-04-12 15:54:22 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementNotPresent(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_UKCAT"), 0)
+
+2019-04-12 15:54:22 - [TEST_STEP][PASSED] - focus(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags' is focused
+
+2019-04-12 15:54:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags' is focused
+
+2019-04-12 15:54:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:54:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:54:27 - [TEST_STEP][PASSED] - takeScreenshot("E:\Katalon Studio\Screenshots\Tags_UKCAT.png"): Taking screenshot successfully
+
+2019-04-12 15:54:28 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon Studio\\Screenshots\\Tags_UKCAT.png]]
+
+2019-04-12 15:54:28 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-12 15:54:28 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-12 15:54:28 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:28 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-12 15:54:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-12 15:54:31 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and"), "Tropical Health Education Trust module", false): All options with label 'Tropical Health Education Trust module' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-12 15:54:32 - [MESSAGE][PASSED] - All options with label 'Tropical Health Education Trust module' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-12 15:54:32 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:54:37 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:54:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:37 - [TEST_STEP][PASSED] - verifyTextPresent("Medicine", false): Text 'Medicine' is present on page 
+
+2019-04-12 15:54:38 - [MESSAGE][PASSED] - Text 'Medicine' is present on page 
+
+2019-04-12 15:54:38 - [TEST_STEP][PASSED] - verifyTextPresent("Obs and Gynae", false): Text 'Obs and Gynae' is present on page 
+
+2019-04-12 15:54:39 - [MESSAGE][PASSED] - Text 'Obs and Gynae' is present on page 
+
+2019-04-12 15:54:39 - [TEST_STEP][PASSED] - verifyTextPresent("Paediatrics", false): Text 'Paediatrics' is present on page 
+
+2019-04-12 15:54:39 - [MESSAGE][PASSED] - Text 'Paediatrics' is present on page 
+
+2019-04-12 15:54:39 - [TEST_STEP][PASSED] - verifyTextPresent("Surgery", false): Text 'Surgery' is present on page 
+
+2019-04-12 15:54:40 - [MESSAGE][PASSED] - Text 'Surgery' is present on page 
+
+2019-04-12 15:54:40 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical' is checked
+
+2019-04-12 15:54:41 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical' is checked
+
+2019-04-12 15:54:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:54:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:54:46 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 4 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-12 15:54:46 - [MESSAGE][PASSED] - 4 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-12 15:54:46 - [TEST_STEP][PASSED] - verifyEqual(Count, 4): Actual object '4' and expected object '4' are equal
+
+2019-04-12 15:54:46 - [MESSAGE][PASSED] - Actual object '4' and expected object '4' are equal
+
+2019-04-12 15:54:46 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["10 questions", "20 questions", "30 questions", "33 questions"]): Options [10 questions, 20 questions, 30 questions, 33 questions] present.
+
+2019-04-12 15:54:46 - [MESSAGE][PASSED] - Options [10 questions, 20 questions, 30 questions, 33 questions] present.
+
+2019-04-12 15:54:46 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:54:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:54:48 - [TEST_STEP][PASSED] - verifyTextPresent("MCQ", false): Text 'MCQ' is present on page 
+
+2019-04-12 15:54:49 - [MESSAGE][PASSED] - Text 'MCQ' is present on page 
+
+2019-04-12 15:54:49 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ' is checked
+
+2019-04-12 15:54:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ' is checked
+
+2019-04-12 15:54:49 - [TEST_STEP][PASSED] - verifyTextPresent("EMQ", false): Text 'EMQ' is present on page 
+
+2019-04-12 15:54:50 - [MESSAGE][PASSED] - Text 'EMQ' is present on page 
+
+2019-04-12 15:54:50 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ' is checked
+
+2019-04-12 15:54:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ' is checked
+
+2019-04-12 15:54:50 - [TEST_STEP][PASSED] - verifyTextPresent("n of Many", false): Text 'n of Many' is present on page 
+
+2019-04-12 15:54:50 - [MESSAGE][PASSED] - Text 'n of Many' is present on page 
+
+2019-04-12 15:54:50 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many' is checked
+
+2019-04-12 15:54:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:54:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many' is checked
+
+2019-04-12 15:54:50 - [TEST_STEP][PASSED] - focus(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags' is focused
+
+2019-04-12 15:54:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags' is focused
+
+2019-04-12 15:54:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:54:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:54:56 - [TEST_STEP][PASSED] - takeScreenshot("E:\Katalon Studio\Screenshots\Tags_TropicalHealth.png"): Taking screenshot successfully
+
+2019-04-12 15:54:56 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon Studio\\Screenshots\\Tags_TropicalHealth.png]]
+
+2019-04-12 15:54:56 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-12 15:54:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-12 15:54:56 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:54:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:54:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:54:58 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and"), "MRCGP", false): All options with label 'MRCGP' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-12 15:54:59 - [MESSAGE][PASSED] - All options with label 'MRCGP' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-12 15:54:59 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:55:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-12 15:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_No tags_qTag")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-12 15:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-12 15:55:01 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-12 15:55:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-12 15:55:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_MRCGP"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_MRCGP' is present
+
+2019-04-12 15:55:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:55:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_MRCGP' is present
+
+2019-04-12 15:55:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_MRCGP"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_MRCGP' is present
+
+2019-04-12 15:55:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-12 15:55:04 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_MRCGP' is present
+
+2019-04-12 15:55:04 - [TEST_STEP][PASSED] - focus(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags' is focused
+
+2019-04-12 15:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags' is focused
+
+2019-04-12 15:55:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-12 15:55:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-12 15:55:09 - [TEST_STEP][PASSED] - takeScreenshot("E:\Katalon Studio\Screenshots\Tags_MRCGP.png"): Taking screenshot successfully
+
+2019-04-12 15:55:09 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|E:\\Katalon Studio\\Screenshots\\Tags_MRCGP.png]]
+
+2019-04-12 15:55:09 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-12 15:55:09 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-12 15:49:29 - [TEST_SUITE][PASSED] - Test TS: Test Cases/Choose Questions]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

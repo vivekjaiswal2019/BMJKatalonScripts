@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>New user Landing Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1323e41a-2761-4c2d-87a5-211225e3e4fb</testCaseGuid>
+   <variable>
+      <defaultValue>'viveknoexam'</defaultValue>
+      <description></description>
+      <id>3dfdd86a-7a34-4df7-b432-d6df45ce342e</id>
+      <masked>false</masked>
+      <name>Alias_Expected</name>
+   </variable>
+   <variable>
+      <defaultValue>'viveknoexam@gmail.com'</defaultValue>
+      <description></description>
+      <id>84e8ceef-bf77-450a-9b45-fda9c3398b98</id>
+      <masked>false</masked>
+      <name>Email_Expected</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,124 @@
+1
+00:00:00,392 --> 00:00:00,394
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:31,113 --> 00:00:31,115
+5. maximizeWindow()
+
+3
+00:00:32,590 --> 00:00:32,591
+9. click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan"))
+
+4
+00:00:34,273 --> 00:00:34,276
+13. verifyTextPresent("Changed your email address?", false)
+
+5
+00:00:34,488 --> 00:00:34,490
+17. click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+6
+00:00:36,526 --> 00:00:36,529
+21. verifyTextPresent("Please enter your email address", false)
+
+7
+00:00:36,655 --> 00:00:36,656
+25. setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "    ")
+
+8
+00:00:36,852 --> 00:00:36,853
+29. click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+9
+00:00:37,727 --> 00:00:37,729
+33. verifyTextPresent("Please enter your email address", false)
+
+10
+00:00:37,848 --> 00:00:37,853
+37. setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "abc")
+
+11
+00:00:38,033 --> 00:00:38,034
+41. click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+12
+00:00:38,702 --> 00:00:38,703
+45. verifyTextPresent("Invalid email address, please check it is typed correctly", false)
+
+13
+00:00:38,827 --> 00:00:38,842
+49. setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "abc@gmail")
+
+14
+00:00:39,055 --> 00:00:39,057
+53. click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+15
+00:00:39,755 --> 00:00:39,757
+57. verifyTextPresent("Invalid email address, please check it is typed correctly", false)
+
+16
+00:00:39,906 --> 00:00:39,906
+61. setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "@gmail.com")
+
+17
+00:00:40,120 --> 00:00:40,125
+65. click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+18
+00:00:40,981 --> 00:00:40,982
+69. verifyTextPresent("Invalid email address, please check it is typed correctly", false)
+
+19
+00:00:41,114 --> 00:00:41,116
+73. setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "a1b2c3@gmail.com")
+
+20
+00:00:41,373 --> 00:00:41,375
+77. click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+21
+00:00:42,270 --> 00:00:42,272
+81. verifyTextPresent("Please check your email account inbox, the message should arrive within 5 minutes.", false)
+
+22
+00:00:42,381 --> 00:00:42,382
+85. click(findTestObject("Page_Sign in problems/a_Sign In"))
+
+23
+00:00:42,387 --> 00:00:42,388
+89. click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan"))
+
+24
+00:00:42,393 --> 00:00:42,393
+93. setText(findTestObject("Page_Sign in problems/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+25
+00:00:42,398 --> 00:00:42,398
+97. click(findTestObject("Page_Sign in problems/input_Invalid email address pl"))
+
+26
+00:00:42,414 --> 00:00:42,430
+101. verifyTextPresent("There's been a problem sending your message", false)
+
+27
+00:00:42,430 --> 00:00:42,430
+105. click(findTestObject("Page_Sign in problems/a_Sign In"))
+
+28
+00:00:43,632 --> 00:00:43,633
+109. click(findTestObject("Page_BMJ OnExamination Sign In/a_Forgot your password or chan"))
+
+29
+00:00:44,699 --> 00:00:44,700
+113. click(findTestObject("Page_Sign in problems/Page_Sign in problems/a_contact our support team"))
+
+30
+00:00:57,135 --> 00:00:57,148
+117. verifyTextPresent("Contact Us", false)
+
+31
+00:00:57,512 --> 00:00:57,516
+121. closeBrowser()
+

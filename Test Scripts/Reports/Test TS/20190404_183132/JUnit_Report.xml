@@ -1,0 +1,1472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test TS" time="261" tests="1" failures="3" errors="0">
+   <testsuite name="Test TS" tests="1" failures="3" errors="0" time="261" timestamp="2019-04-04 18:31:35" hostname="vivek.jaiswal - mum-lap-389.global.internal" id="Test Suites/Test TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132"/>
+         <property name="logFiles" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132\\execution0.log"/>
+         <property name="attachments" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132\\1554382995941.png, E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132\\1554383122072.png, E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132\\1554383153737.png"/>
+         <property name="hostName" value="vivek.jaiswal - mum-lap-389.global.internal"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.86"/>
+         <property name="hostAddress" value="10.102.194.0"/>
+         <property name="sessionId" value="af85baf83600a55a1775dcb258c853b2"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Choose Questions" classname="Test Cases/Choose Questions" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Choose Questions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at Choose Questions.run(Choose Questions:203)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-04 18:31:36 - [TEST_CASE][FAILED] - Test Cases/Choose Questions: Test Cases/Choose Questions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at Choose Questions.run(Choose Questions:203)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+
+
+2019-04-04 18:31:37 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:31:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-04 18:31:38 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-04 18:31:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:31:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-04 18:31:57 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-04 18:31:57 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:31:58 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:31:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2"): Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:31:58 - [MESSAGE][PASSED] - Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:31:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:32:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:32:10 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:32:15 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:32:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision' is clicked on
+
+2019-04-04 18:32:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision' is clicked on
+
+2019-04-04 18:32:17 - [TEST_STEP][PASSED] - click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions")): Object: 'Object Repository/Page_Exam Revision - BMJ OnExaminat/a_Choose Questions' is clicked on
+
+2019-04-04 18:32:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Exam Revision - BMJ OnExaminat/a_Choose Questions' is clicked on
+
+2019-04-04 18:32:19 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-04 18:32:20 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-04 18:32:20 - [TEST_STEP][PASSED] - verifyTextPresent("Current Options Selected", false): Text 'Current Options Selected' is present on page 
+
+2019-04-04 18:32:20 - [MESSAGE][PASSED] - Text 'Current Options Selected' is present on page 
+
+2019-04-04 18:32:20 - [TEST_STEP][PASSED] - verifyTextPresent("Keywords: None", false): Text 'Keywords: None' is present on page 
+
+2019-04-04 18:32:20 - [MESSAGE][PASSED] - Text 'Keywords: None' is present on page 
+
+2019-04-04 18:32:20 - [TEST_STEP][PASSED] - verifyTextPresent("No of Questions", false): Text 'No of Questions' is present on page 
+
+2019-04-04 18:32:21 - [MESSAGE][PASSED] - Text 'No of Questions' is present on page 
+
+2019-04-04 18:32:21 - [TEST_STEP][PASSED] - verifyTextPresent("Curricula: All", false): Text 'Curricula: All' is present on page 
+
+2019-04-04 18:32:21 - [MESSAGE][PASSED] - Text 'Curricula: All' is present on page 
+
+2019-04-04 18:32:21 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-04 18:32:21 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-04 18:32:21 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Core Questions"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Core Questions' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Core Questions' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Group Learning"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Group Learning' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Group Learning' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Learning Journal"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Learning Journal' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Learning Journal' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Mock Tests"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Mock Tests' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Mock Tests' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Revision Advice"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Revision Advice' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Revision Advice' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Tags"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Tags' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Tags' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Work Hard"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Work Hard' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Work Hard' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), "id", "btnGenerateRight", 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' has attribute 'id' with value 'btnGenerateRight'
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' has attribute 'id' with value 'btnGenerateRight'
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs' is present
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs' is present
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test (1)"), "id", "btnGenerateLeft", 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test (1)' has attribute 'id' with value 'btnGenerateLeft'
+
+2019-04-04 18:32:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test (1)' has attribute 'id' with value 'btnGenerateLeft'
+
+2019-04-04 18:32:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile' is clicked on
+
+2019-04-04 18:32:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile' is clicked on
+
+2019-04-04 18:32:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-04 18:32:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-04 18:32:25 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:32:25 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:32:25 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false, 20): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:32:30 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:32:30 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:32:35 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:32:35 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-04 18:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-04 18:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Choose Questions")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-04 18:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-04 18:32:38 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:32:43 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:32:43 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi' is checked
+
+2019-04-04 18:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi' is checked
+
+2019-04-04 18:32:43 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa' is checked
+
+2019-04-04 18:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa' is checked
+
+2019-04-04 18:32:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-04 18:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-04 18:32:43 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy' is checked
+
+2019-04-04 18:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy' is checked
+
+2019-04-04 18:32:43 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif' is checked
+
+2019-04-04 18:32:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif' is checked
+
+2019-04-04 18:32:44 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag' is checked
+
+2019-04-04 18:32:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag' is checked
+
+2019-04-04 18:32:44 - [TEST_STEP][PASSED] - ExpectedPlaceholder = "eg, deep vein thrombosis, diabetes, thyroid": null
+
+2019-04-04 18:32:44 - [TEST_STEP][PASSED] - placeholder = getAttribute(findTestObject("Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK"), "ActualPlaceholder"): Attribute 'ActualPlaceholder' of object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK' is: 'null'
+
+2019-04-04 18:32:44 - [MESSAGE][PASSED] - Attribute 'ActualPlaceholder' of object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK' is: 'null'
+
+2019-04-04 18:32:44 - [TEST_STEP][PASSED] - if (ExpectedPlaceholder == placeholder): null
+
+2019-04-04 18:32:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All curricula_qCat")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-04 18:32:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-04 18:32:44 - [TEST_STEP][PASSED] - verifyTextPresent("Abstract Reasoning", false): Text 'Abstract Reasoning' is present on page 
+
+2019-04-04 18:32:44 - [MESSAGE][PASSED] - Text 'Abstract Reasoning' is present on page 
+
+2019-04-04 18:32:44 - [TEST_STEP][PASSED] - verifyTextPresent("Decision Analysis", false): Text 'Decision Analysis' is present on page 
+
+2019-04-04 18:32:45 - [MESSAGE][PASSED] - Text 'Decision Analysis' is present on page 
+
+2019-04-04 18:32:45 - [TEST_STEP][PASSED] - verifyTextPresent("Quantitative Reasoning", false): Text 'Quantitative Reasoning' is present on page 
+
+2019-04-04 18:32:45 - [MESSAGE][PASSED] - Text 'Quantitative Reasoning' is present on page 
+
+2019-04-04 18:32:45 - [TEST_STEP][PASSED] - verifyTextPresent("Verbal Reasoning", false): Text 'Verbal Reasoning' is present on page 
+
+2019-04-04 18:32:46 - [MESSAGE][PASSED] - Text 'Verbal Reasoning' is present on page 
+
+2019-04-04 18:32:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-04 18:32:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-04 18:32:46 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT' is checked
+
+2019-04-04 18:32:46 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT' is checked
+
+2019-04-04 18:32:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:32:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:32:51 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 6 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:32:51 - [MESSAGE][PASSED] - 6 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:32:51 - [TEST_STEP][PASSED] - verifyEqual(Count, 6): Actual object '6' and expected object '6' are equal
+
+2019-04-04 18:32:51 - [MESSAGE][PASSED] - Actual object '6' and expected object '6' are equal
+
+2019-04-04 18:32:51 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["10 questions", "20 questions", "30 questions", "40 questions", "50 questions", "53 questions"]): Options [10 questions, 20 questions, 30 questions, 40 questions, 50 questions, 53 questions] present.
+
+2019-04-04 18:32:51 - [MESSAGE][PASSED] - Options [10 questions, 20 questions, 30 questions, 40 questions, 50 questions, 53 questions] present.
+
+2019-04-04 18:32:51 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource' is clicked on
+
+2019-04-04 18:32:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource' is clicked on
+
+2019-04-04 18:32:51 - [TEST_STEP][PASSED] - verifyTextPresent("Best Answer Question", false): Text 'Best Answer Question' is present on page 
+
+2019-04-04 18:32:52 - [MESSAGE][PASSED] - Text 'Best Answer Question' is present on page 
+
+2019-04-04 18:32:52 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question' is checked
+
+2019-04-04 18:32:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question' is checked
+
+2019-04-04 18:32:52 - [TEST_STEP][PASSED] - verifyTextPresent("Problem Solving Question", false): Text 'Problem Solving Question' is present on page 
+
+2019-04-04 18:32:52 - [MESSAGE][PASSED] - Text 'Problem Solving Question' is present on page 
+
+2019-04-04 18:32:52 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question' is checked
+
+2019-04-04 18:32:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:32:52 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question' is checked
+
+2019-04-04 18:32:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and"), "97", false): All options with value '97' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:32:53 - [MESSAGE][PASSED] - All options with value '97' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:32:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:32:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:32:58 - [TEST_STEP][PASSED] - verifyTextPresent("Medicine", false): Text 'Medicine' is present on page 
+
+2019-04-04 18:32:58 - [MESSAGE][PASSED] - Text 'Medicine' is present on page 
+
+2019-04-04 18:32:58 - [TEST_STEP][PASSED] - verifyTextPresent("Obs and Gynae", false): Text 'Obs and Gynae' is present on page 
+
+2019-04-04 18:32:59 - [MESSAGE][PASSED] - Text 'Obs and Gynae' is present on page 
+
+2019-04-04 18:32:59 - [TEST_STEP][PASSED] - verifyTextPresent("Paediatrics", false): Text 'Paediatrics' is present on page 
+
+2019-04-04 18:32:59 - [MESSAGE][PASSED] - Text 'Paediatrics' is present on page 
+
+2019-04-04 18:32:59 - [TEST_STEP][PASSED] - verifyTextPresent("Surgery", false): Text 'Surgery' is present on page 
+
+2019-04-04 18:32:59 - [MESSAGE][PASSED] - Text 'Surgery' is present on page 
+
+2019-04-04 18:32:59 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical' is checked
+
+2019-04-04 18:33:00 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical' is checked
+
+2019-04-04 18:33:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:33:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:33:05 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 3 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:33:05 - [MESSAGE][PASSED] - 3 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:33:05 - [TEST_STEP][PASSED] - verifyEqual(Count, 3): Actual object '3' and expected object '3' are equal
+
+2019-04-04 18:33:05 - [MESSAGE][PASSED] - Actual object '3' and expected object '3' are equal
+
+2019-04-04 18:33:05 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["10 questions", "20 questions", "24 questions"]): Options [10 questions, 20 questions, 24 questions] present.
+
+2019-04-04 18:33:05 - [MESSAGE][PASSED] - Options [10 questions, 20 questions, 24 questions] present.
+
+2019-04-04 18:33:05 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 18:33:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 18:33:07 - [TEST_STEP][PASSED] - verifyTextPresent("MCQ", false): Text 'MCQ' is present on page 
+
+2019-04-04 18:33:07 - [MESSAGE][PASSED] - Text 'MCQ' is present on page 
+
+2019-04-04 18:33:07 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ' is checked
+
+2019-04-04 18:33:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:07 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ' is checked
+
+2019-04-04 18:33:07 - [TEST_STEP][PASSED] - verifyTextPresent("EMQ", false): Text 'EMQ' is present on page 
+
+2019-04-04 18:33:08 - [MESSAGE][PASSED] - Text 'EMQ' is present on page 
+
+2019-04-04 18:33:08 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ' is checked
+
+2019-04-04 18:33:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ' is checked
+
+2019-04-04 18:33:08 - [TEST_STEP][PASSED] - verifyTextPresent("n of Many", false): Text 'n of Many' is present on page 
+
+2019-04-04 18:33:08 - [MESSAGE][PASSED] - Text 'n of Many' is present on page 
+
+2019-04-04 18:33:08 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many' is checked
+
+2019-04-04 18:33:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many' is checked
+
+2019-04-04 18:33:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and"), "28", false): All options with value '28' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:33:09 - [MESSAGE][PASSED] - All options with value '28' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:33:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 18:33:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 18:33:11 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_No tags_qTag")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-04 18:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-04 18:33:11 - [TEST_STEP][PASSED] - verifyTextPresent("Core Questions", false): Text 'Core Questions' is present on page 
+
+2019-04-04 18:33:12 - [MESSAGE][PASSED] - Text 'Core Questions' is present on page 
+
+2019-04-04 18:33:12 - [TEST_STEP][PASSED] - verifyTextPresent("Editor's Choice", false): Text 'Editor's Choice' is present on page 
+
+2019-04-04 18:33:12 - [MESSAGE][PASSED] - Text 'Editor's Choice' is present on page 
+
+2019-04-04 18:33:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and"), "35", false): All options with value '35' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:33:13 - [MESSAGE][PASSED] - All options with value '35' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:33:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 18:33:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 18:33:15 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_No tags_qTag")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-04 18:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-04 18:33:15 - [TEST_STEP][FAILED] - verifyTextPresent("My Tags", false): verifyTextPresent("My Tags", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at Choose Questions.run(Choose Questions:203)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+
+
+2019-04-04 18:33:15 - [MESSAGE][FAILED] - Text 'My Tags' is not present on page 
+
+2019-04-04 18:33:16 - [MESSAGE][FAILED] - Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+[[ATTACHMENT|E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132\\1554382995941.png]]
+
+2019-04-04 18:33:16 - [MESSAGE][FAILED] - verifyTextPresent("My Tags", false) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at Choose Questions.run(Choose Questions:203)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-04 18:31:36 - [TEST_CASE][FAILED] - Test Cases/Choose Questions: Test Cases/Choose Questions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at Choose Questions.run(Choose Questions:203)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Core Questions" classname="Test Cases/Core Questions" status="PASSED">
+         <system-out><![CDATA[2019-04-04 18:33:18 - [TEST_CASE][PASSED] - Test Cases/Core Questions: Test Cases/Core Questions
+
+2019-04-04 18:33:19 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:33:19 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-04 18:33:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-04 18:33:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:33:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-04 18:33:30 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-04 18:33:30 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:33:31 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:33:31 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2"): Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:33:31 - [MESSAGE][PASSED] - Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:33:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:33:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:33:33 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:33:38 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:33:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Exam Revision")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Exam Revision' is clicked on
+
+2019-04-04 18:33:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Exam Revision' is clicked on
+
+2019-04-04 18:33:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Core Questions")): Object: 'Object Repository/Page_Exam Revision - BMJ OnExaminat/a_Core Questions' is clicked on
+
+2019-04-04 18:33:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Exam Revision - BMJ OnExaminat/a_Core Questions' is clicked on
+
+2019-04-04 18:33:44 - [TEST_STEP][PASSED] - verifyTextPresent("Core Questions", false): Text 'Core Questions' is present on page 
+
+2019-04-04 18:33:45 - [MESSAGE][PASSED] - Text 'Core Questions' is present on page 
+
+2019-04-04 18:33:45 - [TEST_STEP][PASSED] - verifyTextPresent("Current Options Selected", false): Text 'Current Options Selected' is present on page 
+
+2019-04-04 18:33:45 - [MESSAGE][PASSED] - Text 'Current Options Selected' is present on page 
+
+2019-04-04 18:33:45 - [TEST_STEP][PASSED] - verifyTextPresent("Keywords: None", false): Text 'Keywords: None' is present on page 
+
+2019-04-04 18:33:46 - [MESSAGE][PASSED] - Text 'Keywords: None' is present on page 
+
+2019-04-04 18:33:46 - [TEST_STEP][PASSED] - verifyTextPresent("No of Questions", false): Text 'No of Questions' is present on page 
+
+2019-04-04 18:33:46 - [MESSAGE][PASSED] - Text 'No of Questions' is present on page 
+
+2019-04-04 18:33:46 - [TEST_STEP][PASSED] - verifyTextPresent("Curricula: All", false): Text 'Curricula: All' is present on page 
+
+2019-04-04 18:33:46 - [MESSAGE][PASSED] - Text 'Curricula: All' is present on page 
+
+2019-04-04 18:33:46 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-04 18:33:46 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-04 18:33:46 - [TEST_STEP][PASSED] - verifyTextPresent("Choose Questions", false): Text 'Choose Questions' is present on page 
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Text 'Choose Questions' is present on page 
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/Choose Questions"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Choose Questions' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Choose Questions' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Group Learning"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Group Learning' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Group Learning' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Learning Journal"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Learning Journal' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Learning Journal' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Mock Tests"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Mock Tests' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Mock Tests' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Revision Advice"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Revision Advice' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Revision Advice' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Tags"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Tags' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Tags' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Work Hard"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Work Hard' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/a_Work Hard' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), "id", "btnGenerateRight", 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' has attribute 'id' with value 'btnGenerateRight'
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' has attribute 'id' with value 'btnGenerateRight'
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs' is present
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:47 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs' is present
+
+2019-04-04 18:33:47 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test (1)"), "id", "btnGenerateLeft", 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test (1)' has attribute 'id' with value 'btnGenerateLeft'
+
+2019-04-04 18:33:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test (1)' has attribute 'id' with value 'btnGenerateLeft'
+
+2019-04-04 18:33:48 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile' is clicked on
+
+2019-04-04 18:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile' is clicked on
+
+2019-04-04 18:33:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-04 18:33:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:33:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-04 18:33:48 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:33:49 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:33:49 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false, 20): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:33:54 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-04 18:33:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:33:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-04 18:33:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-04 18:33:59 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Core Questions")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Core Questions' is clicked on
+
+2019-04-04 18:34:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Core Questions' is clicked on
+
+2019-04-04 18:34:00 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:34:05 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:34:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi' is checked
+
+2019-04-04 18:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi' is checked
+
+2019-04-04 18:34:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa' is checked
+
+2019-04-04 18:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa' is checked
+
+2019-04-04 18:34:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-04 18:34:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-04 18:34:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy' is checked
+
+2019-04-04 18:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy' is checked
+
+2019-04-04 18:34:05 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif' is checked
+
+2019-04-04 18:34:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif' is checked
+
+2019-04-04 18:34:05 - [TEST_STEP][PASSED] - verifyTextNotPresent("Filter by Tags", false): Text 'Filter by Tags' is not present on page
+
+2019-04-04 18:34:06 - [MESSAGE][PASSED] - Text 'Filter by Tags' is not present on page
+
+2019-04-04 18:34:06 - [TEST_STEP][PASSED] - verifyTextNotPresent("No tags", false): Text 'No tags' is not present on page
+
+2019-04-04 18:34:06 - [MESSAGE][PASSED] - Text 'No tags' is not present on page
+
+2019-04-04 18:34:06 - [TEST_STEP][PASSED] - verifyTextNotPresent("Select tags", false): Text 'Select tags' is not present on page
+
+2019-04-04 18:34:07 - [MESSAGE][PASSED] - Text 'Select tags' is not present on page
+
+2019-04-04 18:34:07 - [TEST_STEP][PASSED] - ExpectedPlaceholder = "eg, deep vein thrombosis, diabetes, thyroid": null
+
+2019-04-04 18:34:07 - [TEST_STEP][PASSED] - placeholder = getAttribute(findTestObject("Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK"), "ActualPlaceholder"): Attribute 'ActualPlaceholder' of object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK' is: 'null'
+
+2019-04-04 18:34:07 - [MESSAGE][PASSED] - Attribute 'ActualPlaceholder' of object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK' is: 'null'
+
+2019-04-04 18:34:07 - [TEST_STEP][PASSED] - if (ExpectedPlaceholder == placeholder): null
+
+2019-04-04 18:34:07 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All curricula_qCat")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-04 18:34:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-04 18:34:07 - [TEST_STEP][PASSED] - verifyTextPresent("Abstract Reasoning", false): Text 'Abstract Reasoning' is present on page 
+
+2019-04-04 18:34:07 - [MESSAGE][PASSED] - Text 'Abstract Reasoning' is present on page 
+
+2019-04-04 18:34:07 - [TEST_STEP][PASSED] - verifyTextPresent("Decision Analysis", false): Text 'Decision Analysis' is present on page 
+
+2019-04-04 18:34:07 - [MESSAGE][PASSED] - Text 'Decision Analysis' is present on page 
+
+2019-04-04 18:34:07 - [TEST_STEP][PASSED] - verifyTextPresent("Quantitative Reasoning", false): Text 'Quantitative Reasoning' is present on page 
+
+2019-04-04 18:34:08 - [MESSAGE][PASSED] - Text 'Quantitative Reasoning' is present on page 
+
+2019-04-04 18:34:08 - [TEST_STEP][PASSED] - verifyTextPresent("Verbal Reasoning", false): Text 'Verbal Reasoning' is present on page 
+
+2019-04-04 18:34:09 - [MESSAGE][PASSED] - Text 'Verbal Reasoning' is present on page 
+
+2019-04-04 18:34:09 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-04 18:34:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/div_Exam Options' is clicked on
+
+2019-04-04 18:34:09 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT' is checked
+
+2019-04-04 18:34:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT' is checked
+
+2019-04-04 18:34:09 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:34:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:34:14 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 2 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:34:14 - [MESSAGE][PASSED] - 2 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:34:14 - [TEST_STEP][PASSED] - verifyEqual(Count, 2): Actual object '2' and expected object '2' are equal
+
+2019-04-04 18:34:14 - [MESSAGE][PASSED] - Actual object '2' and expected object '2' are equal
+
+2019-04-04 18:34:14 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["10 questions", "13 questions"]): Options [10 questions, 13 questions] present.
+
+2019-04-04 18:34:14 - [MESSAGE][PASSED] - Options [10 questions, 13 questions] present.
+
+2019-04-04 18:34:14 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource' is clicked on
+
+2019-04-04 18:34:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource' is clicked on
+
+2019-04-04 18:34:14 - [TEST_STEP][PASSED] - verifyTextPresent("Best Answer Question", false): Text 'Best Answer Question' is present on page 
+
+2019-04-04 18:34:15 - [MESSAGE][PASSED] - Text 'Best Answer Question' is present on page 
+
+2019-04-04 18:34:15 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question' is checked
+
+2019-04-04 18:34:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question' is checked
+
+2019-04-04 18:34:15 - [TEST_STEP][PASSED] - verifyTextPresent("Problem Solving Question", false): Text 'Problem Solving Question' is present on page 
+
+2019-04-04 18:34:15 - [MESSAGE][PASSED] - Text 'Problem Solving Question' is present on page 
+
+2019-04-04 18:34:15 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question' is checked
+
+2019-04-04 18:34:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question' is checked
+
+2019-04-04 18:34:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and"), "97", false): All options with value '97' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:34:16 - [MESSAGE][PASSED] - All options with value '97' are selected in object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and' 
+
+2019-04-04 18:34:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:34:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:34:21 - [TEST_STEP][PASSED] - verifyTextPresent("Medicine", false): Text 'Medicine' is present on page 
+
+2019-04-04 18:34:21 - [MESSAGE][PASSED] - Text 'Medicine' is present on page 
+
+2019-04-04 18:34:21 - [TEST_STEP][PASSED] - verifyTextPresent("Obs and Gynae", false): Text 'Obs and Gynae' is present on page 
+
+2019-04-04 18:34:22 - [MESSAGE][PASSED] - Text 'Obs and Gynae' is present on page 
+
+2019-04-04 18:34:22 - [TEST_STEP][PASSED] - verifyTextPresent("Paediatrics", false): Text 'Paediatrics' is present on page 
+
+2019-04-04 18:34:22 - [MESSAGE][PASSED] - Text 'Paediatrics' is present on page 
+
+2019-04-04 18:34:22 - [TEST_STEP][PASSED] - verifyTextPresent("Surgery", false): Text 'Surgery' is present on page 
+
+2019-04-04 18:34:22 - [MESSAGE][PASSED] - Text 'Surgery' is present on page 
+
+2019-04-04 18:34:22 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical")): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical' is checked
+
+2019-04-04 18:34:23 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical' is checked
+
+2019-04-04 18:34:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-04 18:34:28 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-04 18:34:28 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 1 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:34:28 - [MESSAGE][PASSED] - 1 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-04 18:34:28 - [TEST_STEP][PASSED] - verifyEqual(Count, 1): Actual object '1' and expected object '1' are equal
+
+2019-04-04 18:34:28 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2019-04-04 18:34:28 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["0 questions"]): Options [0 questions] present.
+
+2019-04-04 18:34:28 - [MESSAGE][PASSED] - Options [0 questions] present.
+
+2019-04-04 18:34:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 18:34:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 18:34:30 - [TEST_STEP][PASSED] - verifyTextPresent("MCQ", false): Text 'MCQ' is present on page 
+
+2019-04-04 18:34:30 - [MESSAGE][PASSED] - Text 'MCQ' is present on page 
+
+2019-04-04 18:34:30 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ' is checked
+
+2019-04-04 18:34:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ' is checked
+
+2019-04-04 18:34:30 - [TEST_STEP][PASSED] - verifyTextPresent("EMQ", false): Text 'EMQ' is present on page 
+
+2019-04-04 18:34:31 - [MESSAGE][PASSED] - Text 'EMQ' is present on page 
+
+2019-04-04 18:34:31 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ' is checked
+
+2019-04-04 18:34:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ' is checked
+
+2019-04-04 18:34:31 - [TEST_STEP][PASSED] - verifyTextPresent("n of Many", false): Text 'n of Many' is present on page 
+
+2019-04-04 18:34:31 - [MESSAGE][PASSED] - Text 'n of Many' is present on page 
+
+2019-04-04 18:34:31 - [TEST_STEP][PASSED] - verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many"), 0): Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many' is checked
+
+2019-04-04 18:34:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:34:31 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many' is checked
+
+2019-04-04 18:34:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-04-04 18:34:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Exam Revision" classname="Test Cases/Exam Revision" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Exam Revision FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' located by 'By.xpath: //*[@id=&quot;bs-example-navbar-collapse-1&quot;]/div[1]/div/ul/li[1]/a[count(. | //a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')]) = count(//a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Exam Revision.run(Exam Revision:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-04 18:34:34 - [TEST_CASE][FAILED] - Test Cases/Exam Revision: Test Cases/Exam Revision FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' located by 'By.xpath: //*[@id="bs-example-navbar-collapse-1"]/div[1]/div/ul/li[1]/a[count(. | //a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')]) = count(//a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Exam Revision.run(Exam Revision:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+
+
+2019-04-04 18:34:35 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:34:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-04 18:34:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:34:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-04 18:34:45 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-04 18:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:34:45 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:34:45 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2"): Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:34:46 - [MESSAGE][PASSED] - Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:34:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:34:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 18:34:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 18:34:50 - [TEST_STEP][FAILED] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")): click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' located by 'By.xpath: //*[@id="bs-example-navbar-collapse-1"]/div[1]/div/ul/li[1]/a[count(. | //a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')]) = count(//a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Exam Revision.run(Exam Revision:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+
+
+2019-04-04 18:35:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id="bs-example-navbar-collapse-1"]/div[1]/div/ul/li[1]/a[count(. | //a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')]) = count(//a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')])]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-04-04 18:35:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' located by 'By.xpath: //*[@id="bs-example-navbar-collapse-1"]/div[1]/div/ul/li[1]/a[count(. | //a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')]) = count(//a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')])]' not found)
+[[ATTACHMENT|E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132\\1554383122072.png]]
+
+2019-04-04 18:35:22 - [MESSAGE][FAILED] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' located by 'By.xpath: //*[@id="bs-example-navbar-collapse-1"]/div[1]/div/ul/li[1]/a[count(. | //a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')]) = count(//a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Exam Revision.run(Exam Revision:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-04 18:34:34 - [TEST_CASE][FAILED] - Test Cases/Exam Revision: Test Cases/Exam Revision FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' located by 'By.xpath: //*[@id="bs-example-navbar-collapse-1"]/div[1]/div/ul/li[1]/a[count(. | //a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')]) = count(//a[@class = 'navItemInactive' and @href = '/Dashboard/Default.aspx' and (text() = 'Home' or . = 'Home')])]' not found)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Exam Revision.run(Exam Revision:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard" classname="Test Cases/Dashboard" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Dashboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUM-LAP-389', ip: '10.102.194.0', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\VIVEKJ~1.GLO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64843}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: af85baf83600a55a1775dcb258c853b2)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Dashboard.run(Dashboard:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-04 18:35:24 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUM-LAP-389', ip: '10.102.194.0', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\VIVEKJ~1.GLO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64843}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: af85baf83600a55a1775dcb258c853b2)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Dashboard.run(Dashboard:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+
+
+2019-04-04 18:35:24 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:35:24 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-04 18:35:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-04 18:35:34 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-04 18:35:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-04 18:35:35 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-04 18:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com"): Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:35:35 - [MESSAGE][PASSED] - Text 'vivek.jaiswal@northgateps.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-04 18:35:35 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2"): Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:35:36 - [MESSAGE][PASSED] - Text 'P@ssword2' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-04 18:35:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:35:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-04 18:35:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Help"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Exam Revision"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Exam Revision' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Exam Revision' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Scores"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD"), 0): NOT_RUN: verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD"), 0)
+
+2019-04-04 18:35:40 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD"), 0)
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Video Tutorials"), 0): NOT_RUN: verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Video Tutorials"), 0)
+
+2019-04-04 18:35:40 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Video Tutorials"), 0)
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Choose Questions"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Core Questions"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Core Questions' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Core Questions' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Group Learning"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Group Learning' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Group Learning' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Admin"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Admin' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Admin' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Centre"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Centre' is present
+
+2019-04-04 18:35:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Centre' is present
+
+2019-04-04 18:35:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Exam Revision")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Exam Revision' is clicked on
+
+2019-04-04 18:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Exam Revision' is clicked on
+
+2019-04-04 18:35:41 - [TEST_STEP][PASSED] - verifyTextPresent("How would you like to study today?", false): Text 'How would you like to study today?' is present on page 
+
+2019-04-04 18:35:42 - [MESSAGE][PASSED] - Text 'How would you like to study today?' is present on page 
+
+2019-04-04 18:35:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is present
+
+2019-04-04 18:35:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-04 18:35:42 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is present
+
+2019-04-04 18:35:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")): Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Scores")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is clicked on
+
+2019-04-04 18:35:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is clicked on
+
+2019-04-04 18:35:43 - [TEST_STEP][PASSED] - verifyTextPresent("Score Analysis ", false): Text 'Score Analysis ' is present on page 
+
+2019-04-04 18:35:44 - [MESSAGE][PASSED] - Text 'Score Analysis ' is present on page 
+
+2019-04-04 18:35:44 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")): Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD")): NOT_RUN: click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD"))
+
+2019-04-04 18:35:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD"))
+
+2019-04-04 18:35:45 - [TEST_STEP][NOT_RUN] - verifyTextPresent("CPD Modules", false): NOT_RUN: verifyTextPresent("CPD Modules", false)
+
+2019-04-04 18:35:45 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyTextPresent("CPD Modules", false)
+
+2019-04-04 18:35:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")): NOT_RUN: click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+2019-04-04 18:35:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+2019-04-04 18:35:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Centre")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Centre' is clicked on
+
+2019-04-04 18:35:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Centre' is clicked on
+
+2019-04-04 18:35:46 - [TEST_STEP][PASSED] - verifyTextPresent("Partner Centre", false): Text 'Partner Centre' is present on page 
+
+2019-04-04 18:35:46 - [MESSAGE][PASSED] - Text 'Partner Centre' is present on page 
+
+2019-04-04 18:35:46 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")): Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Admin")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Admin' is clicked on
+
+2019-04-04 18:35:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Partner Admin' is clicked on
+
+2019-04-04 18:35:49 - [TEST_STEP][PASSED] - verifyTextPresent("Account Management", false): Text 'Account Management' is present on page 
+
+2019-04-04 18:35:50 - [MESSAGE][PASSED] - Text 'Account Management' is present on page 
+
+2019-04-04 18:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")): Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts' is clicked on
+
+2019-04-04 18:35:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts' is clicked on
+
+2019-04-04 18:35:52 - [TEST_STEP][PASSED] - verifyTextPresent("You do not have any groups associated.", false): Text 'You do not have any groups associated.' is present on page 
+
+2019-04-04 18:35:52 - [MESSAGE][PASSED] - Text 'You do not have any groups associated.' is present on page 
+
+2019-04-04 18:35:52 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home")): Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Profile - BMJ OnExamination/a_Home' is clicked on
+
+2019-04-04 18:35:53 - [TEST_STEP][FAILED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Help")): click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Help")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUM-LAP-389', ip: '10.102.194.0', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\VIVEKJ~1.GLO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64843}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: af85baf83600a55a1775dcb258c853b2)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Dashboard.run(Dashboard:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)
+
+
+2019-04-04 18:35:54 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUM-LAP-389', ip: '10.102.194.0', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\VIVEKJ~1.GLO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64843}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: af85baf83600a55a1775dcb258c853b2)
+[[ATTACHMENT|E:\\Katalon Studio\\BMJ Cases\\Reports\\Test TS\\20190404_183132\\1554383153737.png]]
+
+2019-04-04 18:35:54 - [MESSAGE][FAILED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Help")) FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUM-LAP-389', ip: '10.102.194.0', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\VIVEKJ~1.GLO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64843}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: af85baf83600a55a1775dcb258c853b2)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Dashboard.run(Dashboard:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-04 18:35:24 - [TEST_CASE][FAILED] - Test Cases/Dashboard: Test Cases/Dashboard FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Help' (Root cause: org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=73.0.3683.86)
+  (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'MUM-LAP-389', ip: '10.102.194.0', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\VIVEKJ~1.GLO\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:64843}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
+Session ID: af85baf83600a55a1775dcb258c853b2)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$2.call(Unknown Source)
+	at Dashboard.run(Dashboard:88)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-04 18:31:35 - [TEST_SUITE][FAILED] - Test TS: Test Cases/Choose Questions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at Choose Questions.run(Choose Questions:203)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-04 18:31:35 - [TEST_SUITE][FAILED] - Test TS: Test Cases/Choose Questions FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'My Tags' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'My Tags' is not present on page )
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1693)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at Choose Questions.run(Choose Questions:203)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1554382892599.run(TempTestSuite1554382892599.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

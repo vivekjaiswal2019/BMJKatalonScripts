@@ -1,0 +1,28 @@
+1
+00:00:00,297 --> 00:00:00,297
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:08,982 --> 00:00:08,983
+5. maximizeWindow()
+
+3
+00:00:10,429 --> 00:00:10,432
+9. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+4
+00:00:10,864 --> 00:00:10,866
+13. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2")
+
+5
+00:00:11,181 --> 00:00:11,182
+17. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+6
+00:00:13,616 --> 00:00:13,618
+21. delay(2)
+
+7
+00:00:15,625 --> 00:00:15,657
+25. click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+

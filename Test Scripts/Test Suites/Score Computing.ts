@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Score Computing</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>45bc2685-92dd-487e-9503-800d7131960a</testSuiteGuid>
+   <testCaseLink>
+      <guid>e7956640-509f-4a26-873f-9977c3784208</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Reset Scores</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4516d6de-a612-4c49-9a3d-fdc5d1522075</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15ae036a-4d70-41c7-adcd-38d7233d54b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a03796a7-44aa-4380-a1fe-5b980832a2bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b32c1df6-d0e5-4378-9275-e93558641542</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4620d0b-8866-4095-85cb-5dea4a25d339</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92685a1c-fb7f-4715-a720-bf728bdff31f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question Session - DA2</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>320440b5-194f-4a89-b6ed-17072e0a5ec3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question Session - DA3</testCaseId>
+   </testCaseLink>
+</TestSuiteEntity>

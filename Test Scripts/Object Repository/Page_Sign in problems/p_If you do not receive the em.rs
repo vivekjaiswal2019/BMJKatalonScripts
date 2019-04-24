@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_If you do not receive the em</name>
+   <tag></tag>
+   <elementGuidId>fc75bac1-c7a0-46e8-a4ec-7de28f50f140</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;form1&quot;)/div[@class=&quot;page-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/p[@class=&quot;col-md-12&quot;][count(. | //p[@class = 'col-md-12' and (text() = concat('If you do not receive the email please check your spam folder for the sender ' , &quot;'&quot; , 'support@onexamination.com' , &quot;'&quot; , '. If it has been treated as spam, the support address can be added to your list of allowed senders to ensure that you receive future support emails.') or . = concat('If you do not receive the email please check your spam folder for the sender ' , &quot;'&quot; , 'support@onexamination.com' , &quot;'&quot; , '. If it has been treated as spam, the support address can be added to your list of allowed senders to ensure that you receive future support emails.'))]) = count(//p[@class = 'col-md-12' and (text() = concat('If you do not receive the email please check your spam folder for the sender ' , &quot;'&quot; , 'support@onexamination.com' , &quot;'&quot; , '. If it has been treated as spam, the support address can be added to your list of allowed senders to ensure that you receive future support emails.') or . = concat('If you do not receive the email please check your spam folder for the sender ' , &quot;'&quot; , 'support@onexamination.com' , &quot;'&quot; , '. If it has been treated as spam, the support address can be added to your list of allowed senders to ensure that you receive future support emails.'))])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='form1']/div[4]/div/div[2]/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-12</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>If you do not receive the email please check your spam folder for the sender 'support@onexamination.com'. If it has been treated as spam, the support address can be added to your list of allowed senders to ensure that you receive future support emails.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;form1&quot;)/div[@class=&quot;page-container&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/p[@class=&quot;col-md-12&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//form[@id='form1']/div[4]/div/div[2]/p</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please check your email account inbox, the message should arrive within 5 minutes.'])[1]/following::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Signing In Problems'])[1]/following::p[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//div[2]/p</value>
+   </webElementXpaths>
+</WebElementEntity>

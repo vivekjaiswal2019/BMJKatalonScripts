@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reset Scores</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1ea16c7a-5749-40a8-90d3-83a57ece5d26</testCaseGuid>
+   <variable>
+      <defaultValue>185</defaultValue>
+      <description></description>
+      <id>4516d6de-a612-4c49-9a3d-fdc5d1522075</id>
+      <masked>false</masked>
+      <name>ExpTotalQ</name>
+   </variable>
+   <variable>
+      <defaultValue>62.2</defaultValue>
+      <description></description>
+      <id>15ae036a-4d70-41c7-adcd-38d7233d54b0</id>
+      <masked>false</masked>
+      <name>ExpMeanScore</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>a03796a7-44aa-4380-a1fe-5b980832a2bd</id>
+      <masked>false</masked>
+      <name>ExpAnsQ</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>b32c1df6-d0e5-4378-9275-e93558641542</id>
+      <masked>false</masked>
+      <name>ExpCurrentMean</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>d4620d0b-8866-4095-85cb-5dea4a25d339</id>
+      <masked>false</masked>
+      <name>ExpNaiveMean</name>
+   </variable>
+</TestCaseEntity>

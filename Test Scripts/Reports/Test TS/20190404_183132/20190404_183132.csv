@@ -1,0 +1,220 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Test TS,Chrome 73.0.3683.86,,2019-04-04 18:31:35,2019-04-04 18:35:56,4m - 21.054s,FAILED
+,,,,,,
+Test Cases/Choose Questions,Chrome 73.0.3683.86,,2019-04-04 18:31:36,2019-04-04 18:33:18,1m - 42.182s,FAILED
+"openBrowser(""https://testmy.onexamination.com/login.aspx"")",Chrome 73.0.3683.86,,2019-04-04 18:31:37,2019-04-04 18:31:55,18.107s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-04 18:31:55,2019-04-04 18:31:57,1.590s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""vivek.jaiswal@northgateps.com"")",Chrome 73.0.3683.86,,2019-04-04 18:31:57,2019-04-04 18:31:58,0.617s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword2"")",Chrome 73.0.3683.86,,2019-04-04 18:31:58,2019-04-04 18:31:58,0.325s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 73.0.3683.86,,2019-04-04 18:31:58,2019-04-04 18:32:10,12.211s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:32:10,2019-04-04 18:32:15,5.073s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision""))",Chrome 73.0.3683.86,,2019-04-04 18:32:15,2019-04-04 18:32:17,1.503s,PASSED
+"click(findTestObject(""Page_Exam Revision - BMJ OnExaminat/a_Choose Questions""))",Chrome 73.0.3683.86,,2019-04-04 18:32:17,2019-04-04 18:32:19,2.466s,PASSED
+"verifyTextPresent(""Choose Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:19,2019-04-04 18:32:20,0.391s,PASSED
+"verifyTextPresent(""Current Options Selected"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:20,2019-04-04 18:32:20,0.558s,PASSED
+"verifyTextPresent(""Keywords: None"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:20,2019-04-04 18:32:20,0.347s,PASSED
+"verifyTextPresent(""No of Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:20,2019-04-04 18:32:21,0.433s,PASSED
+"verifyTextPresent(""Curricula: All"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:21,2019-04-04 18:32:21,0.270s,PASSED
+"verifyTextPresent(""Choose Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:21,2019-04-04 18:32:21,0.285s,PASSED
+"verifyTextPresent(""Choose Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:21,2019-04-04 18:32:22,0.264s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Core Questions""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.066s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Group Learning""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Learning Journal""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.065s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Mock Tests""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Revision Advice""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Tags""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Work Hard""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.049s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.067s,PASSED
+"verifyElementAttributeValue(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test""), ""id"", ""btnGenerateRight"", 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.125s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.097s,PASSED
+"verifyElementAttributeValue(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test (1)""), ""id"", ""btnGenerateLeft"", 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:22,0.065s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile""))",Chrome 73.0.3683.86,,2019-04-04 18:32:22,2019-04-04 18:32:25,2.095s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:25,2019-04-04 18:32:25,0.036s,PASSED
+"selectOptionByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:25,2019-04-04 18:32:25,0.177s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false, 20)",Chrome 73.0.3683.86,,2019-04-04 18:32:25,2019-04-04 18:32:30,4.983s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:32:30,2019-04-04 18:32:35,5.009s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:32:35,2019-04-04 18:32:37,2.237s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Choose Questions""))",Chrome 73.0.3683.86,,2019-04-04 18:32:37,2019-04-04 18:32:38,1.086s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:32:38,2019-04-04 18:32:43,5.008s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:43,2019-04-04 18:32:43,0.097s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:43,2019-04-04 18:32:43,0.061s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption""))",Chrome 73.0.3683.86,,2019-04-04 18:32:43,2019-04-04 18:32:43,0.134s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:43,2019-04-04 18:32:43,0.072s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:43,2019-04-04 18:32:44,0.066s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:44,2019-04-04 18:32:44,0.070s,PASSED
+"ExpectedPlaceholder = ""eg, deep vein thrombosis, diabetes, thyroid""",Chrome 73.0.3683.86,,2019-04-04 18:32:44,2019-04-04 18:32:44,0.006s,PASSED
+"placeholder = getAttribute(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK""), ""ActualPlaceholder"")",Chrome 73.0.3683.86,,2019-04-04 18:32:44,2019-04-04 18:32:44,0.112s,PASSED
+if (ExpectedPlaceholder == placeholder),Chrome 73.0.3683.86,,2019-04-04 18:32:44,2019-04-04 18:32:44,0.005s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All curricula_qCat""))",Chrome 73.0.3683.86,,2019-04-04 18:32:44,2019-04-04 18:32:44,0.168s,PASSED
+"verifyTextPresent(""Abstract Reasoning"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:44,2019-04-04 18:32:44,0.412s,PASSED
+"verifyTextPresent(""Decision Analysis"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:44,2019-04-04 18:32:45,0.422s,PASSED
+"verifyTextPresent(""Quantitative Reasoning"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:45,2019-04-04 18:32:45,0.416s,PASSED
+"verifyTextPresent(""Verbal Reasoning"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:45,2019-04-04 18:32:46,0.359s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/div_Exam Options""))",Chrome 73.0.3683.86,,2019-04-04 18:32:46,2019-04-04 18:32:46,0.132s,PASSED
+"check(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT""))",Chrome 73.0.3683.86,,2019-04-04 18:32:46,2019-04-04 18:32:46,0.175s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:32:46,2019-04-04 18:32:51,5.010s,PASSED
+"Count = getNumberOfTotalOption(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""))",Chrome 73.0.3683.86,,2019-04-04 18:32:51,2019-04-04 18:32:51,0.149s,PASSED
+"verifyEqual(Count, 6)",Chrome 73.0.3683.86,,2019-04-04 18:32:51,2019-04-04 18:32:51,0.031s,PASSED
+"verifyOptionsPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""), [""10 questions"", ""20 questions"", ""30 questions"", ""40 questions"", ""50 questions"", ""53 questions""])",Chrome 73.0.3683.86,,2019-04-04 18:32:51,2019-04-04 18:32:51,0.272s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource""))",Chrome 73.0.3683.86,,2019-04-04 18:32:51,2019-04-04 18:32:51,0.170s,PASSED
+"verifyTextPresent(""Best Answer Question"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:51,2019-04-04 18:32:52,0.385s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:52,2019-04-04 18:32:52,0.095s,PASSED
+"verifyTextPresent(""Problem Solving Question"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:52,2019-04-04 18:32:52,0.346s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:32:52,2019-04-04 18:32:52,0.063s,PASSED
+"selectOptionByValue(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and""), ""97"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:52,2019-04-04 18:32:53,0.503s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:32:53,2019-04-04 18:32:58,5.008s,PASSED
+"verifyTextPresent(""Medicine"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:58,2019-04-04 18:32:58,0.389s,PASSED
+"verifyTextPresent(""Obs and Gynae"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:58,2019-04-04 18:32:59,0.388s,PASSED
+"verifyTextPresent(""Paediatrics"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:59,2019-04-04 18:32:59,0.396s,PASSED
+"verifyTextPresent(""Surgery"", false)",Chrome 73.0.3683.86,,2019-04-04 18:32:59,2019-04-04 18:32:59,0.403s,PASSED
+"check(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical""))",Chrome 73.0.3683.86,,2019-04-04 18:32:59,2019-04-04 18:33:00,0.196s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:33:00,2019-04-04 18:33:05,5.007s,PASSED
+"Count = getNumberOfTotalOption(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""))",Chrome 73.0.3683.86,,2019-04-04 18:33:05,2019-04-04 18:33:05,0.086s,PASSED
+"verifyEqual(Count, 3)",Chrome 73.0.3683.86,,2019-04-04 18:33:05,2019-04-04 18:33:05,0.031s,PASSED
+"verifyOptionsPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""), [""10 questions"", ""20 questions"", ""24 questions""])",Chrome 73.0.3683.86,,2019-04-04 18:33:05,2019-04-04 18:33:05,0.151s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-04 18:33:05,2019-04-04 18:33:07,2.006s,PASSED
+"verifyTextPresent(""MCQ"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:07,2019-04-04 18:33:07,0.376s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:07,2019-04-04 18:33:07,0.097s,PASSED
+"verifyTextPresent(""EMQ"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:07,2019-04-04 18:33:08,0.380s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:08,2019-04-04 18:33:08,0.114s,PASSED
+"verifyTextPresent(""n of Many"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:08,2019-04-04 18:33:08,0.380s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:08,2019-04-04 18:33:08,0.112s,PASSED
+"selectOptionByValue(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and""), ""28"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:08,2019-04-04 18:33:09,0.416s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-04 18:33:09,2019-04-04 18:33:11,2.005s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_No tags_qTag""))",Chrome 73.0.3683.86,,2019-04-04 18:33:11,2019-04-04 18:33:11,0.169s,PASSED
+"verifyTextPresent(""Core Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:11,2019-04-04 18:33:12,0.595s,PASSED
+"verifyTextPresent(""Editor's Choice"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:12,2019-04-04 18:33:12,0.607s,PASSED
+"selectOptionByValue(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and""), ""35"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:12,2019-04-04 18:33:13,0.724s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-04 18:33:13,2019-04-04 18:33:15,2.005s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_No tags_qTag""))",Chrome 73.0.3683.86,,2019-04-04 18:33:15,2019-04-04 18:33:15,0.122s,PASSED
+"verifyTextPresent(""My Tags"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:15,2019-04-04 18:33:16,0.796s,FAILED
+,,,,,,
+Test Cases/Core Questions,Chrome 73.0.3683.86,,2019-04-04 18:33:18,2019-04-04 18:34:34,1m - 16.440s,PASSED
+"openBrowser(""https://testmy.onexamination.com/login.aspx"")",Chrome 73.0.3683.86,,2019-04-04 18:33:19,2019-04-04 18:33:28,9.854s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-04 18:33:28,2019-04-04 18:33:30,1.842s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""vivek.jaiswal@northgateps.com"")",Chrome 73.0.3683.86,,2019-04-04 18:33:30,2019-04-04 18:33:31,0.627s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword2"")",Chrome 73.0.3683.86,,2019-04-04 18:33:31,2019-04-04 18:33:31,0.253s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 73.0.3683.86,,2019-04-04 18:33:31,2019-04-04 18:33:33,2.131s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:33:33,2019-04-04 18:33:38,5.008s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Exam Revision""))",Chrome 73.0.3683.86,,2019-04-04 18:33:38,2019-04-04 18:33:42,3.928s,PASSED
+"click(findTestObject(""Page_Exam Revision - BMJ OnExaminat/a_Core Questions""))",Chrome 73.0.3683.86,,2019-04-04 18:33:42,2019-04-04 18:33:44,1.921s,PASSED
+"verifyTextPresent(""Core Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:44,2019-04-04 18:33:45,0.564s,PASSED
+"verifyTextPresent(""Current Options Selected"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:45,2019-04-04 18:33:45,0.514s,PASSED
+"verifyTextPresent(""Keywords: None"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:45,2019-04-04 18:33:46,0.305s,PASSED
+"verifyTextPresent(""No of Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:46,2019-04-04 18:33:46,0.277s,PASSED
+"verifyTextPresent(""Curricula: All"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:46,2019-04-04 18:33:46,0.265s,PASSED
+"verifyTextPresent(""Choose Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:46,2019-04-04 18:33:46,0.243s,PASSED
+"verifyTextPresent(""Choose Questions"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:46,2019-04-04 18:33:47,0.260s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/Choose Questions""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.065s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Group Learning""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.062s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Learning Journal""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.038s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Mock Tests""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.074s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Revision Advice""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.109s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Tags""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.164s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Work Hard""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.122s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.071s,PASSED
+"verifyElementAttributeValue(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test""), ""id"", ""btnGenerateRight"", 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.121s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:47,0.052s,PASSED
+"verifyElementAttributeValue(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test (1)""), ""id"", ""btnGenerateLeft"", 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:47,2019-04-04 18:33:48,0.080s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile""))",Chrome 73.0.3683.86,,2019-04-04 18:33:48,2019-04-04 18:33:48,0.790s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:33:48,2019-04-04 18:33:48,0.036s,PASSED
+"selectOptionByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false)",Chrome 73.0.3683.86,,2019-04-04 18:33:48,2019-04-04 18:33:49,0.142s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false, 20)",Chrome 73.0.3683.86,,2019-04-04 18:33:49,2019-04-04 18:33:54,5.078s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:33:54,2019-04-04 18:33:59,5.008s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:33:59,2019-04-04 18:33:59,0.802s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Core Questions""))",Chrome 73.0.3683.86,,2019-04-04 18:33:59,2019-04-04 18:34:00,0.546s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:34:00,2019-04-04 18:34:05,5.008s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:05,2019-04-04 18:34:05,0.097s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:05,2019-04-04 18:34:05,0.081s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption""))",Chrome 73.0.3683.86,,2019-04-04 18:34:05,2019-04-04 18:34:05,0.160s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:05,2019-04-04 18:34:05,0.078s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:05,2019-04-04 18:34:05,0.096s,PASSED
+"verifyTextNotPresent(""Filter by Tags"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:05,2019-04-04 18:34:06,0.360s,PASSED
+"verifyTextNotPresent(""No tags"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:06,2019-04-04 18:34:06,0.342s,PASSED
+"verifyTextNotPresent(""Select tags"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:06,2019-04-04 18:34:07,0.323s,PASSED
+"ExpectedPlaceholder = ""eg, deep vein thrombosis, diabetes, thyroid""",Chrome 73.0.3683.86,,2019-04-04 18:34:07,2019-04-04 18:34:07,0.031s,PASSED
+"placeholder = getAttribute(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK""), ""ActualPlaceholder"")",Chrome 73.0.3683.86,,2019-04-04 18:34:07,2019-04-04 18:34:07,0.064s,PASSED
+if (ExpectedPlaceholder == placeholder),Chrome 73.0.3683.86,,2019-04-04 18:34:07,2019-04-04 18:34:07,0.000s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All curricula_qCat""))",Chrome 73.0.3683.86,,2019-04-04 18:34:07,2019-04-04 18:34:07,0.147s,PASSED
+"verifyTextPresent(""Abstract Reasoning"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:07,2019-04-04 18:34:07,0.387s,PASSED
+"verifyTextPresent(""Decision Analysis"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:07,2019-04-04 18:34:07,0.358s,PASSED
+"verifyTextPresent(""Quantitative Reasoning"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:07,2019-04-04 18:34:08,0.537s,PASSED
+"verifyTextPresent(""Verbal Reasoning"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:08,2019-04-04 18:34:09,0.484s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/div_Exam Options""))",Chrome 73.0.3683.86,,2019-04-04 18:34:09,2019-04-04 18:34:09,0.162s,PASSED
+"check(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT""))",Chrome 73.0.3683.86,,2019-04-04 18:34:09,2019-04-04 18:34:09,0.219s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:34:09,2019-04-04 18:34:14,5.009s,PASSED
+"Count = getNumberOfTotalOption(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""))",Chrome 73.0.3683.86,,2019-04-04 18:34:14,2019-04-04 18:34:14,0.097s,PASSED
+"verifyEqual(Count, 2)",Chrome 73.0.3683.86,,2019-04-04 18:34:14,2019-04-04 18:34:14,0.006s,PASSED
+"verifyOptionsPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""), [""10 questions"", ""13 questions""])",Chrome 73.0.3683.86,,2019-04-04 18:34:14,2019-04-04 18:34:14,0.161s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource""))",Chrome 73.0.3683.86,,2019-04-04 18:34:14,2019-04-04 18:34:14,0.179s,PASSED
+"verifyTextPresent(""Best Answer Question"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:14,2019-04-04 18:34:15,0.419s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:15,2019-04-04 18:34:15,0.065s,PASSED
+"verifyTextPresent(""Problem Solving Question"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:15,2019-04-04 18:34:15,0.353s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:15,2019-04-04 18:34:15,0.105s,PASSED
+"selectOptionByValue(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and""), ""97"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:15,2019-04-04 18:34:16,0.471s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:34:16,2019-04-04 18:34:21,5.005s,PASSED
+"verifyTextPresent(""Medicine"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:21,2019-04-04 18:34:21,0.405s,PASSED
+"verifyTextPresent(""Obs and Gynae"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:21,2019-04-04 18:34:22,0.389s,PASSED
+"verifyTextPresent(""Paediatrics"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:22,2019-04-04 18:34:22,0.357s,PASSED
+"verifyTextPresent(""Surgery"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:22,2019-04-04 18:34:22,0.416s,PASSED
+"check(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical""))",Chrome 73.0.3683.86,,2019-04-04 18:34:22,2019-04-04 18:34:23,0.193s,PASSED
+delay(5),Chrome 73.0.3683.86,,2019-04-04 18:34:23,2019-04-04 18:34:28,5.007s,PASSED
+"Count = getNumberOfTotalOption(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""))",Chrome 73.0.3683.86,,2019-04-04 18:34:28,2019-04-04 18:34:28,0.076s,PASSED
+"verifyEqual(Count, 1)",Chrome 73.0.3683.86,,2019-04-04 18:34:28,2019-04-04 18:34:28,0.031s,PASSED
+"verifyOptionsPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""), [""0 questions""])",Chrome 73.0.3683.86,,2019-04-04 18:34:28,2019-04-04 18:34:28,0.101s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-04 18:34:28,2019-04-04 18:34:30,2.008s,PASSED
+"verifyTextPresent(""MCQ"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:30,2019-04-04 18:34:30,0.441s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:30,2019-04-04 18:34:30,0.072s,PASSED
+"verifyTextPresent(""EMQ"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:30,2019-04-04 18:34:31,0.393s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:31,2019-04-04 18:34:31,0.071s,PASSED
+"verifyTextPresent(""n of Many"", false)",Chrome 73.0.3683.86,,2019-04-04 18:34:31,2019-04-04 18:34:31,0.413s,PASSED
+"verifyElementChecked(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:34:31,2019-04-04 18:34:31,0.237s,PASSED
+closeBrowser(),Chrome 73.0.3683.86,,2019-04-04 18:34:31,2019-04-04 18:34:32,0.879s,PASSED
+,,,,,,
+Test Cases/Exam Revision,Chrome 73.0.3683.86,,2019-04-04 18:34:34,2019-04-04 18:35:24,49.536s,FAILED
+"openBrowser(""https://testmy.onexamination.com/login.aspx"")",Chrome 73.0.3683.86,,2019-04-04 18:34:35,2019-04-04 18:34:43,8.685s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-04 18:34:43,2019-04-04 18:34:45,1.446s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""vivek.jaiswal@northgateps.com"")",Chrome 73.0.3683.86,,2019-04-04 18:34:45,2019-04-04 18:34:45,0.435s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword2"")",Chrome 73.0.3683.86,,2019-04-04 18:34:45,2019-04-04 18:34:46,0.316s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 73.0.3683.86,,2019-04-04 18:34:46,2019-04-04 18:34:48,2.435s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-04 18:34:48,2019-04-04 18:34:50,2.040s,PASSED
+"click(findTestObject(""Page_My Profile - BMJ OnExamination/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:34:50,2019-04-04 18:35:22,31.788s,FAILED
+,,,,,,
+Test Cases/Dashboard,Chrome 73.0.3683.86,,2019-04-04 18:35:24,2019-04-04 18:35:56,31.581s,FAILED
+"openBrowser(""https://testmy.onexamination.com/login.aspx"")",Chrome 73.0.3683.86,,2019-04-04 18:35:24,2019-04-04 18:35:34,9.284s,PASSED
+maximizeWindow(),Chrome 73.0.3683.86,,2019-04-04 18:35:34,2019-04-04 18:35:35,1.434s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""vivek.jaiswal@northgateps.com"")",Chrome 73.0.3683.86,,2019-04-04 18:35:35,2019-04-04 18:35:35,0.405s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword2"")",Chrome 73.0.3683.86,,2019-04-04 18:35:35,2019-04-04 18:35:36,0.234s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 73.0.3683.86,,2019-04-04 18:35:36,2019-04-04 18:35:38,2.120s,PASSED
+delay(2),Chrome 73.0.3683.86,,2019-04-04 18:35:38,2019-04-04 18:35:40,2.022s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Help""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.111s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Exam Revision""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.037s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Scores""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.063s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_CPD""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.016s,NOT_RUN
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.049s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Video Tutorials""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.000s,NOT_RUN
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Choose Questions""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.047s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Core Questions""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.048s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Group Learning""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.049s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Partner Admin""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.062s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Partner Centre""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:40,0.033s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Exam Revision""))",Chrome 73.0.3683.86,,2019-04-04 18:35:40,2019-04-04 18:35:41,0.848s,PASSED
+"verifyTextPresent(""How would you like to study today?"", false)",Chrome 73.0.3683.86,,2019-04-04 18:35:41,2019-04-04 18:35:42,0.380s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Home""), 0)",Chrome 73.0.3683.86,,2019-04-04 18:35:42,2019-04-04 18:35:42,0.046s,PASSED
+"click(findTestObject(""Page_My Profile - BMJ OnExamination/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:35:42,2019-04-04 18:35:43,0.917s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Scores""))",Chrome 73.0.3683.86,,2019-04-04 18:35:43,2019-04-04 18:35:43,0.797s,PASSED
+"verifyTextPresent(""Score Analysis "", false)",Chrome 73.0.3683.86,,2019-04-04 18:35:43,2019-04-04 18:35:44,0.223s,PASSED
+"click(findTestObject(""Page_My Profile - BMJ OnExamination/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:35:44,2019-04-04 18:35:45,1.063s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_CPD""))",Chrome 73.0.3683.86,,2019-04-04 18:35:45,2019-04-04 18:35:45,0.006s,NOT_RUN
+"verifyTextPresent(""CPD Modules"", false)",Chrome 73.0.3683.86,,2019-04-04 18:35:45,2019-04-04 18:35:45,0.004s,NOT_RUN
+"click(findTestObject(""Page_My Profile - BMJ OnExamination/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:35:45,2019-04-04 18:35:45,0.005s,NOT_RUN
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Partner Centre""))",Chrome 73.0.3683.86,,2019-04-04 18:35:45,2019-04-04 18:35:46,1.010s,PASSED
+"verifyTextPresent(""Partner Centre"", false)",Chrome 73.0.3683.86,,2019-04-04 18:35:46,2019-04-04 18:35:46,0.200s,PASSED
+"click(findTestObject(""Page_My Profile - BMJ OnExamination/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:35:46,2019-04-04 18:35:47,1.025s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Partner Admin""))",Chrome 73.0.3683.86,,2019-04-04 18:35:47,2019-04-04 18:35:49,2.610s,PASSED
+"verifyTextPresent(""Account Management"", false)",Chrome 73.0.3683.86,,2019-04-04 18:35:49,2019-04-04 18:35:50,0.267s,PASSED
+"click(findTestObject(""Page_My Profile - BMJ OnExamination/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:35:50,2019-04-04 18:35:50,0.714s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts""))",Chrome 73.0.3683.86,,2019-04-04 18:35:50,2019-04-04 18:35:52,1.312s,PASSED
+"verifyTextPresent(""You do not have any groups associated."", false)",Chrome 73.0.3683.86,,2019-04-04 18:35:52,2019-04-04 18:35:52,0.149s,PASSED
+"click(findTestObject(""Page_My Profile - BMJ OnExamination/a_Home""))",Chrome 73.0.3683.86,,2019-04-04 18:35:52,2019-04-04 18:35:53,1.205s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Help""))",Chrome 73.0.3683.86,,2019-04-04 18:35:53,2019-04-04 18:35:54,0.452s,FAILED

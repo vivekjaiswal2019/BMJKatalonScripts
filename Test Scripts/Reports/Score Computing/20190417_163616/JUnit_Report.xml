@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Score Computing" time="287" tests="2" failures="1" errors="0">
+   <testsuite name="Score Computing" tests="2" failures="1" errors="0" time="287" timestamp="2019-04-17 16:36:20" hostname="vivek.jaiswal - mum-lap-389.global.internal" id="Test Suites/Score Computing">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Score Computing\\20190417_163616"/>
+         <property name="logFiles" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Score Computing\\20190417_163616\\execution0.log"/>
+         <property name="attachments" value="E:\\Katalon Studio\\BMJ Cases\\Reports\\Score Computing\\20190417_163616\\1555499463102.png, E:\\Katalon Studio\\BMJ Cases\\Reports\\Score Computing\\20190417_163616\\1555499464099.png"/>
+         <property name="hostName" value="vivek.jaiswal - mum-lap-389.global.internal"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 73.0.3683.103"/>
+         <property name="hostAddress" value="192.168.1.100"/>
+         <property name="sessionId" value="bd44bd93f0f351aa0e946f565c07e6f0"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=USE_SYSTEM, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Reset Scores" classname="Test Cases/Reset Scores" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:36:21 - [TEST_CASE][PASSED] - Test Cases/Reset Scores: Test Cases/Reset Scores
+
+2019-04-17 16:36:22 - [TEST_STEP][PASSED] - openBrowser("https://testcontrol.onexamination.com/Support/Default.aspx"): Browser is opened with url: 'https://testcontrol.onexamination.com/Support/Default.aspx'
+
+2019-04-17 16:36:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:36:23 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-04-17 16:36:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testcontrol.onexamination.com/Support/Default.aspx'
+
+2019-04-17 16:36:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 16:36:39 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:36:39 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Control Sign in/Alias"), "rafiqull.sheikh"): Text 'rafiqull.sheikh' is set on object 'Object Repository/Page_Control Sign in/Alias'
+
+2019-04-17 16:36:40 - [MESSAGE][PASSED] - Text 'rafiqull.sheikh' is set on object 'Object Repository/Page_Control Sign in/Alias'
+
+2019-04-17 16:36:40 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Control Sign in/Password"), "R@ve1234"): Text 'R@ve1234' is set on object 'Object Repository/Page_Control Sign in/Password'
+
+2019-04-17 16:36:42 - [MESSAGE][PASSED] - Text 'R@ve1234' is set on object 'Object Repository/Page_Control Sign in/Password'
+
+2019-04-17 16:36:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Sign in/Sign In")): Object: 'Object Repository/Page_Control Sign in/Sign In' is clicked on
+
+2019-04-17 16:36:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Sign in/Sign In' is clicked on
+
+2019-04-17 16:36:43 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-04-17 16:36:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-04-17 16:36:47 - [TEST_STEP][PASSED] - verifyTextPresent("Help centre", false): Text 'Help centre' is present on page 
+
+2019-04-17 16:36:47 - [MESSAGE][PASSED] - Text 'Help centre' is present on page 
+
+2019-04-17 16:36:47 - [TEST_STEP][PASSED] - verifyTextPresent("New requests", false): Text 'New requests' is present on page 
+
+2019-04-17 16:36:47 - [MESSAGE][PASSED] - Text 'New requests' is present on page 
+
+2019-04-17 16:36:47 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Exam calendar/a_Users")): Object: 'Object Repository/Page_Control Exam calendar/a_Users' is clicked on
+
+2019-04-17 16:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Exam calendar/a_Users' is clicked on
+
+2019-04-17 16:36:48 - [TEST_STEP][PASSED] - verifyTextPresent("Manage users", false): Text 'Manage users' is present on page 
+
+2019-04-17 16:36:48 - [MESSAGE][PASSED] - Text 'Manage users' is present on page 
+
+2019-04-17 16:36:48 - [TEST_STEP][PASSED] - verifyTextPresent("Search for a user", false): Text 'Search for a user' is present on page 
+
+2019-04-17 16:36:49 - [MESSAGE][PASSED] - Text 'Search for a user' is present on page 
+
+2019-04-17 16:36:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Control Manage users/Email Address"), "testautomation@gmail.com"): Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_Control Manage users/Email Address'
+
+2019-04-17 16:36:49 - [MESSAGE][PASSED] - Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_Control Manage users/Email Address'
+
+2019-04-17 16:36:49 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Manage users/Search Button")): Object: 'Object Repository/Page_Control Manage users/Search Button' is clicked on
+
+2019-04-17 16:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Manage users/Search Button' is clicked on
+
+2019-04-17 16:36:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:36:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:36:55 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Manage users/a_Edit exams")): Object: 'Object Repository/Page_Control Manage users/a_Edit exams' is clicked on
+
+2019-04-17 16:36:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Manage users/a_Edit exams' is clicked on
+
+2019-04-17 16:36:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 16:36:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 16:36:58 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores")): Object: 'Object Repository/Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores' is clicked on
+
+2019-04-17 16:36:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores' is clicked on
+
+2019-04-17 16:36:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:37:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:37:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_Control Help centre/a_Sign out")): Object: 'Object Repository/Page_Control Help centre/a_Sign out' is clicked on
+
+2019-04-17 16:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Control Help centre/a_Sign out' is clicked on
+
+2019-04-17 16:37:06 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 16:37:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 16:37:08 - [TEST_STEP][PASSED] - navigateToUrl("https://testmy.onexamination.com/login.aspx"): Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-17 16:37:18 - [MESSAGE][PASSED] - Navigate to 'https://testmy.onexamination.com/login.aspx' successfully
+
+2019-04-17 16:37:18 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "testautomation@gmail.com"): Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-17 16:37:19 - [MESSAGE][PASSED] - Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-17 16:37:19 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword1"): Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-17 16:37:20 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-17 16:37:20 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-17 16:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-17 16:37:25 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 16:37:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 16:37:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Scores")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is clicked on
+
+2019-04-17 16:37:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Scores' is clicked on
+
+2019-04-17 16:37:34 - [TEST_STEP][PASSED] - verifyTextPresent("Score Analysis", false): Text 'Score Analysis' is present on page 
+
+2019-04-17 16:37:35 - [MESSAGE][PASSED] - Text 'Score Analysis' is present on page 
+
+2019-04-17 16:37:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are matched.
+
+2019-04-17 16:37:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are matched.
+
+2019-04-17 16:37:35 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Mean score"), "62.2"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Mean score' are matched.
+
+2019-04-17 16:37:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Mean score' are matched.
+
+2019-04-17 16:37:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Current mean"), "0"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Current mean' are matched.
+
+2019-04-17 16:37:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Current mean' are matched.
+
+2019-04-17 16:37:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Naive mean"), "0"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Naive mean' are matched.
+
+2019-04-17 16:37:36 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Naive mean' are matched.
+
+2019-04-17 16:37:36 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsAnswered"), "0"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsAnswered' are matched.
+
+2019-04-17 16:37:37 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsAnswered' are matched.
+
+2019-04-17 16:37:37 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+2019-04-17 16:37:38 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Question Session - DA2" classname="Test Cases/Question Session - DA2" status="PASSED">
+         <system-out><![CDATA[2019-04-17 16:37:40 - [TEST_CASE][PASSED] - Test Cases/Question Session - DA2: Test Cases/Question Session - DA2
+
+2019-04-17 16:37:42 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-17 16:37:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:37:56 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-17 16:37:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 16:37:58 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:37:58 - [TEST_STEP][PASSED] - Height = getPageHeight(): Current page's height is 922
+
+2019-04-17 16:37:58 - [MESSAGE][PASSED] - Current page's height is 922
+
+2019-04-17 16:37:58 - [TEST_STEP][PASSED] - Width = getPageWidth(): Current page's width is 1349
+
+2019-04-17 16:37:58 - [MESSAGE][PASSED] - Current page's width is 1349
+
+2019-04-17 16:37:58 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "testautomation@gmail.com"): Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-17 16:38:00 - [MESSAGE][PASSED] - Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-17 16:38:00 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword1"): Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-17 16:38:00 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-17 16:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-17 16:38:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-17 16:38:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:38:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:38:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision")): NOT_RUN: click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision"))
+
+2019-04-17 16:38:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision"))
+
+2019-04-17 16:38:09 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions")): NOT_RUN: click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions"))
+
+2019-04-17 16:38:09 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions"))
+
+2019-04-17 16:38:09 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx"): NOT_RUN: navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx")
+
+2019-04-17 16:38:09 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx")
+
+2019-04-17 16:38:09 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-17 16:38:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 16:38:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-17 16:38:09 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:38:09 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:38:09 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false, 20): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:38:11 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:38:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:38:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:38:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-17 16:38:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-17 16:38:19 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Choose Questions")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-17 16:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-17 16:38:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:38:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:38:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_I have got wrong before_")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_I have got wrong before_' is clicked on
+
+2019-04-17 16:38:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_I have got wrong before_' is clicked on
+
+2019-04-17 16:38:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:38:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All curricula_qCat")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-17 16:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-17 16:38:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:38:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:38:36 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ' is clicked on
+
+2019-04-17 16:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ' is clicked on
+
+2019-04-17 16:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-17 16:38:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-17 16:38:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_No tags_qTag")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-17 16:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-17 16:38:38 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 16:38:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 16:38:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6"))
+
+2019-04-17 16:38:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6"))
+
+2019-04-17 16:38:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7"))
+
+2019-04-17 16:38:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7"))
+
+2019-04-17 16:38:40 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8' is clicked on
+
+2019-04-17 16:38:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8' is clicked on
+
+2019-04-17 16:38:41 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9"))
+
+2019-04-17 16:38:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9"))
+
+2019-04-17 16:38:41 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10"))
+
+2019-04-17 16:38:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10"))
+
+2019-04-17 16:38:41 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11"))
+
+2019-04-17 16:38:41 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11"))
+
+2019-04-17 16:38:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 16:38:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 16:38:43 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 1 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-17 16:38:43 - [MESSAGE][PASSED] - 1 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-17 16:38:43 - [TEST_STEP][PASSED] - verifyEqual(Count, 1): Actual object '1' and expected object '1' are equal
+
+2019-04-17 16:38:43 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2019-04-17 16:38:43 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["1 question"]): Options [1 question] present.
+
+2019-04-17 16:38:44 - [MESSAGE][PASSED] - Options [1 question] present.
+
+2019-04-17 16:38:44 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-17 16:38:44 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-17 16:38:44 - [TEST_STEP][PASSED] - verifyTextPresent("Keywords: None", false): Text 'Keywords: None' is present on page 
+
+2019-04-17 16:38:46 - [MESSAGE][PASSED] - Text 'Keywords: None' is present on page 
+
+2019-04-17 16:38:46 - [TEST_STEP][PASSED] - verifyTextPresent("No of Questions: 1", false): Text 'No of Questions: 1' is present on page 
+
+2019-04-17 16:38:48 - [MESSAGE][PASSED] - Text 'No of Questions: 1' is present on page 
+
+2019-04-17 16:38:48 - [TEST_STEP][PASSED] - verifyTextPresent("Curricula: Decision Analysis", false): Text 'Curricula: Decision Analysis' is present on page 
+
+2019-04-17 16:38:50 - [MESSAGE][PASSED] - Text 'Curricula: Decision Analysis' is present on page 
+
+2019-04-17 16:38:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is clicked on
+
+2019-04-17 16:38:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is clicked on
+
+2019-04-17 16:38:50 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-17 16:39:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-17 16:39:00 - [TEST_STEP][PASSED] - verifyTextPresent("Question Session", false): Text 'Question Session' is present on page 
+
+2019-04-17 16:39:02 - [MESSAGE][PASSED] - Text 'Question Session' is present on page 
+
+2019-04-17 16:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Assessment Session/Tags Section")): Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/Tags Section' is clicked on
+
+2019-04-17 16:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/Tags Section' is clicked on
+
+2019-04-17 16:39:02 - [TEST_STEP][PASSED] - verifyTextPresent("I wish I was like those who are not afraid and love to travel alone on ships", false): Text 'I wish I was like those who are not afraid and love to travel alone on ships' is present on page 
+
+2019-04-17 16:39:04 - [MESSAGE][PASSED] - Text 'I wish I was like those who are not afraid and love to travel alone on ships' is present on page 
+
+2019-04-17 16:39:04 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:39:04 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:39:04 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Assessment Session/DA2 RB")): Object 'Object Repository/Page_BMJ OnExamination Assessment Session/DA2 RB' is checked
+
+2019-04-17 16:39:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Assessment Session/DA2 RB' is checked
+
+2019-04-17 16:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Assessment Session/SubmitAnswer")): Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/SubmitAnswer' is clicked on
+
+2019-04-17 16:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/SubmitAnswer' is clicked on
+
+2019-04-17 16:39:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:39:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:39:12 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:39:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:39:12 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Assessment Session/Correct Icon"), 0): NOT_RUN: verifyElementPresent(findTestObject("Page_BMJ OnExamination Assessment Session/Correct Icon"), 0)
+
+2019-04-17 16:39:12 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Page_BMJ OnExamination Assessment Session/Correct Icon"), 0)
+
+2019-04-17 16:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Assessment Session/GoToSummary")): Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/GoToSummary' is clicked on
+
+2019-04-17 16:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/GoToSummary' is clicked on
+
+2019-04-17 16:39:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:39:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:39:21 - [TEST_STEP][PASSED] - verifyTextPresent("Test summary", false): Text 'Test summary' is present on page 
+
+2019-04-17 16:39:23 - [MESSAGE][PASSED] - Text 'Test summary' is present on page 
+
+2019-04-17 16:39:23 - [TEST_STEP][PASSED] - navigateToUrl("https://testmy.onexamination.com/Review/ScoreAnalysis.aspx"): Navigate to 'https://testmy.onexamination.com/Review/ScoreAnalysis.aspx' successfully
+
+2019-04-17 16:39:29 - [MESSAGE][PASSED] - Navigate to 'https://testmy.onexamination.com/Review/ScoreAnalysis.aspx' successfully
+
+2019-04-17 16:39:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are matched.
+
+2019-04-17 16:39:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are matched.
+
+2019-04-17 16:39:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Mean score"), "62.2"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Mean score' are matched.
+
+2019-04-17 16:39:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Mean score' are matched.
+
+2019-04-17 16:39:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Current mean"), "100"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Current mean' are matched.
+
+2019-04-17 16:39:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Current mean' are matched.
+
+2019-04-17 16:39:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Naive mean"), "100"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Naive mean' are matched.
+
+2019-04-17 16:39:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/Naive mean' are matched.
+
+2019-04-17 16:39:29 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsAnswered"), "1"): Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsAnswered' are matched.
+
+2019-04-17 16:39:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsAnswered' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Question Session - DA3" classname="Test Cases/Question Session - DA3" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Question Session - DA3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Question Session - DA3.run(Question Session - DA3:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555499176608.run(TempTestSuite1555499176608.groovy:36)
+"/>
+         <system-out><![CDATA[2019-04-17 16:39:32 - [TEST_CASE][FAILED] - Test Cases/Question Session - DA3: Test Cases/Question Session - DA3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Question Session - DA3.run(Question Session - DA3:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555499176608.run(TempTestSuite1555499176608.groovy:36)
+
+
+2019-04-17 16:39:32 - [TEST_STEP][PASSED] - openBrowser("https://testmy.onexamination.com/login.aspx"): Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-17 16:39:32 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-04-17 16:39:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-04-17 16:39:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://testmy.onexamination.com/login.aspx'
+
+2019-04-17 16:39:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-04-17 16:39:49 - [MESSAGE][PASSED] - Current window maximized
+
+2019-04-17 16:39:49 - [TEST_STEP][PASSED] - Height = getPageHeight(): Current page's height is 922
+
+2019-04-17 16:39:49 - [MESSAGE][PASSED] - Current page's height is 922
+
+2019-04-17 16:39:49 - [TEST_STEP][PASSED] - Width = getPageWidth(): Current page's width is 1349
+
+2019-04-17 16:39:49 - [MESSAGE][PASSED] - Current page's width is 1349
+
+2019-04-17 16:39:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "testautomation@gmail.com"): Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-17 16:39:50 - [MESSAGE][PASSED] - Text 'testautomation@gmail.com' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'
+
+2019-04-17 16:39:50 - [TEST_STEP][PASSED] - setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword1"): Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-17 16:39:50 - [MESSAGE][PASSED] - Text 'P@ssword1' is set on object 'Object Repository/Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'
+
+2019-04-17 16:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo")): Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-17 16:39:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Sign In/input_Please enter your passwo' is clicked on
+
+2019-04-17 16:39:52 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:39:57 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:39:57 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision")): NOT_RUN: click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision"))
+
+2019-04-17 16:39:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision"))
+
+2019-04-17 16:39:57 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions")): NOT_RUN: click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions"))
+
+2019-04-17 16:39:57 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions"))
+
+2019-04-17 16:39:57 - [TEST_STEP][NOT_RUN] - navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx"): NOT_RUN: navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx")
+
+2019-04-17 16:39:57 - [MESSAGE][NOT_RUN] - NOT_RUN: navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx")
+
+2019-04-17 16:39:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), 0): Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-17 16:39:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2019-04-17 16:39:57 - [MESSAGE][PASSED] - Object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' is present
+
+2019-04-17 16:39:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:39:58 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:39:58 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false, 20): All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:39:59 - [MESSAGE][PASSED] - All options with label 'UKCAT' are selected in object 'Object Repository/Page_My Dashboard - BMJ OnExaminati/select_Active revision course_' 
+
+2019-04-17 16:39:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:40:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-17 16:40:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Home' is clicked on
+
+2019-04-17 16:40:06 - [TEST_STEP][PASSED] - click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Choose Questions")): Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-17 16:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_My Dashboard - BMJ OnExaminati/a_Choose Questions' is clicked on
+
+2019-04-17 16:40:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:40:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:40:12 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_I have got wrong before_")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_I have got wrong before_' is clicked on
+
+2019-04-17 16:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_I have got wrong before_' is clicked on
+
+2019-04-17 16:40:13 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:40:18 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:40:18 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All curricula_qCat")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-17 16:40:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All curricula_qCat' is clicked on
+
+2019-04-17 16:40:18 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:40:23 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ' is clicked on
+
+2019-04-17 16:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ' is clicked on
+
+2019-04-17 16:40:23 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-17 16:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption' is clicked on
+
+2019-04-17 16:40:24 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/input_No tags_qTag")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-17 16:40:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/input_No tags_qTag' is clicked on
+
+2019-04-17 16:40:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 16:40:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 16:40:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6"))
+
+2019-04-17 16:40:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6"))
+
+2019-04-17 16:40:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7' is clicked on
+
+2019-04-17 16:40:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7' is clicked on
+
+2019-04-17 16:40:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8"))
+
+2019-04-17 16:40:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8"))
+
+2019-04-17 16:40:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9"))
+
+2019-04-17 16:40:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9"))
+
+2019-04-17 16:40:26 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10"))
+
+2019-04-17 16:40:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10"))
+
+2019-04-17 16:40:27 - [TEST_STEP][NOT_RUN] - click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11")): NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11"))
+
+2019-04-17 16:40:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11"))
+
+2019-04-17 16:40:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-04-17 16:40:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-04-17 16:40:29 - [TEST_STEP][PASSED] - Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question")): 1 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-17 16:40:29 - [MESSAGE][PASSED] - 1 options of object 'Object Repository/Page_BMJ OnExamination Choose Generate/select_10 questions20 question' counted
+
+2019-04-17 16:40:29 - [TEST_STEP][PASSED] - verifyEqual(Count, 1): Actual object '1' and expected object '1' are equal
+
+2019-04-17 16:40:29 - [MESSAGE][PASSED] - Actual object '1' and expected object '1' are equal
+
+2019-04-17 16:40:29 - [TEST_STEP][PASSED] - verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["1 question"]): Options [1 question] present.
+
+2019-04-17 16:40:29 - [MESSAGE][PASSED] - Options [1 question] present.
+
+2019-04-17 16:40:29 - [TEST_STEP][PASSED] - scrollToPosition(0, 0): Browser is scrolled to position x = 0, y = 0
+
+2019-04-17 16:40:29 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 0
+
+2019-04-17 16:40:29 - [TEST_STEP][PASSED] - verifyTextPresent("Keywords: None", false): Text 'Keywords: None' is present on page 
+
+2019-04-17 16:40:30 - [MESSAGE][PASSED] - Text 'Keywords: None' is present on page 
+
+2019-04-17 16:40:30 - [TEST_STEP][PASSED] - verifyTextPresent("No of Questions: 1", false): Text 'No of Questions: 1' is present on page 
+
+2019-04-17 16:40:31 - [MESSAGE][PASSED] - Text 'No of Questions: 1' is present on page 
+
+2019-04-17 16:40:31 - [TEST_STEP][PASSED] - verifyTextPresent("Curricula: Decision Analysis", false): Text 'Curricula: Decision Analysis' is present on page 
+
+2019-04-17 16:40:32 - [MESSAGE][PASSED] - Text 'Curricula: Decision Analysis' is present on page 
+
+2019-04-17 16:40:32 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test")): Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is clicked on
+
+2019-04-17 16:40:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Choose Generate/button_Generate test' is clicked on
+
+2019-04-17 16:40:32 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-04-17 16:40:42 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-04-17 16:40:42 - [TEST_STEP][PASSED] - verifyTextPresent("Question Session", false): Text 'Question Session' is present on page 
+
+2019-04-17 16:40:43 - [MESSAGE][PASSED] - Text 'Question Session' is present on page 
+
+2019-04-17 16:40:43 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Assessment Session/Tags Section")): Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/Tags Section' is clicked on
+
+2019-04-17 16:40:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/Tags Section' is clicked on
+
+2019-04-17 16:40:44 - [TEST_STEP][PASSED] - verifyTextPresent("Robots follow the instructions given", false): Text 'Robots follow the instructions given' is present on page 
+
+2019-04-17 16:40:45 - [MESSAGE][PASSED] - Text 'Robots follow the instructions given' is present on page 
+
+2019-04-17 16:40:45 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:40:45 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:40:45 - [TEST_STEP][PASSED] - check(findTestObject("Page_BMJ OnExamination Assessment Session/DA3 RB")): Object 'Object Repository/Page_BMJ OnExamination Assessment Session/DA3 RB' is checked
+
+2019-04-17 16:40:45 - [MESSAGE][PASSED] - Object 'Object Repository/Page_BMJ OnExamination Assessment Session/DA3 RB' is checked
+
+2019-04-17 16:40:45 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Assessment Session/SubmitAnswer")): Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/SubmitAnswer' is clicked on
+
+2019-04-17 16:40:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/SubmitAnswer' is clicked on
+
+2019-04-17 16:40:47 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:40:52 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:40:52 - [TEST_STEP][PASSED] - scrollToPosition(9999999, 9999999): Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:40:53 - [MESSAGE][PASSED] - Browser is scrolled to position x = 9999999, y = 9999999
+
+2019-04-17 16:40:53 - [TEST_STEP][NOT_RUN] - verifyElementPresent(findTestObject("Page_BMJ OnExamination Assessment Session/Correct Icon"), 0): NOT_RUN: verifyElementPresent(findTestObject("Page_BMJ OnExamination Assessment Session/Correct Icon"), 0)
+
+2019-04-17 16:40:53 - [MESSAGE][NOT_RUN] - NOT_RUN: verifyElementPresent(findTestObject("Page_BMJ OnExamination Assessment Session/Correct Icon"), 0)
+
+2019-04-17 16:40:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_BMJ OnExamination Assessment Session/GoToSummary")): Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/GoToSummary' is clicked on
+
+2019-04-17 16:40:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_BMJ OnExamination Assessment Session/GoToSummary' is clicked on
+
+2019-04-17 16:40:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-04-17 16:41:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-04-17 16:41:00 - [TEST_STEP][PASSED] - verifyTextPresent("Test summary", false): Text 'Test summary' is present on page 
+
+2019-04-17 16:41:01 - [MESSAGE][PASSED] - Text 'Test summary' is present on page 
+
+2019-04-17 16:41:01 - [TEST_STEP][PASSED] - navigateToUrl("https://testmy.onexamination.com/Review/ScoreAnalysis.aspx"): Navigate to 'https://testmy.onexamination.com/Review/ScoreAnalysis.aspx' successfully
+
+2019-04-17 16:41:02 - [MESSAGE][PASSED] - Navigate to 'https://testmy.onexamination.com/Review/ScoreAnalysis.aspx' successfully
+
+2019-04-17 16:41:02 - [TEST_STEP][FAILED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185"): verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Question Session - DA3.run(Question Session - DA3:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555499176608.run(TempTestSuite1555499176608.groovy:36)
+
+
+2019-04-17 16:41:04 - [MESSAGE][FAILED] - Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.
+[[ATTACHMENT|E:\\Katalon Studio\\BMJ Cases\\Reports\\Score Computing\\20190417_163616\\1555499463102.png]]
+
+2019-04-17 16:41:04 - [MESSAGE][FAILED] - Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+[[ATTACHMENT|E:\\Katalon Studio\\BMJ Cases\\Reports\\Score Computing\\20190417_163616\\1555499464099.png]]
+
+2019-04-17 16:41:04 - [MESSAGE][FAILED] - verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185") FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Question Session - DA3.run(Question Session - DA3:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555499176608.run(TempTestSuite1555499176608.groovy:36)]]></system-out>
+         <system-err><![CDATA[2019-04-17 16:39:32 - [TEST_CASE][FAILED] - Test Cases/Question Session - DA3: Test Cases/Question Session - DA3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Question Session - DA3.run(Question Session - DA3:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555499176608.run(TempTestSuite1555499176608.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-17 16:36:20 - [TEST_SUITE][FAILED] - Score Computing: Test Cases/Question Session - DA3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Question Session - DA3.run(Question Session - DA3:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555499176608.run(TempTestSuite1555499176608.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-04-17 16:36:20 - [TEST_SUITE][FAILED] - Score Computing: Test Cases/Question Session - DA3 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '' and expected text '185' of test object 'Object Repository/Page_Score Analysis - BMJ OnExamina/QuestionsTotal' are NOT matched.)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:72)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:3663)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementText$5.call(Unknown Source)
+	at Question Session - DA3.run(Question Session - DA3:128)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:319)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:298)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:290)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:224)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:149)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1555499176608.run(TempTestSuite1555499176608.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

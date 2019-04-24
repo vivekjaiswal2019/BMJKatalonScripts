@@ -1,0 +1,144 @@
+1
+00:00:00,847 --> 00:00:00,855
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:15,825 --> 00:00:15,827
+5. maximizeWindow()
+
+3
+00:00:17,320 --> 00:00:17,323
+9. click(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"))
+
+4
+00:00:17,651 --> 00:00:17,653
+13. verifyTextPresent("Please enter your email address", false)
+
+5
+00:00:17,974 --> 00:00:18,006
+17. verifyTextPresent("Please enter a password", false)
+
+6
+00:00:18,203 --> 00:00:18,205
+21. verifyTextPresent("Please confirm your password", false)
+
+7
+00:00:18,455 --> 00:00:18,487
+25. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "Rave")
+
+8
+00:00:18,789 --> 00:00:18,791
+29. sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), Keys.chord(TAB))
+
+9
+00:00:19,070 --> 00:00:19,072
+33. verifyTextPresent("Password must contain at least one number and one uppercase and lowercase letters and one special character (!@#$%^&*-_), and should be of 8-20 characters", false)
+
+10
+00:00:19,377 --> 00:00:19,414
+37. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "Ra")
+
+11
+00:00:19,675 --> 00:00:19,678
+41. sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), Keys.chord(TAB))
+
+12
+00:00:19,827 --> 00:00:19,830
+45. verifyTextPresent("Your new password and confirmed password must match", false)
+
+13
+00:00:20,014 --> 00:00:20,016
+49. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), "testnewa@gmail.com")
+
+14
+00:00:20,270 --> 00:00:20,273
+53. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "R@ve1234")
+
+15
+00:00:20,471 --> 00:00:20,474
+57. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "R@ve1234")
+
+16
+00:00:20,708 --> 00:00:20,713
+61. focus(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"))
+
+17
+00:00:20,884 --> 00:00:20,886
+65. sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"), Keys.chord(ENTER))
+
+18
+00:00:21,853 --> 00:00:21,860
+69. verifyTextPresent("To continue, you must agree to the BMJ OnExamination terms, conditions and privacy policy", false)
+
+19
+00:00:22,086 --> 00:00:22,088
+73. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+20
+00:00:22,529 --> 00:00:22,537
+77. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "R@ve1234")
+
+21
+00:00:22,741 --> 00:00:22,742
+81. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "R@ve1234")
+
+22
+00:00:22,941 --> 00:00:22,942
+85. check(findTestObject("Page_BMJ OnExamination Create Account/input_Communication preference (1)"), STOP_ON_FAILURE)
+
+23
+00:00:23,143 --> 00:00:23,145
+89. focus(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"))
+
+24
+00:00:23,297 --> 00:00:23,299
+93. sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"), Keys.chord(ENTER))
+
+25
+00:00:24,037 --> 00:00:24,040
+97. verifyTextPresent("The email address entered already exists.", false)
+
+26
+00:00:24,270 --> 00:00:24,273
+101. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+27
+00:00:24,280 --> 00:00:24,282
+105. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Email address_ctl00MainC"), "testnewa@gmail.com")
+
+28
+00:00:24,618 --> 00:00:24,620
+109. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Password_ctl00MainConten"), "R@ve1234")
+
+29
+00:00:24,838 --> 00:00:24,839
+113. setText(findTestObject("Page_BMJ OnExamination Create Account/input_Confirm password_ctl00Ma"), "R@ve1234")
+
+30
+00:00:25,026 --> 00:00:25,028
+117. check(findTestObject("Page_BMJ OnExamination Create Account/input_Communication preference (1)"))
+
+31
+00:00:25,084 --> 00:00:25,086
+121. focus(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"))
+
+32
+00:00:25,207 --> 00:00:25,208
+125. sendKeys(findTestObject("Page_BMJ OnExamination Create Account/input_terms conditions and pri"), Keys.chord(ENTER))
+
+33
+00:00:29,457 --> 00:00:29,459
+129. verifyTextPresent("Tick to receive information and special offers about BMJs products and services. BMJ will mainly contact you by email but occasionally by post, telephone, or SMS.", false)
+
+34
+00:00:29,731 --> 00:00:29,732
+133. verifyElementNotChecked(findTestObject("Page_BMJ OnExamination Create Account/input_Communication preference"), 0)
+
+35
+00:00:29,834 --> 00:00:29,836
+137. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Sign Out"))
+
+36
+00:00:29,977 --> 00:00:29,978
+141. closeBrowser()
+

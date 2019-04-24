@@ -1,0 +1,148 @@
+1
+00:00:00,264 --> 00:00:00,265
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:09,548 --> 00:00:09,549
+5. maximizeWindow()
+
+3
+00:00:10,983 --> 00:00:10,985
+9. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+4
+00:00:11,389 --> 00:00:11,390
+13. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2")
+
+5
+00:00:11,624 --> 00:00:11,625
+17. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+6
+00:00:13,743 --> 00:00:13,746
+21. delay(2)
+
+7
+00:00:15,751 --> 00:00:15,783
+25. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Help"), 0)
+
+8
+00:00:15,878 --> 00:00:15,878
+29. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Exam Revision"), 0)
+
+9
+00:00:15,915 --> 00:00:15,930
+33. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Scores"), 0)
+
+10
+00:00:15,978 --> 00:00:15,978
+37. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD"), 0)
+
+11
+00:00:15,994 --> 00:00:15,994
+41. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts"), 0)
+
+12
+00:00:16,043 --> 00:00:16,043
+45. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Video Tutorials"), 0)
+
+13
+00:00:16,043 --> 00:00:16,043
+49. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Choose Questions"), 0)
+
+14
+00:00:16,090 --> 00:00:16,090
+53. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Core Questions"), 0)
+
+15
+00:00:16,138 --> 00:00:16,138
+57. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Group Learning"), 0)
+
+16
+00:00:16,187 --> 00:00:16,187
+61. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Admin"), 0)
+
+17
+00:00:16,249 --> 00:00:16,249
+65. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Centre"), 0)
+
+18
+00:00:16,282 --> 00:00:16,282
+69. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Exam Revision"))
+
+19
+00:00:17,129 --> 00:00:17,133
+73. verifyTextPresent("How would you like to study today?", false)
+
+20
+00:00:17,510 --> 00:00:17,511
+77. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home"), 0)
+
+21
+00:00:17,556 --> 00:00:17,556
+81. click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+22
+00:00:18,473 --> 00:00:18,474
+85. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Scores"))
+
+23
+00:00:19,270 --> 00:00:19,272
+89. verifyTextPresent("Score Analysis ", false)
+
+24
+00:00:19,494 --> 00:00:19,511
+93. click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+25
+00:00:20,558 --> 00:00:20,560
+97. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_CPD"))
+
+26
+00:00:20,564 --> 00:00:20,565
+101. verifyTextPresent("CPD Modules", false)
+
+27
+00:00:20,569 --> 00:00:20,570
+105. click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+28
+00:00:20,574 --> 00:00:20,576
+109. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Centre"))
+
+29
+00:00:21,585 --> 00:00:21,586
+113. verifyTextPresent("Partner Centre", false)
+
+30
+00:00:21,770 --> 00:00:21,801
+117. click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+31
+00:00:22,826 --> 00:00:22,827
+121. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Partner Admin"))
+
+32
+00:00:25,435 --> 00:00:25,437
+125. verifyTextPresent("Account Management", false)
+
+33
+00:00:25,703 --> 00:00:25,704
+129. click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+34
+00:00:26,418 --> 00:00:26,420
+133. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts"))
+
+35
+00:00:27,731 --> 00:00:27,732
+137. verifyTextPresent("You do not have any groups associated.", false)
+
+36
+00:00:27,881 --> 00:00:27,882
+141. click(findTestObject("Page_My Profile - BMJ OnExamination/a_Home"))
+
+37
+00:00:29,087 --> 00:00:29,088
+145. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Help"))
+

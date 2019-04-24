@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_DRCOGEndocrinology and</name>
+   <tag></tag>
+   <elementGuidId>9759166e-830a-4b58-ac27-5e4f7aad2afc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='SelectedExam']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;SelectedExam&quot;)[count(. | //select[@id = 'SelectedExam' and @name = 'examselected' and @class = 'form-control' and (text() = 'DRCOGEndocrinology and Diabetes SCEFRCR Part 1FRCS - General SurgeryGastroenterology SCEMedical Student EndocrinologyMedical Student GastroenterologyMRCGPMRCP Part 1MRCP Part 2 WrittenTropical Health Education Trust moduleUKCAT' or . = 'DRCOGEndocrinology and Diabetes SCEFRCR Part 1FRCS - General SurgeryGastroenterology SCEMedical Student EndocrinologyMedical Student GastroenterologyMRCGPMRCP Part 1MRCP Part 2 WrittenTropical Health Education Trust moduleUKCAT')]) = count(//select[@id = 'SelectedExam' and @name = 'examselected' and @class = 'form-control' and (text() = 'DRCOGEndocrinology and Diabetes SCEFRCR Part 1FRCS - General SurgeryGastroenterology SCEMedical Student EndocrinologyMedical Student GastroenterologyMRCGPMRCP Part 1MRCP Part 2 WrittenTropical Health Education Trust moduleUKCAT' or . = 'DRCOGEndocrinology and Diabetes SCEFRCR Part 1FRCS - General SurgeryGastroenterology SCEMedical Student EndocrinologyMedical Student GastroenterologyMRCGPMRCP Part 1MRCP Part 2 WrittenTropical Health Education Trust moduleUKCAT')])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>SelectedExam</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>examselected</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DRCOGEndocrinology and Diabetes SCEFRCR Part 1FRCS - General SurgeryGastroenterology SCEMedical Student EndocrinologyMedical Student GastroenterologyMRCGPMRCP Part 1MRCP Part 2 WrittenTropical Health Education Trust moduleUKCAT</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SelectedExam&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='SelectedExam']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='settingsBox']/div/div/div/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exam resource:'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Options Selected'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//select</value>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,240 @@
+1
+00:00:00,637 --> 00:00:00,639
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:28,078 --> 00:00:28,081
+5. maximizeWindow()
+
+3
+00:00:29,550 --> 00:00:29,555
+9. Height = getPageHeight()
+
+4
+00:00:29,625 --> 00:00:29,625
+13. Width = getPageWidth()
+
+5
+00:00:29,658 --> 00:00:29,658
+17. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "testautomation@gmail.com")
+
+6
+00:00:30,360 --> 00:00:30,363
+21. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword1")
+
+7
+00:00:30,844 --> 00:00:30,847
+25. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+8
+00:00:32,621 --> 00:00:32,624
+29. delay(5)
+
+9
+00:00:37,650 --> 00:00:37,652
+33. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision"))
+
+10
+00:00:37,685 --> 00:00:37,685
+37. click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Choose Questions"))
+
+11
+00:00:37,685 --> 00:00:37,701
+41. navigateToUrl("https://testmy.onexamination.com/Account/Default.aspx")
+
+12
+00:00:37,701 --> 00:00:37,701
+45. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), 0)
+
+13
+00:00:37,781 --> 00:00:37,796
+49. selectOptionByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false)
+
+14
+00:00:37,988 --> 00:00:38,003
+53. verifyOptionSelectedByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false, 20)
+
+15
+00:00:39,244 --> 00:00:39,260
+57. delay(5)
+
+16
+00:00:44,248 --> 00:00:44,265
+61. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home"))
+
+17
+00:00:45,912 --> 00:00:45,915
+65. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Choose Questions"))
+
+18
+00:00:47,648 --> 00:00:47,652
+69. delay(5)
+
+19
+00:00:52,667 --> 00:00:52,673
+73. click(findTestObject("Page_BMJ OnExamination Choose Generate/input_I have got wrong before_"))
+
+20
+00:00:53,008 --> 00:00:53,011
+77. delay(5)
+
+21
+00:00:58,023 --> 00:00:58,024
+81. click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All curricula_qCat"))
+
+22
+00:00:58,335 --> 00:00:58,338
+85. delay(5)
+
+23
+00:01:03,355 --> 00:01:03,357
+89. click(findTestObject("Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ"))
+
+24
+00:01:03,663 --> 00:01:03,666
+93. click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption"))
+
+25
+00:01:03,929 --> 00:01:03,932
+97. click(findTestObject("Page_BMJ OnExamination Choose Generate/input_No tags_qTag"))
+
+26
+00:01:04,303 --> 00:01:04,306
+101. delay(2)
+
+27
+00:01:06,318 --> 00:01:06,320
+105. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6"))
+
+28
+00:01:06,353 --> 00:01:06,353
+109. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7"))
+
+29
+00:01:06,678 --> 00:01:06,682
+113. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8"))
+
+30
+00:01:06,693 --> 00:01:06,696
+117. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9"))
+
+31
+00:01:06,706 --> 00:01:06,709
+121. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10"))
+
+32
+00:01:06,721 --> 00:01:06,723
+125. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11"))
+
+33
+00:01:06,736 --> 00:01:06,738
+129. delay(2)
+
+34
+00:01:08,752 --> 00:01:08,768
+133. Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"))
+
+35
+00:01:08,943 --> 00:01:08,961
+137. verifyEqual(Count, 1)
+
+36
+00:01:08,976 --> 00:01:08,976
+141. verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["1 question"])
+
+37
+00:01:09,181 --> 00:01:09,198
+145. scrollToPosition(0, 0)
+
+38
+00:01:09,220 --> 00:01:09,223
+149. verifyTextPresent("Keywords: None", false)
+
+39
+00:01:10,191 --> 00:01:10,194
+153. verifyTextPresent("No of Questions: 1", false)
+
+40
+00:01:11,114 --> 00:01:11,131
+157. verifyTextPresent("Curricula: Decision Analysis", false)
+
+41
+00:01:11,992 --> 00:01:11,995
+161. click(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"))
+
+42
+00:01:12,301 --> 00:01:12,306
+165. delay(10)
+
+43
+00:01:22,317 --> 00:01:22,319
+169. verifyTextPresent("Question Session", false)
+
+44
+00:01:23,300 --> 00:01:23,301
+173. click(findTestObject("Page_BMJ OnExamination Assessment Session/Tags Section"))
+
+45
+00:01:23,622 --> 00:01:23,625
+177. verifyTextPresent("Robots follow the instructions given", false)
+
+46
+00:01:24,586 --> 00:01:24,589
+181. scrollToPosition(9999999, 9999999)
+
+47
+00:01:24,676 --> 00:01:24,679
+185. check(findTestObject("Page_BMJ OnExamination Assessment Session/DA3 RB"))
+
+48
+00:01:24,932 --> 00:01:24,935
+189. click(findTestObject("Page_BMJ OnExamination Assessment Session/SubmitAnswer"))
+
+49
+00:01:26,887 --> 00:01:26,890
+193. delay(5)
+
+50
+00:01:31,924 --> 00:01:31,928
+197. scrollToPosition(9999999, 9999999)
+
+51
+00:01:31,993 --> 00:01:31,994
+201. verifyElementPresent(findTestObject("Page_BMJ OnExamination Assessment Session/Correct Icon"), 0)
+
+52
+00:01:32,002 --> 00:01:32,004
+205. click(findTestObject("Page_BMJ OnExamination Assessment Session/GoToSummary"))
+
+53
+00:01:34,348 --> 00:01:34,351
+209. delay(5)
+
+54
+00:01:39,374 --> 00:01:39,375
+213. verifyTextPresent("Test summary", false)
+
+55
+00:01:40,149 --> 00:01:40,150
+217. navigateToUrl("https://testmy.onexamination.com/Review/ScoreAnalysis.aspx")
+
+56
+00:01:41,156 --> 00:01:41,158
+221. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185")
+
+57
+00:01:41,347 --> 00:01:41,349
+225. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Mean score"), "62.2")
+
+58
+00:01:41,491 --> 00:01:41,494
+229. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Current mean"), "50")
+
+59
+00:01:41,668 --> 00:01:41,670
+233. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Naive mean"), "50")
+
+60
+00:01:41,828 --> 00:01:41,830
+237. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsAnswered"), "2")
+

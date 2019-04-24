@@ -1,0 +1,152 @@
+1
+00:00:00,394 --> 00:00:00,396
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:10,013 --> 00:00:10,014
+5. maximizeWindow()
+
+3
+00:00:11,593 --> 00:00:11,595
+9. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+4
+00:00:12,127 --> 00:00:12,130
+13. delay(1)
+
+5
+00:00:13,254 --> 00:00:13,256
+17. verifyTextPresent("Please enter your email address", false)
+
+6
+00:00:13,860 --> 00:00:13,864
+21. verifyTextPresent("Please enter your password", false)
+
+7
+00:00:14,399 --> 00:00:14,401
+25. delay(2)
+
+8
+00:00:16,417 --> 00:00:16,419
+29. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+9
+00:00:17,931 --> 00:00:17,933
+33. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "")
+
+10
+00:00:18,463 --> 00:00:18,465
+37. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+11
+00:00:18,899 --> 00:00:18,903
+41. delay(2)
+
+12
+00:00:20,912 --> 00:00:20,914
+45. verifyTextPresent("Please enter your password", false)
+
+13
+00:00:21,244 --> 00:00:21,246
+49. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+14
+00:00:21,924 --> 00:00:21,926
+53. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "Password2")
+
+15
+00:00:22,312 --> 00:00:22,315
+57. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+16
+00:00:22,521 --> 00:00:22,523
+61. delay(2)
+
+17
+00:00:24,531 --> 00:00:24,533
+65. verifyTextPresent("Forgot your password or changed your email address?", false)
+
+18
+00:00:24,925 --> 00:00:24,927
+69. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal")
+
+19
+00:00:25,550 --> 00:00:25,552
+73. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+20
+00:00:26,004 --> 00:00:26,007
+77. delay(2)
+
+21
+00:00:28,018 --> 00:00:28,020
+81. verifyTextPresent("Invalid email address entered", false)
+
+22
+00:00:28,585 --> 00:00:28,587
+85. closeBrowser()
+
+23
+00:00:28,600 --> 00:00:28,602
+89. navigateToUrl("https://testmy.onexamination.com/login.aspx")
+
+24
+00:00:29,447 --> 00:00:29,453
+93. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "assa@gmail.com")
+
+25
+00:00:30,201 --> 00:00:30,205
+97. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2")
+
+26
+00:00:31,320 --> 00:00:31,322
+101. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+27
+00:00:32,404 --> 00:00:32,408
+105. delay(5)
+
+28
+00:00:37,416 --> 00:00:37,418
+109. verifyTextPresent("Invalid login details entered", false)
+
+29
+00:00:37,746 --> 00:00:37,748
+113. closeBrowser()
+
+30
+00:00:37,754 --> 00:00:37,756
+117. navigateToUrl("https://testmy.onexamination.com/login.aspx")
+
+31
+00:00:38,505 --> 00:00:38,507
+121. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+32
+00:00:39,154 --> 00:00:39,157
+125. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2")
+
+33
+00:00:39,522 --> 00:00:39,525
+129. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+34
+00:00:42,769 --> 00:00:42,770
+133. delay(2)
+
+35
+00:00:44,783 --> 00:00:44,784
+137. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Sign Out"), 0)
+
+36
+00:00:44,875 --> 00:00:44,876
+141. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Sign Out"))
+
+37
+00:00:46,048 --> 00:00:46,049
+145. delay(5)
+
+38
+00:00:51,058 --> 00:00:51,060
+149. closeBrowser()
+

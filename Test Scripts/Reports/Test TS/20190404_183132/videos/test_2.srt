@@ -1,0 +1,320 @@
+1
+00:00:00,549 --> 00:00:00,551
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:10,403 --> 00:00:10,405
+5. maximizeWindow()
+
+3
+00:00:12,245 --> 00:00:12,247
+9. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "vivek.jaiswal@northgateps.com")
+
+4
+00:00:12,872 --> 00:00:12,874
+13. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword2")
+
+5
+00:00:13,125 --> 00:00:13,127
+17. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+6
+00:00:15,256 --> 00:00:15,258
+21. delay(5)
+
+7
+00:00:20,266 --> 00:00:20,267
+25. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Exam Revision"))
+
+8
+00:00:24,194 --> 00:00:24,196
+29. click(findTestObject("Page_Exam Revision - BMJ OnExaminat/a_Core Questions"))
+
+9
+00:00:26,115 --> 00:00:26,117
+33. verifyTextPresent("Core Questions", false)
+
+10
+00:00:26,680 --> 00:00:26,681
+37. verifyTextPresent("Current Options Selected", false)
+
+11
+00:00:27,195 --> 00:00:27,197
+41. verifyTextPresent("Keywords: None", false)
+
+12
+00:00:27,501 --> 00:00:27,502
+45. verifyTextPresent("No of Questions", false)
+
+13
+00:00:27,778 --> 00:00:27,778
+49. verifyTextPresent("Curricula: All", false)
+
+14
+00:00:28,043 --> 00:00:28,044
+53. verifyTextPresent("Choose Questions", false)
+
+15
+00:00:28,286 --> 00:00:28,286
+57. verifyTextPresent("Choose Questions", false)
+
+16
+00:00:28,545 --> 00:00:28,561
+61. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/Choose Questions"), 0)
+
+17
+00:00:28,610 --> 00:00:28,612
+65. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Group Learning"), 0)
+
+18
+00:00:28,672 --> 00:00:28,674
+69. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Learning Journal"), 0)
+
+19
+00:00:28,712 --> 00:00:28,713
+73. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Mock Tests"), 0)
+
+20
+00:00:28,786 --> 00:00:28,789
+77. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Revision Advice"), 0)
+
+21
+00:00:28,897 --> 00:00:28,898
+81. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Tags"), 0)
+
+22
+00:00:29,061 --> 00:00:29,064
+85. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/a_Work Hard"), 0)
+
+23
+00:00:29,184 --> 00:00:29,186
+89. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), 0)
+
+24
+00:00:29,256 --> 00:00:29,258
+93. verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test"), "id", "btnGenerateRight", 0)
+
+25
+00:00:29,377 --> 00:00:29,379
+97. verifyElementPresent(findTestObject("Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs"), 0)
+
+26
+00:00:29,431 --> 00:00:29,449
+101. verifyElementAttributeValue(findTestObject("Page_BMJ OnExamination Choose Generate/button_Generate test (1)"), "id", "btnGenerateLeft", 0)
+
+27
+00:00:29,526 --> 00:00:29,530
+105. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/a_My Profile"))
+
+28
+00:00:30,318 --> 00:00:30,321
+109. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), 0)
+
+29
+00:00:30,356 --> 00:00:30,357
+113. selectOptionByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false)
+
+30
+00:00:30,498 --> 00:00:30,500
+117. verifyOptionSelectedByLabel(findTestObject("Page_My Dashboard - BMJ OnExaminati/select_Active revision course_"), "UKCAT", false, 20)
+
+31
+00:00:35,576 --> 00:00:35,578
+121. delay(5)
+
+32
+00:00:40,584 --> 00:00:40,585
+125. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Home"))
+
+33
+00:00:41,387 --> 00:00:41,388
+129. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Core Questions"))
+
+34
+00:00:41,934 --> 00:00:41,935
+133. delay(5)
+
+35
+00:00:46,942 --> 00:00:46,943
+137. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi"), 0)
+
+36
+00:00:47,040 --> 00:00:47,041
+141. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa"), 0)
+
+37
+00:00:47,122 --> 00:00:47,123
+145. click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption"))
+
+38
+00:00:47,283 --> 00:00:47,285
+149. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy"), 0)
+
+39
+00:00:47,362 --> 00:00:47,362
+153. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif"), 0)
+
+40
+00:00:47,458 --> 00:00:47,458
+157. verifyTextNotPresent("Filter by Tags", false)
+
+41
+00:00:47,817 --> 00:00:47,833
+161. verifyTextNotPresent("No tags", false)
+
+42
+00:00:48,160 --> 00:00:48,160
+165. verifyTextNotPresent("Select tags", false)
+
+43
+00:00:48,483 --> 00:00:48,484
+169. ExpectedPlaceholder = "eg, deep vein thrombosis, diabetes, thyroid"
+
+44
+00:00:48,515 --> 00:00:48,515
+173. placeholder = getAttribute(findTestObject("Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK"), "ActualPlaceholder")
+
+45
+00:00:48,579 --> 00:00:48,579
+177. if (ExpectedPlaceholder == placeholder)
+
+46
+00:00:48,579 --> 00:00:48,579
+181. click(findTestObject("Page_BMJ OnExamination Choose Generate/input_All curricula_qCat"))
+
+47
+00:00:48,726 --> 00:00:48,728
+185. verifyTextPresent("Abstract Reasoning", false)
+
+48
+00:00:49,114 --> 00:00:49,116
+189. verifyTextPresent("Decision Analysis", false)
+
+49
+00:00:49,473 --> 00:00:49,474
+193. verifyTextPresent("Quantitative Reasoning", false)
+
+50
+00:00:50,010 --> 00:00:50,012
+197. verifyTextPresent("Verbal Reasoning", false)
+
+51
+00:00:50,495 --> 00:00:50,497
+201. click(findTestObject("Page_BMJ OnExamination Choose Generate/div_Exam Options"))
+
+52
+00:00:50,657 --> 00:00:50,659
+205. check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT"))
+
+53
+00:00:50,876 --> 00:00:50,878
+209. delay(5)
+
+54
+00:00:55,886 --> 00:00:55,887
+213. Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"))
+
+55
+00:00:55,983 --> 00:00:55,984
+217. verifyEqual(Count, 2)
+
+56
+00:00:55,989 --> 00:00:55,990
+221. verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["10 questions", "13 questions"])
+
+57
+00:00:56,150 --> 00:00:56,153
+225. click(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Exam resource"))
+
+58
+00:00:56,329 --> 00:00:56,332
+229. verifyTextPresent("Best Answer Question", false)
+
+59
+00:00:56,750 --> 00:00:56,751
+233. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question"), 0)
+
+60
+00:00:56,815 --> 00:00:56,816
+237. verifyTextPresent("Problem Solving Question", false)
+
+61
+00:00:57,169 --> 00:00:57,170
+241. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question"), 0)
+
+62
+00:00:57,275 --> 00:00:57,275
+245. selectOptionByValue(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and"), "97", false)
+
+63
+00:00:57,746 --> 00:00:57,747
+249. delay(5)
+
+64
+00:01:02,751 --> 00:01:02,752
+253. verifyTextPresent("Medicine", false)
+
+65
+00:01:03,157 --> 00:01:03,158
+257. verifyTextPresent("Obs and Gynae", false)
+
+66
+00:01:03,547 --> 00:01:03,563
+261. verifyTextPresent("Paediatrics", false)
+
+67
+00:01:03,920 --> 00:01:03,936
+265. verifyTextPresent("Surgery", false)
+
+68
+00:01:04,335 --> 00:01:04,351
+269. check(findTestObject("Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical"))
+
+69
+00:01:04,529 --> 00:01:04,530
+273. delay(5)
+
+70
+00:01:09,537 --> 00:01:09,569
+277. Count = getNumberOfTotalOption(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"))
+
+71
+00:01:09,644 --> 00:01:09,645
+281. verifyEqual(Count, 1)
+
+72
+00:01:09,676 --> 00:01:09,676
+285. verifyOptionsPresent(findTestObject("Page_BMJ OnExamination Choose Generate/select_10 questions20 question"), ["0 questions"])
+
+73
+00:01:09,776 --> 00:01:09,778
+289. delay(2)
+
+74
+00:01:11,784 --> 00:01:11,785
+293. verifyTextPresent("MCQ", false)
+
+75
+00:01:12,225 --> 00:01:12,227
+297. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ"), 0)
+
+76
+00:01:12,297 --> 00:01:12,298
+301. verifyTextPresent("EMQ", false)
+
+77
+00:01:12,691 --> 00:01:12,706
+305. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ"), 0)
+
+78
+00:01:12,762 --> 00:01:12,763
+309. verifyTextPresent("n of Many", false)
+
+79
+00:01:13,175 --> 00:01:13,191
+313. verifyElementChecked(findTestObject("Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many"), 0)
+
+80
+00:01:13,413 --> 00:01:13,429
+317. closeBrowser()
+
