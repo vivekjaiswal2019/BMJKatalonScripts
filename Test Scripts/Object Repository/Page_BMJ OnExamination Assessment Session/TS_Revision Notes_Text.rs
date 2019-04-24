@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Revision Notes</name>
+   <name>TS_Revision Notes_Text</name>
    <tag></tag>
-   <elementGuidId>4f80155e-60a4-4915-bc96-147965a6d5e7</elementGuidId>
+   <elementGuidId>90b7d658-2782-46bb-adc5-500af7c39d37</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;ModuleReflectionToggleImage&quot;)[count(. | //img[@src = 'https://media.onexamination.com/Images/my/Plus.gif' and @id = 'ModuleReflectionToggleImage']) = count(//img[@src = 'https://media.onexamination.com/Images/my/Plus.gif' and @id = 'ModuleReflectionToggleImage'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//img[@id='ModuleReflectionToggleImage']</value>
+         <value>//textarea[@id='MainContent_ReflectionsTextBox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,75 +17,97 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>img</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>name</name>
       <type>Main</type>
-      <value>https://media.onexamination.com/Images/my/Plus.gif</value>
+      <value>ctl00$MainContent$ReflectionsTextBox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rows</name>
+      <type>Main</type>
+      <value>6</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>cols</name>
+      <type>Main</type>
+      <value>20</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>ModuleReflectionToggleImage</value>
+      <value>MainContent_ReflectionsTextBox</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>This is test Revision Notes</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ModuleReflectionToggleImage&quot;)</value>
+      <value>id(&quot;MainContent_ReflectionsTextBox&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//img[@id='ModuleReflectionToggleImage']</value>
+      <value>//textarea[@id='MainContent_ReflectionsTextBox']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//h3[@id='ModuleReflectionToggle']/img</value>
+      <value>//div[@id='MainContent_Reflections']/span/textarea</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Question Preview'])[1]/following::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/following::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Question'])[1]/following::img[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revision Notes'])[1]/following::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revision Notes'])[1]/preceding::img[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter your revision notes'])[1]/preceding::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notes:'])[1]/preceding::img[1]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:img</name>
-      <value>(//img[contains(@src,'https://media.onexamination.com/Images/my/Plus.gif')])[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Test my weak areas'])[1]/preceding::textarea[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[4]/h3/img</value>
+      <value>//textarea</value>
    </webElementXpaths>
 </WebElementEntity>

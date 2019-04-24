@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Leave question feedback link</name>
+   <name>LJ_QS_Link</name>
    <tag></tag>
-   <elementGuidId>400fdb70-231e-437e-95d4-9bc4bbcb6dbb</elementGuidId>
+   <elementGuidId>247538d1-01f0-4388-9fef-c1833840d1dd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;leavefeedbacklink&quot;)[count(. | //a[@id = 'leavefeedbacklink' and @class = 'marginBottom' and (text() = 'Leave question feedback' or . = 'Leave question feedback')]) = count(//a[@id = 'leavefeedbacklink' and @class = 'marginBottom' and (text() = 'Leave question feedback' or . = 'Leave question feedback')])]</value>
+         <value>id(&quot;MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0&quot;)[count(. | //a[@id = 'MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0' and @href = '/GenericAssessment/GenericAssessmentSummary.aspx?AssessmentId=14638099' and (text() = 'Question Session' or . = 'Question Session')]) = count(//a[@id = 'MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0' and @href = '/GenericAssessment/GenericAssessmentSummary.aspx?AssessmentId=14638099' and (text() = 'Question Session' or . = 'Question Session')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@id='leavefeedbacklink']</value>
+         <value>//a[@id='MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -28,75 +28,81 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>leavefeedbacklink</value>
+      <value>MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>marginBottom</value>
+      <value>/GenericAssessment/GenericAssessmentSummary.aspx?AssessmentId=14638099</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Leave question feedback</value>
+      <value>Question Session</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;leavefeedbacklink&quot;)</value>
+      <value>id(&quot;MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
-      <value>//a[@id='leavefeedbacklink']</value>
+      <value>//a[@id='MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='FeedbackContent']/div/a</value>
+      <value>//table[@id='MainContent_OverviewOuterRepeater_OverviewTable_0']/tbody/tr[2]/td/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
-      <value>//a[contains(text(),'Leave question feedback')]</value>
+      <value>//a[contains(text(),'Question Session')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rate this question'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Feedback'])[1]/following::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Score'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Question Navigator'])[1]/preceding::a[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Revision Notes'])[1]/preceding::a[12]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Wed, 24 April 09:25AM'])[1]/preceding::a[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <value>//a[contains(@href, '/GenericAssessment/GenericAssessmentSummary.aspx?AssessmentId=14638099')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div/a</value>
+      <value>//td/a</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -99,6 +99,8 @@ WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/button_Genera
 
 WebUI.delay(10)
 
+SessionURL = WebUI.getUrl()
+
 WebUI.verifyTextPresent('Question Session', false)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/Tags Section'))
@@ -107,15 +109,26 @@ WebUI.verifyTextPresent('I wish I was like those who are not afraid and love to 
 
 WebUI.scrollToPosition(9999999, 9999999)
 
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/SubmitAnswer'))
+
+WebUI.delay(3)
+
+WebUI.verifyTextPresent('Please select 1 option', false)
+
 WebUI.check(findTestObject('Page_BMJ OnExamination Assessment Session/DA2 RB'))
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/SubmitAnswer'))
 
 WebUI.delay(5)
 
+WebUI.verifyTextPresent('The code literally translates as \'Envy combine(opposite fear love) increase boat alone\'. \'Increase boat\' is best interpreted as a big boat, ship or big ship and, hence, answers 1 and 2 are unlikely to be correct. Answer 4 does not contain the word \'alone\' but the word \'singular\' so also appears unlikely to be correct. This leaves answers 3 or 5. \'I wish\' could be \'envy\' in both cases. \'Combine (opposite fear love)\' suggests that not afraid and \'love\' are the subject of the \'wish\' or \'envy\' rather than splitting the sense to mean a lovely ship. Answer 3 is therefore the most likely to be correct.', 
+    false)
+
 WebUI.scrollToElement(findTestObject('Page_BMJ OnExamination Assessment Session/Feedback Section'), 0)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/Feedback Section Link'))
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/Leave question feedback link'))
 
@@ -147,7 +160,13 @@ not_run: WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Asses
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/GoToSummary'))
 
+WebUI.focus(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes'))
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes'))
+
 WebUI.delay(5)
+
+WebUI.verifyElementText(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'), 'This is test Revision Notes')
 
 WebUI.verifyTextPresent('Test summary', false)
 
@@ -162,4 +181,17 @@ WebUI.verifyElementText(findTestObject('Page_Score Analysis - BMJ OnExamina/Curr
 WebUI.verifyElementText(findTestObject('Page_Score Analysis - BMJ OnExamina/Naive mean'), '100')
 
 WebUI.verifyElementText(findTestObject('Page_Score Analysis - BMJ OnExamina/QuestionsAnswered'), '1')
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/a_Learning Journal'))
+
+WebUI.delay(3)
+
+LJURL = WebUI.getAttribute(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_QS_Link'), 'href')
+
+if (SessionURL == LJURL) {
+    KeywordUtil.markPassed('LJ QS Link is proper')
+}
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Notes'))
+	
 
