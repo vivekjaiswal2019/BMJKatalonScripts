@@ -12,6 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
@@ -193,5 +194,26 @@ if (SessionURL == LJURL) {
 }
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Notes'))
-	
+
+WebUI.verifyElementAttributeValue(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Revision_Notes_Text'), 'text', 
+    'Revision Notes: This is test Revision Notes', 0)
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_QS_Link'))
+
+WebUI.delay(5)
+
+WebUI.focus(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes'))
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes'))
+
+WebUI.focus(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'))
+
+WebUI.sendKeys(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'), Keys.chord(Keys.ENTER, 
+        Keys.END))
+
+WebUI.setText(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'), 'Additional Txt from TS')
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Notes_Save'))
+
+WebUI.delay(5)
 
