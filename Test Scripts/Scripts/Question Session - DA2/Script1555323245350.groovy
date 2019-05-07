@@ -195,25 +195,95 @@ if (SessionURL == LJURL) {
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Notes'))
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Revision_Notes_Text'), 'text', 
-    'Revision Notes: This is test Revision Notes', 0)
+WebUI.verifyElementText(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Revision_Notes_Text'), 'Revision Notes: This is test Revision Notes')
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_QS_Link'))
 
 WebUI.delay(5)
 
+WebUI.scrollToPosition(99999, 99999)
+
 WebUI.focus(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes'))
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes'))
 
-WebUI.focus(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'))
+WebUI.delay(5)
 
-WebUI.sendKeys(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'), Keys.chord(Keys.ENTER, 
-        Keys.END))
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'))
+
+WebUI.sendKeys(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'), Keys.chord(Keys.TAB))
 
 WebUI.setText(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text'), 'Additional Txt from TS')
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Notes_Save'))
 
 WebUI.delay(5)
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/a_Learning Journal'))
+
+WebUI.delay(5)
+
+LJURL = WebUI.getAttribute(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_QS_Link'), 'href')
+
+if (SessionURL == LJURL) {
+    KeywordUtil.markPassed('LJ QS Link is proper')
+}
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Notes'))
+
+WebUI.verifyElementText(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_Revision_Notes_Text'), 'Revision Notes: Additional Txt from TS')
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_QS_Link'))
+
+WebUI.delay(0)
+
+WebUI.scrollToPosition(9999, 9999)
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Group learning'))
+
+WebUI.delay(5)
+
+WebUI.verifyTextPresent('Join your peers in this quiz format revision tool and compete against them whilst you test your knowledge.', 
+    false)
+
+WebUI.verifyTextPresent('Each quiz offers ten questions randomly selected from your exam revision resource. At the end of each set of ten questions you will be able to see the scores for those who have entered.', 
+    false)
+
+WebUI.verifyTextPresent('Join the quiz at any point and start answering questions when the next question begins.', false)
+
+WebUI.back()
+
+WebUI.scrollToPosition(9999, 9999)
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Learning journal'))
+
+WebUI.verifyTextPresent('Show Archived', false)
+
+WebUI.back()
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Test my weak areas'))
+
+WebUI.delay(5)
+
+WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ'), 0)
+
+WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.verifyTextPresent('No of Questions: 1', false)
+
+WebUI.verifyTextPresent('Curricula: Decision Analysis', false)
+
+WebUI.back()
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/TS_Resit Test'))
+
+WebUI.delay(5)
+
+WebUI.verifyTextPresent('Question Session', false)
+
+WebUI.scrollToPosition(99999, 99999)
+
+WebUI.verifyTextPresent('I wish I was like those who are not afraid and love to travel alone on ships', false)
+
+WebUI.verifyElementNotChecked(findTestObject('Page_BMJ OnExamination Assessment Session/DA2 RB'), 0)
 

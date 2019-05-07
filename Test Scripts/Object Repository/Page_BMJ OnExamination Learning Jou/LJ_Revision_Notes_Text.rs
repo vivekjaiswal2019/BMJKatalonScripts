@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//p[@id='MainContent_OverviewOuterRepeater_OverviewTable_0_ReflectionP_0']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//p[@id = 'MainContent_OverviewOuterRepeater_OverviewTable_0_ReflectionP_0']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -34,7 +38,7 @@
       <value>reflection</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
