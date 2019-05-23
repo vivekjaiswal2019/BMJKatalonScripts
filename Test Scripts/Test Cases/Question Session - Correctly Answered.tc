@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Script for checking correctly answered Q and its impact on Scoring</description>
+   <name>Question Session - Correctly Answered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>eb64723c-0293-43d8-bf43-1a7b6175c28f</testCaseGuid>
+</TestCaseEntity>

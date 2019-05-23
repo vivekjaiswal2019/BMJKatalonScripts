@@ -1,0 +1,280 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Score Computing,Chrome 74.0.3729.169,,2019-05-23 17:43:57,2019-05-23 17:49:43,5m - 45.827s,FAILED
+,,,,,,
+Test Cases/Reset Scores,Chrome 74.0.3729.169,Script for testing Reset Scores,2019-05-23 17:43:58,2019-05-23 17:44:54,55.615s,PASSED
+"openBrowser(""https://testcontrol.onexamination.com/Support/Default.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:44:00,2019-05-23 17:44:13,12.564s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-23 17:44:13,2019-05-23 17:44:14,1.502s,PASSED
+"setText(findTestObject(""Page_Control Sign in/Alias""), ""rafiqull.sheikh"")",Chrome 74.0.3729.169,,2019-05-23 17:44:14,2019-05-23 17:44:14,0.364s,PASSED
+"setText(findTestObject(""Page_Control Sign in/Password""), ""R@ve1234"")",Chrome 74.0.3729.169,,2019-05-23 17:44:14,2019-05-23 17:44:15,0.289s,PASSED
+"click(findTestObject(""Page_Control Sign in/Sign In""))",Chrome 74.0.3729.169,,2019-05-23 17:44:15,2019-05-23 17:44:17,1.932s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-23 17:44:17,2019-05-23 17:44:20,3.051s,PASSED
+"verifyTextPresent(""Help centre"", false)",Chrome 74.0.3729.169,,2019-05-23 17:44:20,2019-05-23 17:44:20,0.325s,PASSED
+"verifyTextPresent(""New requests"", false)",Chrome 74.0.3729.169,,2019-05-23 17:44:20,2019-05-23 17:44:20,0.281s,PASSED
+"click(findTestObject(""Page_Control Exam calendar/a_Users""))",Chrome 74.0.3729.169,,2019-05-23 17:44:20,2019-05-23 17:44:21,0.739s,PASSED
+"verifyTextPresent(""Manage users"", false)",Chrome 74.0.3729.169,,2019-05-23 17:44:21,2019-05-23 17:44:21,0.175s,PASSED
+"verifyTextPresent(""Search for a user"", false)",Chrome 74.0.3729.169,,2019-05-23 17:44:21,2019-05-23 17:44:21,0.233s,PASSED
+"setText(findTestObject(""Page_Control Manage users/Email Address""), ""testautomation@gmail.com"")",Chrome 74.0.3729.169,,2019-05-23 17:44:21,2019-05-23 17:44:22,0.326s,PASSED
+"click(findTestObject(""Page_Control Manage users/Search Button""))",Chrome 74.0.3729.169,,2019-05-23 17:44:22,2019-05-23 17:44:23,1.400s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:44:23,2019-05-23 17:44:28,5.011s,PASSED
+"click(findTestObject(""Page_Control Manage users/a_Edit exams""))",Chrome 74.0.3729.169,,2019-05-23 17:44:28,2019-05-23 17:44:28,0.150s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:44:28,2019-05-23 17:44:30,2.013s,PASSED
+"click(findTestObject(""Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores""))",Chrome 74.0.3729.169,,2019-05-23 17:44:30,2019-05-23 17:44:31,0.869s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:44:31,2019-05-23 17:44:36,5.022s,PASSED
+"click(findTestObject(""Page_Control Help centre/a_Sign out""))",Chrome 74.0.3729.169,,2019-05-23 17:44:36,2019-05-23 17:44:36,0.112s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:44:36,2019-05-23 17:44:38,2.007s,PASSED
+"navigateToUrl(""https://testmy.onexamination.com/login.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:44:38,2019-05-23 17:44:44,5.341s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""testautomation@gmail.com"")",Chrome 74.0.3729.169,,2019-05-23 17:44:44,2019-05-23 17:44:44,0.326s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword1"")",Chrome 74.0.3729.169,,2019-05-23 17:44:44,2019-05-23 17:44:44,0.267s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 74.0.3729.169,,2019-05-23 17:44:44,2019-05-23 17:44:46,1.516s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:44:46,2019-05-23 17:44:48,2.009s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Scores""))",Chrome 74.0.3729.169,,2019-05-23 17:44:48,2019-05-23 17:44:48,0.163s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:44:48,2019-05-23 17:44:50,2.006s,PASSED
+"verifyTextPresent(""Score Analysis"", false)",Chrome 74.0.3729.169,,2019-05-23 17:44:50,2019-05-23 17:44:50,0.248s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsTotal""), ""185"")",Chrome 74.0.3729.169,,2019-05-23 17:44:50,2019-05-23 17:44:50,0.109s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Mean score""), ""62.2"")",Chrome 74.0.3729.169,,2019-05-23 17:44:50,2019-05-23 17:44:50,0.120s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Current mean""), ""0"")",Chrome 74.0.3729.169,,2019-05-23 17:44:50,2019-05-23 17:44:51,0.107s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Naive mean""), ""0"")",Chrome 74.0.3729.169,,2019-05-23 17:44:51,2019-05-23 17:44:51,0.068s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsAnswered""), ""0"")",Chrome 74.0.3729.169,,2019-05-23 17:44:51,2019-05-23 17:44:51,0.109s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.169,,2019-05-23 17:44:51,2019-05-23 17:44:52,0.978s,PASSED
+,,,,,,
+Test Cases/Question Session - Correctly Answered,Chrome 74.0.3729.169,Script for checking correctly answered Q and its impact on Scoring,2019-05-23 17:44:54,2019-05-23 17:47:08,2m - 14.008s,FAILED
+"openBrowser(""https://testmy.onexamination.com/login.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:44:55,2019-05-23 17:45:07,12.221s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-23 17:45:07,2019-05-23 17:45:08,1.447s,PASSED
+Height = getPageHeight(),Chrome 74.0.3729.169,,2019-05-23 17:45:08,2019-05-23 17:45:08,0.054s,PASSED
+Width = getPageWidth(),Chrome 74.0.3729.169,,2019-05-23 17:45:08,2019-05-23 17:45:08,0.054s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""testautomation@gmail.com"")",Chrome 74.0.3729.169,,2019-05-23 17:45:08,2019-05-23 17:45:09,0.329s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword1"")",Chrome 74.0.3729.169,,2019-05-23 17:45:09,2019-05-23 17:45:09,0.226s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 74.0.3729.169,,2019-05-23 17:45:09,2019-05-23 17:45:11,1.899s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:45:11,2019-05-23 17:45:16,5.007s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision""))",Chrome 74.0.3729.169,,2019-05-23 17:45:16,2019-05-23 17:45:16,0.006s,NOT_RUN
+"click(findTestObject(""Page_Exam Revision - BMJ OnExaminat/a_Choose Questions""))",Chrome 74.0.3729.169,,2019-05-23 17:45:16,2019-05-23 17:45:16,0.005s,NOT_RUN
+"navigateToUrl(""https://testmy.onexamination.com/Account/Default.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:45:16,2019-05-23 17:45:16,0.668s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), 0)",Chrome 74.0.3729.169,,2019-05-23 17:45:16,2019-05-23 17:45:17,0.082s,PASSED
+"selectOptionByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false)",Chrome 74.0.3729.169,,2019-05-23 17:45:17,2019-05-23 17:45:17,0.115s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false, 20)",Chrome 74.0.3729.169,,2019-05-23 17:45:17,2019-05-23 17:45:17,0.732s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:45:17,2019-05-23 17:45:22,5.005s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Home""))",Chrome 74.0.3729.169,,2019-05-23 17:45:22,2019-05-23 17:45:23,0.155s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Choose Questions""))",Chrome 74.0.3729.169,,2019-05-23 17:45:23,2019-05-23 17:45:25,2.114s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:45:25,2019-05-23 17:45:30,5.008s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_I have got wrong before_""))",Chrome 74.0.3729.169,,2019-05-23 17:45:30,2019-05-23 17:45:30,0.175s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:45:30,2019-05-23 17:45:35,5.008s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All curricula_qCat""))",Chrome 74.0.3729.169,,2019-05-23 17:45:35,2019-05-23 17:45:35,0.181s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:45:35,2019-05-23 17:45:40,5.010s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ""))",Chrome 74.0.3729.169,,2019-05-23 17:45:40,2019-05-23 17:45:40,0.309s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption""))",Chrome 74.0.3729.169,,2019-05-23 17:45:40,2019-05-23 17:45:40,0.124s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_No tags_qTag""))",Chrome 74.0.3729.169,,2019-05-23 17:45:40,2019-05-23 17:45:41,0.170s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:45:41,2019-05-23 17:45:43,2.007s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6""))",Chrome 74.0.3729.169,,2019-05-23 17:45:43,2019-05-23 17:45:43,0.035s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7""))",Chrome 74.0.3729.169,,2019-05-23 17:45:43,2019-05-23 17:45:43,0.000s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8""))",Chrome 74.0.3729.169,,2019-05-23 17:45:43,2019-05-23 17:45:43,0.188s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9""))",Chrome 74.0.3729.169,,2019-05-23 17:45:43,2019-05-23 17:45:43,0.007s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10""))",Chrome 74.0.3729.169,,2019-05-23 17:45:43,2019-05-23 17:45:43,0.007s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11""))",Chrome 74.0.3729.169,,2019-05-23 17:45:43,2019-05-23 17:45:43,0.007s,NOT_RUN
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:45:43,2019-05-23 17:45:45,2.008s,PASSED
+"Count = getNumberOfTotalOption(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""))",Chrome 74.0.3729.169,,2019-05-23 17:45:45,2019-05-23 17:45:45,0.119s,PASSED
+"verifyEqual(Count, 1)",Chrome 74.0.3729.169,,2019-05-23 17:45:45,2019-05-23 17:45:45,0.105s,PASSED
+"verifyOptionsPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""), [""1 question""])",Chrome 74.0.3729.169,,2019-05-23 17:45:45,2019-05-23 17:45:45,0.150s,PASSED
+"scrollToPosition(0, 0)",Chrome 74.0.3729.169,,2019-05-23 17:45:45,2019-05-23 17:45:45,0.049s,PASSED
+"verifyTextPresent(""Keywords: None"", false)",Chrome 74.0.3729.169,,2019-05-23 17:45:45,2019-05-23 17:45:46,0.502s,PASSED
+"verifyTextPresent(""No of Questions: 1"", false)",Chrome 74.0.3729.169,,2019-05-23 17:45:46,2019-05-23 17:45:46,0.473s,PASSED
+"verifyTextPresent(""Curricula: Decision Analysis"", false)",Chrome 74.0.3729.169,,2019-05-23 17:45:46,2019-05-23 17:45:47,0.387s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test""))",Chrome 74.0.3729.169,,2019-05-23 17:45:47,2019-05-23 17:45:47,0.150s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-05-23 17:45:47,2019-05-23 17:45:57,10.016s,PASSED
+SessionURL = getUrl(),Chrome 74.0.3729.169,,2019-05-23 17:45:57,2019-05-23 17:45:57,0.060s,PASSED
+"verifyTextPresent(""Question Session"", false)",Chrome 74.0.3729.169,,2019-05-23 17:45:57,2019-05-23 17:45:57,0.414s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Tags Section""))",Chrome 74.0.3729.169,,2019-05-23 17:45:57,2019-05-23 17:45:57,0.124s,PASSED
+"verifyTextPresent(""I wish I was like those who are not afraid and love to travel alone on ships"", false)",Chrome 74.0.3729.169,,2019-05-23 17:45:57,2019-05-23 17:45:58,0.420s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 74.0.3729.169,,2019-05-23 17:45:58,2019-05-23 17:45:58,0.044s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/SubmitAnswer""))",Chrome 74.0.3729.169,,2019-05-23 17:45:58,2019-05-23 17:45:59,0.914s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-23 17:45:59,2019-05-23 17:46:02,3.012s,PASSED
+"verifyTextPresent(""Please select 1 option"", false)",Chrome 74.0.3729.169,,2019-05-23 17:46:02,2019-05-23 17:46:02,0.450s,PASSED
+"check(findTestObject(""Page_BMJ OnExamination Assessment Session/DA2 RB""))",Chrome 74.0.3729.169,,2019-05-23 17:46:02,2019-05-23 17:46:03,0.180s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/SubmitAnswer""))",Chrome 74.0.3729.169,,2019-05-23 17:46:03,2019-05-23 17:46:04,1.063s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:04,2019-05-23 17:46:09,5.008s,PASSED
+"verifyTextPresent(""The code literally translates as 'Envy combine(opposite fear love) increase boat alone'. 'Increase boat' is best interpreted as a big boat, ship or big ship and, hence, answers 1 and 2 are unlikely to be correct. Answer 4 does not contain the word 'alone' but the word 'singular' so also appears unlikely to be correct. This leaves answers 3 or 5. 'I wish' could be 'envy' in both cases. 'Combine (opposite fear love)' suggests that not afraid and 'love' are the subject of the 'wish' or 'envy' rather than splitting the sense to mean a lovely ship. Answer 3 is therefore the most likely to be correct."", false)",Chrome 74.0.3729.169,,2019-05-23 17:46:09,2019-05-23 17:46:09,0.515s,PASSED
+"scrollToElement(findTestObject(""Page_BMJ OnExamination Assessment Session/Feedback Section""), 0)",Chrome 74.0.3729.169,,2019-05-23 17:46:09,2019-05-23 17:46:09,0.116s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Feedback Section Link""))",Chrome 74.0.3729.169,,2019-05-23 17:46:09,2019-05-23 17:46:09,0.142s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:46:09,2019-05-23 17:46:11,2.005s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Leave question feedback link""))",Chrome 74.0.3729.169,,2019-05-23 17:46:11,2019-05-23 17:46:12,0.180s,PASSED
+"focus(findTestObject(""Page_BMJ OnExamination Assessment Session/Feedback TextBox""))",Chrome 74.0.3729.169,,2019-05-23 17:46:12,2019-05-23 17:46:12,0.150s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Assessment Session/Feedback TextBox""), ""This is Test Feedback"")",Chrome 74.0.3729.169,,2019-05-23 17:46:12,2019-05-23 17:46:12,0.279s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Feedback Submit""))",Chrome 74.0.3729.169,,2019-05-23 17:46:12,2019-05-23 17:46:12,0.121s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Assessment Session/Feedback Thank you""), 0)",Chrome 74.0.3729.169,,2019-05-23 17:46:12,2019-05-23 17:46:14,1.613s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Revision Notes Section Link""))",Chrome 74.0.3729.169,,2019-05-23 17:46:14,2019-05-23 17:46:14,0.129s,PASSED
+"focus(findTestObject(""Page_BMJ OnExamination Assessment Session/Revision Notes TextBox""))",Chrome 74.0.3729.169,,2019-05-23 17:46:14,2019-05-23 17:46:14,0.148s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Assessment Session/Revision Notes TextBox""), ""This is test Revision Notes"")",Chrome 74.0.3729.169,,2019-05-23 17:46:14,2019-05-23 17:46:14,0.394s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Revision Notes Save""))",Chrome 74.0.3729.169,,2019-05-23 17:46:14,2019-05-23 17:46:16,1.244s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:16,2019-05-23 17:46:21,5.010s,PASSED
+"verifyTextPresent(""Your revision notes were successfully saved."", false)",Chrome 74.0.3729.169,,2019-05-23 17:46:21,2019-05-23 17:46:21,0.465s,PASSED
+"verifyTextPresent(""This is test Revision Notes"", false)",Chrome 74.0.3729.169,,2019-05-23 17:46:21,2019-05-23 17:46:22,0.474s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 74.0.3729.169,,2019-05-23 17:46:22,2019-05-23 17:46:22,0.022s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Assessment Session/Correct Icon""), 0)",Chrome 74.0.3729.169,,2019-05-23 17:46:22,2019-05-23 17:46:22,0.007s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/GoToSummary""))",Chrome 74.0.3729.169,,2019-05-23 17:46:22,2019-05-23 17:46:23,1.508s,PASSED
+"focus(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes""))",Chrome 74.0.3729.169,,2019-05-23 17:46:23,2019-05-23 17:46:23,0.181s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes""))",Chrome 74.0.3729.169,,2019-05-23 17:46:23,2019-05-23 17:46:23,0.128s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:23,2019-05-23 17:46:28,5.019s,PASSED
+"verifyElementText(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text""), ""This is test Revision Notes"")",Chrome 74.0.3729.169,,2019-05-23 17:46:28,2019-05-23 17:46:29,0.118s,PASSED
+"verifyTextPresent(""Test summary"", false)",Chrome 74.0.3729.169,,2019-05-23 17:46:29,2019-05-23 17:46:29,0.354s,PASSED
+"navigateToUrl(""https://testmy.onexamination.com/Review/ScoreAnalysis.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:46:29,2019-05-23 17:46:30,1.026s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsTotal""), ""185"")",Chrome 74.0.3729.169,,2019-05-23 17:46:30,2019-05-23 17:46:30,0.071s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Mean score""), ""62.2"")",Chrome 74.0.3729.169,,2019-05-23 17:46:30,2019-05-23 17:46:30,0.062s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Current mean""), ""100"")",Chrome 74.0.3729.169,,2019-05-23 17:46:30,2019-05-23 17:46:30,0.069s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Naive mean""), ""100"")",Chrome 74.0.3729.169,,2019-05-23 17:46:30,2019-05-23 17:46:30,0.065s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsAnswered""), ""1"")",Chrome 74.0.3729.169,,2019-05-23 17:46:30,2019-05-23 17:46:30,0.084s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Learning Journal""))",Chrome 74.0.3729.169,,2019-05-23 17:46:30,2019-05-23 17:46:30,0.162s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-23 17:46:30,2019-05-23 17:46:33,3.006s,PASSED
+"LJURL = getAttribute(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_QS_Link""), ""href"")",Chrome 74.0.3729.169,,2019-05-23 17:46:33,2019-05-23 17:46:34,0.121s,PASSED
+if (SessionURL == LJURL),Chrome 74.0.3729.169,,2019-05-23 17:46:34,2019-05-23 17:46:34,0.031s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_Notes""))",Chrome 74.0.3729.169,,2019-05-23 17:46:34,2019-05-23 17:46:34,0.218s,PASSED
+"verifyElementText(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_Revision_Notes_Text""), ""Revision Notes: This is test Revision Notes"")",Chrome 74.0.3729.169,,2019-05-23 17:46:34,2019-05-23 17:46:34,0.093s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_QS_Link""))",Chrome 74.0.3729.169,,2019-05-23 17:46:34,2019-05-23 17:46:34,0.137s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:34,2019-05-23 17:46:39,5.007s,PASSED
+"scrollToPosition(99999, 99999)",Chrome 74.0.3729.169,,2019-05-23 17:46:39,2019-05-23 17:46:39,0.069s,PASSED
+"focus(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes""))",Chrome 74.0.3729.169,,2019-05-23 17:46:39,2019-05-23 17:46:39,0.072s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes""))",Chrome 74.0.3729.169,,2019-05-23 17:46:39,2019-05-23 17:46:39,0.103s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:39,2019-05-23 17:46:44,5.011s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text""))",Chrome 74.0.3729.169,,2019-05-23 17:46:44,2019-05-23 17:46:45,0.170s,PASSED
+"sendKeys(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text""), Keys.chord(TAB))",Chrome 74.0.3729.169,,2019-05-23 17:46:45,2019-05-23 17:46:45,0.159s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Revision Notes_Text""), ""Additional Txt from TS"")",Chrome 74.0.3729.169,,2019-05-23 17:46:45,2019-05-23 17:46:45,0.354s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Notes_Save""))",Chrome 74.0.3729.169,,2019-05-23 17:46:45,2019-05-23 17:46:46,1.061s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:46,2019-05-23 17:46:51,5.008s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Learning Journal""))",Chrome 74.0.3729.169,,2019-05-23 17:46:51,2019-05-23 17:46:51,0.199s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:51,2019-05-23 17:46:56,5.010s,PASSED
+"LJURL = getAttribute(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_QS_Link""), ""href"")",Chrome 74.0.3729.169,,2019-05-23 17:46:56,2019-05-23 17:46:56,0.087s,PASSED
+if (SessionURL == LJURL),Chrome 74.0.3729.169,,2019-05-23 17:46:56,2019-05-23 17:46:56,0.005s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_Notes""))",Chrome 74.0.3729.169,,2019-05-23 17:46:56,2019-05-23 17:46:57,0.182s,PASSED
+"verifyElementText(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_Revision_Notes_Text""), ""Revision Notes: Additional Txt from TS"")",Chrome 74.0.3729.169,,2019-05-23 17:46:57,2019-05-23 17:46:57,0.112s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_QS_Link""))",Chrome 74.0.3729.169,,2019-05-23 17:46:57,2019-05-23 17:46:57,0.206s,PASSED
+delay(0),Chrome 74.0.3729.169,,2019-05-23 17:46:57,2019-05-23 17:46:57,0.005s,PASSED
+"scrollToPosition(9999, 9999)",Chrome 74.0.3729.169,,2019-05-23 17:46:57,2019-05-23 17:46:57,0.019s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Group learning""))",Chrome 74.0.3729.169,,2019-05-23 17:46:57,2019-05-23 17:46:58,0.854s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:46:58,2019-05-23 17:47:03,5.007s,PASSED
+"verifyTextPresent(""Join your peers in this quiz format revision tool and compete against them whilst you test your knowledge."", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:03,2019-05-23 17:47:03,0.209s,PASSED
+"verifyTextPresent(""Each quiz offers ten questions randomly selected from your exam revision resource. At the end of each set of ten questions you will be able to see the scores for those who have entered."", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:03,2019-05-23 17:47:03,0.157s,PASSED
+"verifyTextPresent(""Join the quiz at any point and start answering questions when the next question begins."", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:03,2019-05-23 17:47:03,0.159s,PASSED
+back(),Chrome 74.0.3729.169,,2019-05-23 17:47:03,2019-05-23 17:47:04,0.346s,PASSED
+"scrollToPosition(9999, 9999)",Chrome 74.0.3729.169,,2019-05-23 17:47:04,2019-05-23 17:47:04,0.019s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Learning journal""))",Chrome 74.0.3729.169,,2019-05-23 17:47:04,2019-05-23 17:47:04,0.204s,PASSED
+"verifyTextPresent(""Show Archived"", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:04,2019-05-23 17:47:06,1.807s,FAILED
+,,,,,,
+Test Cases/Reset Scores,Chrome 74.0.3729.169,Script for testing Reset Scores,2019-05-23 17:47:08,2019-05-23 17:47:54,46.574s,PASSED
+"openBrowser(""https://testcontrol.onexamination.com/Support/Default.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:47:08,2019-05-23 17:47:16,7.769s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-23 17:47:16,2019-05-23 17:47:17,1.423s,PASSED
+"setText(findTestObject(""Page_Control Sign in/Alias""), ""rafiqull.sheikh"")",Chrome 74.0.3729.169,,2019-05-23 17:47:17,2019-05-23 17:47:17,0.276s,PASSED
+"setText(findTestObject(""Page_Control Sign in/Password""), ""R@ve1234"")",Chrome 74.0.3729.169,,2019-05-23 17:47:17,2019-05-23 17:47:18,0.195s,PASSED
+"click(findTestObject(""Page_Control Sign in/Sign In""))",Chrome 74.0.3729.169,,2019-05-23 17:47:18,2019-05-23 17:47:19,0.946s,PASSED
+delay(3),Chrome 74.0.3729.169,,2019-05-23 17:47:19,2019-05-23 17:47:22,3.008s,PASSED
+"verifyTextPresent(""Help centre"", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:22,2019-05-23 17:47:22,0.361s,PASSED
+"verifyTextPresent(""New requests"", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:22,2019-05-23 17:47:22,0.309s,PASSED
+"click(findTestObject(""Page_Control Exam calendar/a_Users""))",Chrome 74.0.3729.169,,2019-05-23 17:47:22,2019-05-23 17:47:23,0.549s,PASSED
+"verifyTextPresent(""Manage users"", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:23,2019-05-23 17:47:23,0.167s,PASSED
+"verifyTextPresent(""Search for a user"", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:23,2019-05-23 17:47:23,0.138s,PASSED
+"setText(findTestObject(""Page_Control Manage users/Email Address""), ""testautomation@gmail.com"")",Chrome 74.0.3729.169,,2019-05-23 17:47:23,2019-05-23 17:47:23,0.326s,PASSED
+"click(findTestObject(""Page_Control Manage users/Search Button""))",Chrome 74.0.3729.169,,2019-05-23 17:47:23,2019-05-23 17:47:25,1.270s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:47:25,2019-05-23 17:47:30,5.007s,PASSED
+"click(findTestObject(""Page_Control Manage users/a_Edit exams""))",Chrome 74.0.3729.169,,2019-05-23 17:47:30,2019-05-23 17:47:30,0.110s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:47:30,2019-05-23 17:47:32,2.007s,PASSED
+"click(findTestObject(""Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores""))",Chrome 74.0.3729.169,,2019-05-23 17:47:32,2019-05-23 17:47:33,0.733s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:47:33,2019-05-23 17:47:38,5.007s,PASSED
+"click(findTestObject(""Page_Control Help centre/a_Sign out""))",Chrome 74.0.3729.169,,2019-05-23 17:47:38,2019-05-23 17:47:38,0.200s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:47:38,2019-05-23 17:47:40,2.006s,PASSED
+"navigateToUrl(""https://testmy.onexamination.com/login.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:47:40,2019-05-23 17:47:44,4.248s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""testautomation@gmail.com"")",Chrome 74.0.3729.169,,2019-05-23 17:47:44,2019-05-23 17:47:44,0.299s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword1"")",Chrome 74.0.3729.169,,2019-05-23 17:47:44,2019-05-23 17:47:45,0.245s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 74.0.3729.169,,2019-05-23 17:47:45,2019-05-23 17:47:47,2.048s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:47:47,2019-05-23 17:47:49,2.047s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Scores""))",Chrome 74.0.3729.169,,2019-05-23 17:47:49,2019-05-23 17:47:49,0.135s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:47:49,2019-05-23 17:47:51,2.005s,PASSED
+"verifyTextPresent(""Score Analysis"", false)",Chrome 74.0.3729.169,,2019-05-23 17:47:51,2019-05-23 17:47:51,0.231s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsTotal""), ""185"")",Chrome 74.0.3729.169,,2019-05-23 17:47:51,2019-05-23 17:47:51,0.089s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Mean score""), ""62.2"")",Chrome 74.0.3729.169,,2019-05-23 17:47:51,2019-05-23 17:47:51,0.067s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Current mean""), ""0"")",Chrome 74.0.3729.169,,2019-05-23 17:47:51,2019-05-23 17:47:51,0.095s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Naive mean""), ""0"")",Chrome 74.0.3729.169,,2019-05-23 17:47:51,2019-05-23 17:47:51,0.081s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsAnswered""), ""0"")",Chrome 74.0.3729.169,,2019-05-23 17:47:51,2019-05-23 17:47:51,0.075s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 74.0.3729.169,,2019-05-23 17:47:51,2019-05-23 17:47:52,0.926s,PASSED
+,,,,,,
+Test Cases/Question Session - Incorrectly Answered,Chrome 74.0.3729.169,Script for checking incorrectly answered question and its impact on scoring,2019-05-23 17:47:54,2019-05-23 17:49:42,1m - 47.591s,PASSED
+"openBrowser(""https://testmy.onexamination.com/login.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:47:55,2019-05-23 17:48:05,10.274s,PASSED
+maximizeWindow(),Chrome 74.0.3729.169,,2019-05-23 17:48:05,2019-05-23 17:48:07,1.428s,PASSED
+Height = getPageHeight(),Chrome 74.0.3729.169,,2019-05-23 17:48:07,2019-05-23 17:48:07,0.030s,PASSED
+Width = getPageWidth(),Chrome 74.0.3729.169,,2019-05-23 17:48:07,2019-05-23 17:48:07,0.021s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC""), ""testautomation@gmail.com"")",Chrome 74.0.3729.169,,2019-05-23 17:48:07,2019-05-23 17:48:07,0.356s,PASSED
+"setText(findTestObject(""Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten""), ""P@ssword1"")",Chrome 74.0.3729.169,,2019-05-23 17:48:07,2019-05-23 17:48:07,0.232s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Sign In/input_Please enter your passwo""))",Chrome 74.0.3729.169,,2019-05-23 17:48:07,2019-05-23 17:48:09,1.986s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:48:09,2019-05-23 17:48:14,5.006s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision""))",Chrome 74.0.3729.169,,2019-05-23 17:48:14,2019-05-23 17:48:14,0.006s,NOT_RUN
+"click(findTestObject(""Page_Exam Revision - BMJ OnExaminat/a_Choose Questions""))",Chrome 74.0.3729.169,,2019-05-23 17:48:14,2019-05-23 17:48:14,0.005s,NOT_RUN
+"navigateToUrl(""https://testmy.onexamination.com/Account/Default.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:48:14,2019-05-23 17:48:15,0.569s,PASSED
+"verifyElementPresent(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), 0)",Chrome 74.0.3729.169,,2019-05-23 17:48:15,2019-05-23 17:48:15,0.039s,PASSED
+"selectOptionByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false)",Chrome 74.0.3729.169,,2019-05-23 17:48:15,2019-05-23 17:48:15,0.091s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_My Dashboard - BMJ OnExaminati/select_Active revision course_""), ""UKCAT"", false, 20)",Chrome 74.0.3729.169,,2019-05-23 17:48:15,2019-05-23 17:48:16,0.679s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:48:16,2019-05-23 17:48:21,5.005s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Home""))",Chrome 74.0.3729.169,,2019-05-23 17:48:21,2019-05-23 17:48:21,0.163s,PASSED
+"click(findTestObject(""Page_My Dashboard - BMJ OnExaminati/a_Choose Questions""))",Chrome 74.0.3729.169,,2019-05-23 17:48:21,2019-05-23 17:48:23,2.129s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:48:23,2019-05-23 17:48:28,5.006s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_I have got wrong before_""))",Chrome 74.0.3729.169,,2019-05-23 17:48:28,2019-05-23 17:48:28,0.204s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:48:28,2019-05-23 17:48:33,5.007s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All curricula_qCat""))",Chrome 74.0.3729.169,,2019-05-23 17:48:33,2019-05-23 17:48:34,0.188s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:48:34,2019-05-23 17:48:39,5.009s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_Abstract Reasoning_Categ""))",Chrome 74.0.3729.169,,2019-05-23 17:48:39,2019-05-23 17:48:39,0.207s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption""))",Chrome 74.0.3729.169,,2019-05-23 17:48:39,2019-05-23 17:48:39,0.132s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/input_No tags_qTag""))",Chrome 74.0.3729.169,,2019-05-23 17:48:39,2019-05-23 17:48:39,0.164s,PASSED
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:48:39,2019-05-23 17:48:41,2.007s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_QR6_qTag6""))",Chrome 74.0.3729.169,,2019-05-23 17:48:41,2019-05-23 17:48:41,0.010s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA1_qTag7""))",Chrome 74.0.3729.169,,2019-05-23 17:48:41,2019-05-23 17:48:41,0.166s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA3_qTag8""))",Chrome 74.0.3729.169,,2019-05-23 17:48:41,2019-05-23 17:48:41,0.195s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA2_qTag9""))",Chrome 74.0.3729.169,,2019-05-23 17:48:41,2019-05-23 17:48:41,0.006s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA5_qTag10""))",Chrome 74.0.3729.169,,2019-05-23 17:48:41,2019-05-23 17:48:41,0.004s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_DA6_qTag11""))",Chrome 74.0.3729.169,,2019-05-23 17:48:41,2019-05-23 17:48:41,0.007s,NOT_RUN
+delay(2),Chrome 74.0.3729.169,,2019-05-23 17:48:41,2019-05-23 17:48:43,2.004s,PASSED
+"Count = getNumberOfTotalOption(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""))",Chrome 74.0.3729.169,,2019-05-23 17:48:43,2019-05-23 17:48:44,0.035s,NOT_RUN
+"verifyEqual(Count, 2)",Chrome 74.0.3729.169,,2019-05-23 17:48:44,2019-05-23 17:48:44,0.000s,NOT_RUN
+"verifyOptionsPresent(findTestObject(""Page_BMJ OnExamination Choose Generate/select_10 questions20 question""), [""2 questions""])",Chrome 74.0.3729.169,,2019-05-23 17:48:44,2019-05-23 17:48:44,0.144s,PASSED
+"scrollToPosition(0, 0)",Chrome 74.0.3729.169,,2019-05-23 17:48:44,2019-05-23 17:48:44,0.032s,PASSED
+"verifyTextPresent(""Keywords: None"", false)",Chrome 74.0.3729.169,,2019-05-23 17:48:44,2019-05-23 17:48:44,0.433s,PASSED
+"verifyTextPresent(""No of Questions: 2"", false)",Chrome 74.0.3729.169,,2019-05-23 17:48:44,2019-05-23 17:48:45,0.388s,PASSED
+"verifyTextPresent(""Curricula: Decision Analysis"", false)",Chrome 74.0.3729.169,,2019-05-23 17:48:45,2019-05-23 17:48:45,0.385s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/button_Generate test""))",Chrome 74.0.3729.169,,2019-05-23 17:48:45,2019-05-23 17:48:45,0.152s,PASSED
+delay(10),Chrome 74.0.3729.169,,2019-05-23 17:48:45,2019-05-23 17:48:55,10.006s,PASSED
+"verifyTextPresent(""Question Session"", false)",Chrome 74.0.3729.169,,2019-05-23 17:48:55,2019-05-23 17:48:56,0.465s,PASSED
+SessionURL = getUrl(),Chrome 74.0.3729.169,,2019-05-23 17:48:56,2019-05-23 17:48:56,0.021s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Tags Section""))",Chrome 74.0.3729.169,,2019-05-23 17:48:56,2019-05-23 17:48:56,0.128s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 74.0.3729.169,,2019-05-23 17:48:56,2019-05-23 17:48:56,0.017s,PASSED
+"if (verifyTextPresent(""Robots follow the instructions given"", true, OPTIONAL))",Chrome 74.0.3729.169,,2019-05-23 17:48:56,2019-05-23 17:48:56,0.596s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/SubmitAnswer""))",Chrome 74.0.3729.169,,2019-05-23 17:48:56,2019-05-23 17:48:58,1.818s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:48:58,2019-05-23 17:49:03,5.006s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 74.0.3729.169,,2019-05-23 17:49:03,2019-05-23 17:49:03,0.045s,PASSED
+"verifyElementPresent(findTestObject(""Page_BMJ OnExamination Assessment Session/Correct Icon""), 0)",Chrome 74.0.3729.169,,2019-05-23 17:49:03,2019-05-23 17:49:03,0.006s,NOT_RUN
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/Next Question""))",Chrome 74.0.3729.169,,2019-05-23 17:49:03,2019-05-23 17:49:05,1.365s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:49:05,2019-05-23 17:49:10,5.005s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 74.0.3729.169,,2019-05-23 17:49:10,2019-05-23 17:49:10,0.032s,PASSED
+"if (verifyTextPresent(""Robots follow the instructions given"", false, OPTIONAL))",Chrome 74.0.3729.169,,2019-05-23 17:49:10,2019-05-23 17:49:10,0.445s,PASSED
+else,Chrome 74.0.3729.169,,2019-05-23 17:49:10,2019-05-23 17:49:10,0.138s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/SubmitAnswer""))",Chrome 74.0.3729.169,,2019-05-23 17:49:10,2019-05-23 17:49:11,0.991s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:49:11,2019-05-23 17:49:16,5.005s,PASSED
+"scrollToPosition(9999999, 9999999)",Chrome 74.0.3729.169,,2019-05-23 17:49:16,2019-05-23 17:49:16,0.052s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/GoToSummary""))",Chrome 74.0.3729.169,,2019-05-23 17:49:16,2019-05-23 17:49:18,1.607s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:49:18,2019-05-23 17:49:23,5.006s,PASSED
+"verifyTextPresent(""Test summary"", false)",Chrome 74.0.3729.169,,2019-05-23 17:49:23,2019-05-23 17:49:23,0.402s,PASSED
+"navigateToUrl(""https://testmy.onexamination.com/Review/ScoreAnalysis.aspx"")",Chrome 74.0.3729.169,,2019-05-23 17:49:23,2019-05-23 17:49:24,0.595s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsTotal""), ""185"")",Chrome 74.0.3729.169,,2019-05-23 17:49:24,2019-05-23 17:49:24,0.101s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Mean score""), ""62.2"")",Chrome 74.0.3729.169,,2019-05-23 17:49:24,2019-05-23 17:49:24,0.122s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Current mean""), ""50"")",Chrome 74.0.3729.169,,2019-05-23 17:49:24,2019-05-23 17:49:24,0.272s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/Naive mean""), ""50"")",Chrome 74.0.3729.169,,2019-05-23 17:49:24,2019-05-23 17:49:24,0.096s,PASSED
+"verifyElementText(findTestObject(""Page_Score Analysis - BMJ OnExamina/QuestionsAnswered""), ""2"")",Chrome 74.0.3729.169,,2019-05-23 17:49:24,2019-05-23 17:49:24,0.075s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Learning Journal""))",Chrome 74.0.3729.169,,2019-05-23 17:49:24,2019-05-23 17:49:25,0.137s,PASSED
+"LJURL = getAttribute(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_QS_Link""), ""href"")",Chrome 74.0.3729.169,,2019-05-23 17:49:25,2019-05-23 17:49:25,0.709s,PASSED
+if (SessionURL == LJURL),Chrome 74.0.3729.169,,2019-05-23 17:49:25,2019-05-23 17:49:25,0.007s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_QS_Link""))",Chrome 74.0.3729.169,,2019-05-23 17:49:25,2019-05-23 17:49:25,0.148s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:49:25,2019-05-23 17:49:30,5.005s,PASSED
+"scrollToPosition(99999, 99999)",Chrome 74.0.3729.169,,2019-05-23 17:49:30,2019-05-23 17:49:31,0.044s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Assessment Session/TS_Retry Incorrect Questions""))",Chrome 74.0.3729.169,,2019-05-23 17:49:31,2019-05-23 17:49:32,1.870s,PASSED
+delay(5),Chrome 74.0.3729.169,,2019-05-23 17:49:32,2019-05-23 17:49:37,5.011s,PASSED
+"verifyTextPresent(""Question Session"", false)",Chrome 74.0.3729.169,,2019-05-23 17:49:37,2019-05-23 17:49:38,0.513s,PASSED
+"scrollToPosition(99999, 99999)",Chrome 74.0.3729.169,,2019-05-23 17:49:38,2019-05-23 17:49:38,0.021s,PASSED
+"verifyTextPresent(""Robots follow the instructions given"", false)",Chrome 74.0.3729.169,,2019-05-23 17:49:38,2019-05-23 17:49:38,0.481s,PASSED
+"verifyElementNotChecked(findTestObject(""Page_BMJ OnExamination Assessment Session/DA3 RB""), 0)",Chrome 74.0.3729.169,,2019-05-23 17:49:38,2019-05-23 17:49:39,0.163s,PASSED
+"click(findTestObject(""Page_BMJ OnExamination Choose Generate/a_Learning Journal""))",Chrome 74.0.3729.169,,2019-05-23 17:49:39,2019-05-23 17:49:39,0.208s,PASSED
+"LJURLRetry = getAttribute(findTestObject(""Page_BMJ OnExamination Learning Jou/LJ_QS_Link""), ""href"")",Chrome 74.0.3729.169,,2019-05-23 17:49:39,2019-05-23 17:49:40,0.960s,PASSED
+LJURLRetry = getUrl(),Chrome 74.0.3729.169,,2019-05-23 17:49:40,2019-05-23 17:49:40,0.008s,NOT_RUN
+if (SessionURL != LJURLRetry),Chrome 74.0.3729.169,,2019-05-23 17:49:40,2019-05-23 17:49:40,0.006s,NOT_RUN

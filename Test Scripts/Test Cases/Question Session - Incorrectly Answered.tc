@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Script for checking incorrectly answered question and its impact on scoring</description>
+   <name>Question Session - Incorrectly Answered</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cef157e2-c7fb-42b6-81c9-336344eac1c1</testCaseGuid>
+</TestCaseEntity>

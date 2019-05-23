@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Script for testing Reset Scores</description>
    <name>Reset Scores</name>
    <tag></tag>
    <comment></comment>

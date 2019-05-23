@@ -11,7 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>45bc2685-92dd-487e-9503-800d7131960a</testSuiteGuid>
    <testCaseLink>
-      <guid>e7956640-509f-4a26-873f-9977c3784208</guid>
+      <guid>66e8443f-0cdb-4450-a281-5270b7cfe66f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Reset Scores</testCaseId>
@@ -47,15 +47,51 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>92685a1c-fb7f-4715-a720-bf728bdff31f</guid>
+      <guid>f2a6e6ca-e3ce-4072-a1da-6559735a5f9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Question Session - DA2</testCaseId>
+      <testCaseId>Test Cases/Question Session - Correctly Answered</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>320440b5-194f-4a89-b6ed-17072e0a5ec3</guid>
+      <guid>b18da3ca-572c-4c1f-b3e1-506779ccde1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Question Session - DA3</testCaseId>
+      <testCaseId>Test Cases/Reset Scores</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4516d6de-a612-4c49-9a3d-fdc5d1522075</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>15ae036a-4d70-41c7-adcd-38d7233d54b0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a03796a7-44aa-4380-a1fe-5b980832a2bd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b32c1df6-d0e5-4378-9275-e93558641542</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d4620d0b-8866-4095-85cb-5dea4a25d339</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>63f6b08e-71ce-4de7-9f14-c0767fd30843</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Question Session - Incorrectly Answered</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,0 +1,136 @@
+1
+00:00:00,821 --> 00:00:00,827
+1. openBrowser("https://testcontrol.onexamination.com/Support/Default.aspx")
+
+2
+00:00:13,388 --> 00:00:13,392
+5. maximizeWindow()
+
+3
+00:00:14,891 --> 00:00:14,894
+9. setText(findTestObject("Page_Control Sign in/Alias"), "rafiqull.sheikh")
+
+4
+00:00:15,256 --> 00:00:15,259
+13. setText(findTestObject("Page_Control Sign in/Password"), "R@ve1234")
+
+5
+00:00:15,545 --> 00:00:15,548
+17. click(findTestObject("Page_Control Sign in/Sign In"))
+
+6
+00:00:17,478 --> 00:00:17,481
+21. delay(3)
+
+7
+00:00:20,530 --> 00:00:20,532
+25. verifyTextPresent("Help centre", false)
+
+8
+00:00:20,856 --> 00:00:20,857
+29. verifyTextPresent("New requests", false)
+
+9
+00:00:21,138 --> 00:00:21,139
+33. click(findTestObject("Page_Control Exam calendar/a_Users"))
+
+10
+00:00:21,876 --> 00:00:21,878
+37. verifyTextPresent("Manage users", false)
+
+11
+00:00:22,052 --> 00:00:22,054
+41. verifyTextPresent("Search for a user", false)
+
+12
+00:00:22,286 --> 00:00:22,288
+45. setText(findTestObject("Page_Control Manage users/Email Address"), "testautomation@gmail.com")
+
+13
+00:00:22,612 --> 00:00:22,614
+49. click(findTestObject("Page_Control Manage users/Search Button"))
+
+14
+00:00:24,012 --> 00:00:24,015
+53. delay(5)
+
+15
+00:00:29,023 --> 00:00:29,026
+57. click(findTestObject("Page_Control Manage users/a_Edit exams"))
+
+16
+00:00:29,173 --> 00:00:29,177
+61. delay(2)
+
+17
+00:00:31,187 --> 00:00:31,190
+65. click(findTestObject("Page_Control Manage users/Vivek.Jaiswal_UKCAT_Reset_Scores"))
+
+18
+00:00:32,058 --> 00:00:32,073
+69. delay(5)
+
+19
+00:00:37,081 --> 00:00:37,082
+73. click(findTestObject("Page_Control Help centre/a_Sign out"))
+
+20
+00:00:37,194 --> 00:00:37,196
+77. delay(2)
+
+21
+00:00:39,202 --> 00:00:39,204
+81. navigateToUrl("https://testmy.onexamination.com/login.aspx")
+
+22
+00:00:44,543 --> 00:00:44,547
+85. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC"), "testautomation@gmail.com")
+
+23
+00:00:44,871 --> 00:00:44,872
+89. setText(findTestObject("Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten"), "P@ssword1")
+
+24
+00:00:45,138 --> 00:00:45,140
+93. click(findTestObject("Page_BMJ OnExamination Sign In/input_Please enter your passwo"))
+
+25
+00:00:46,655 --> 00:00:46,659
+97. delay(2)
+
+26
+00:00:48,665 --> 00:00:48,666
+101. click(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Scores"))
+
+27
+00:00:48,828 --> 00:00:48,829
+105. delay(2)
+
+28
+00:00:50,833 --> 00:00:50,850
+109. verifyTextPresent("Score Analysis", false)
+
+29
+00:00:51,082 --> 00:00:51,083
+113. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsTotal"), "185")
+
+30
+00:00:51,191 --> 00:00:51,193
+117. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Mean score"), "62.2")
+
+31
+00:00:51,313 --> 00:00:51,316
+121. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Current mean"), "0")
+
+32
+00:00:51,422 --> 00:00:51,423
+125. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/Naive mean"), "0")
+
+33
+00:00:51,491 --> 00:00:51,492
+129. verifyElementText(findTestObject("Page_Score Analysis - BMJ OnExamina/QuestionsAnswered"), "0")
+
+34
+00:00:51,600 --> 00:00:51,602
+133. closeBrowser(STOP_ON_FAILURE)
+

@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0&quot;)[count(. | //a[@id = 'MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0' and @href = '/GenericAssessment/GenericAssessmentSummary.aspx?AssessmentId=14638099' and (text() = 'Question Session' or . = 'Question Session')]) = count(//a[@id = 'MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0' and @href = '/GenericAssessment/GenericAssessmentSummary.aspx?AssessmentId=14638099' and (text() = 'Question Session' or . = 'Question Session')])]</value>
+         <value>id(&quot;MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0&quot;)[count(. | //a[@id = 'MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0' and (text() = 'Question Session' or . = 'Question Session')]) = count(//a[@id = 'MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0' and (text() = 'Question Session' or . = 'Question Session')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//a[@id='MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <value>MainContent_OverviewOuterRepeater_OverviewTable_0_AssessmentURL_0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
