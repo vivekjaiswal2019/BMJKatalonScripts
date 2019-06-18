@@ -6,12 +6,12 @@
    <elementGuidId>3012d4f1-80f2-461f-8cc8-0d874d1a1998</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;qTag13&quot;)[count(. | //input[@id = 'qTag13' and @value = '119600' and @type = 'checkbox' and @class = 'radioButton examTagParent']) = count(//input[@id = 'qTag13' and @value = '119600' and @type = 'checkbox' and @class = 'radioButton examTagParent'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='qTag0']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@value = '119600' and @type = 'checkbox' and @class = 'radioButton examTagParent']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <value>radioButton examTagParent</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -62,42 +62,49 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//input[@id='qTag0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//ul[@id='qTagListEditorial']/li/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Editorial Tags'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Tags'])[1]/following::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Core Questions'])[2]/preceding::input[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('Editor', &quot;'&quot;, 's Choice')])[1]/preceding::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//ul/li/input</value>
    </webElementXpaths>
 </WebElementEntity>

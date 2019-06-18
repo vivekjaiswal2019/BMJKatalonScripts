@@ -21,9 +21,9 @@ Height = WebUI.getPageHeight()
 
 Width = WebUI.getPageWidth()
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'testautomation@gmail.com')
+WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword1')
+WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword2')
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
 
@@ -81,13 +81,13 @@ WebUI.selectOptionByLabel(findTestObject('Page_My Dashboard - BMJ OnExaminati/se
 WebUI.verifyOptionSelectedByLabel(findTestObject('Page_My Dashboard - BMJ OnExaminati/select_Active revision course_'), 
     'UKCAT', false, 20)
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Home'))
 
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Choose Questions'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi'), 0)
 
@@ -124,11 +124,13 @@ WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Opti
 
 WebUI.check(findTestObject('Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+WebUI.scrollToPosition(99999, 99999)
 
 Count = WebUI.getNumberOfTotalOption(findTestObject('Page_BMJ OnExamination Choose Generate/select_10 questions20 question'))
 
@@ -151,6 +153,8 @@ WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/input_No tags
 
 WebUI.verifyElementVisible(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_My Tags_qTag0'))
 
+WebUI.scrollToPosition(99999, 99999)
+
 WebUI.verifyElementVisible(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_UKCAT'))
 
 not_run: WebUI.verifyElementNotPresent(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_UKCAT'), 
@@ -158,7 +162,7 @@ not_run: WebUI.verifyElementNotPresent(findTestObject('Page_BMJ OnExamination Ch
 
 WebUI.focus(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_UKCAT.png')
 
@@ -166,12 +170,12 @@ WebUI.scrollToPosition(0, 0)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
 
-WebUI.delay(3)
+WebUI.delay(2)
 
 WebUI.selectOptionByLabel(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and'), 
     'Tropical Health Education Trust module', false)
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
 
@@ -185,7 +189,13 @@ WebUI.verifyTextPresent('Surgery', false)
 
 WebUI.check(findTestObject('Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical'))
 
-WebUI.delay(5)
+WebUI.delay(2)
+
+WebUI.check(findTestObject('Page_BMJ OnExamination Choose Generate/input_I have got wrong before_'))
+
+WebUI.delay(0)
+
+WebUI.scrollToPosition(99999, 99999)
 
 Count = WebUI.getNumberOfTotalOption(findTestObject('Page_BMJ OnExamination Choose Generate/select_10 questions20 question'))
 
@@ -213,7 +223,7 @@ WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generat
 
 WebUI.focus(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_TropicalHealth.png')
 
@@ -230,9 +240,13 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/input_No tags_qTag'))
 
 WebUI.delay(2)
+
+WebUI.scrollToPosition(99999, 99999)
 
 WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_MRCGP'), 
     0)
@@ -242,7 +256,7 @@ WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generat
 
 WebUI.focus(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_MRCGP.png')
 

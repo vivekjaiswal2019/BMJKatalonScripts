@@ -139,6 +139,8 @@ WebUI.setText(findTestObject('Page_BMJ OnExamination Assessment Session/Feedback
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/Feedback Submit'))
 
+WebUI.delay(2)
+
 WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Assessment Session/Feedback Thank you'), 0)
 
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/Revision Notes Section Link'))
