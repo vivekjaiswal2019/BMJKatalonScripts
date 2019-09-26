@@ -17,11 +17,11 @@ WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal@northgateps.com')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword2')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
@@ -31,7 +31,7 @@ WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a
 
 WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Scores'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_CPD'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_CPD'), 0)
 
 WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts'), 0)
 
@@ -49,75 +49,47 @@ WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a
 
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Exam Revision'))
 
-WebUI.delay(2)
-
 WebUI.verifyTextPresent('How would you like to study today?', false)
 
 WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Home'), 0)
 
 WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Scores'))
-
-WebUI.delay(2)
 
 WebUI.verifyTextPresent('Score Analysis ', false)
 
 WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
 
-WebUI.delay(2)
+not_run: WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_CPD'))
 
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_CPD'))
+not_run: WebUI.verifyTextPresent('CPD Modules', false)
 
-WebUI.delay(2)
-
-WebUI.verifyTextPresent('CPD Modules', false)
-
-WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
-
-WebUI.delay(2)
+not_run: WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
 
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Partner Centre'))
-
-WebUI.delay(2)
 
 WebUI.verifyTextPresent('Partner Centre', false)
 
 WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
 
-WebUI.delay(0)
-
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Partner Admin'))
-
-WebUI.delay(2)
 
 WebUI.verifyTextPresent('Account Management', false)
 
 WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Managed Accounts'))
-
-WebUI.delay(2)
 
 WebUI.verifyTextPresent('You do not have any groups associated.', false)
 
 WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Help'))
-
-WebUI.delay(2)
 
 WebUI.verifyTextPresent('Frequently Asked Questions', false)
 
 WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Sign Out'))
 

@@ -6,15 +6,15 @@
    <elementGuidId>400fdb70-231e-437e-95d4-9bc4bbcb6dbb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;leavefeedbacklink&quot;)[count(. | //a[@id = 'leavefeedbacklink' and @class = 'marginBottom' and (text() = 'Leave question feedback' or . = 'Leave question feedback')]) = count(//a[@id = 'leavefeedbacklink' and @class = 'marginBottom' and (text() = 'Leave question feedback' or . = 'Leave question feedback')])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//a[@id='leavefeedbacklink']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;leavefeedbacklink&quot;)[count(. | //a[@id = 'leavefeedbacklink' and @class = 'marginBottom' and (text() = 'Leave question feedback' or . = 'Leave question feedback')]) = count(//a[@id = 'leavefeedbacklink' and @class = 'marginBottom' and (text() = 'Leave question feedback' or . = 'Leave question feedback')])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

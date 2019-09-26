@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//a[@class = 'navItemInactive' and @href = '/GenericAssessment/GenericAssessmentLearningJournal.aspx' and (text() = 'Learning Journal' or . = 'Learning Journal')]</value>
+         <value>id(&quot;bs-example-navbar-collapse-1&quot;)/div[@class=&quot;secondary-navigation&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[8]/a[@class=&quot;navItemInactive&quot;][count(. | //a[@class = 'navItemInactive' and @href = '/GenericAssessment/GenericAssessmentLearningJournal.aspx' and (text() = 'Learning Journal' or . = 'Learning Journal')]) = count(//a[@class = 'navItemInactive' and @href = '/GenericAssessment/GenericAssessmentLearningJournal.aspx' and (text() = 'Learning Journal' or . = 'Learning Journal')])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -45,7 +45,7 @@
       <value>Learning Journal</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

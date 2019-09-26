@@ -14,7 +14,7 @@
          <value>id(&quot;bs-example-navbar-collapse-1&quot;)/div[@class=&quot;primary-navigation&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[3]/a[@class=&quot;navItemInactive&quot;][count(. | //a[@class = 'navItemInactive' and @href = '/Review/ScoreAnalysis.aspx' and (text() = 'Scores' or . = 'Scores')]) = count(//a[@class = 'navItemInactive' and @href = '/Review/ScoreAnalysis.aspx' and (text() = 'Scores' or . = 'Scores')])]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,36 +55,42 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='bs-example-navbar-collapse-1']/div/div/ul/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exam Revision'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Managed Accounts'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
+      <type>Main</type>
       <value>//a[contains(@href, '/Review/ScoreAnalysis.aspx')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

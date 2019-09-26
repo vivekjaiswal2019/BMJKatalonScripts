@@ -6,15 +6,11 @@
    <elementGuidId>cfe6af5e-b68d-441d-bf6e-7da1a15890cd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@type = 'submit' and @name = 'ctl00$MainContent$quTest$btnMark' and @value = 'Go to summary' and @onclick = concat('this.disabled=true;__doPostBack(' , &quot;'&quot; , 'ctl00$MainContent$quTest$btnMark' , &quot;'&quot; , ',' , &quot;'&quot; , '' , &quot;'&quot; , ');') and @id = 'MainContent_quTest_btnMark']</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@id='MainContent_quTest_btnMark']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,14 +34,14 @@
       <value>ctl00$MainContent$quTest$btnMark</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Go to summary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>

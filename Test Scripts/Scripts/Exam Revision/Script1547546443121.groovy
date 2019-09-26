@@ -17,55 +17,262 @@ WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal@northgateps.com')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword2')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Home'))
+WebUI.verifyTextPresent('My Activity Feed', false)
 
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Exam Revision (1)'))
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
 
 WebUI.verifyTextPresent('Exam Revision', false)
 
-WebUI.verifyTextPresent('How would you like to study today?', false)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Home Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Choose Questions'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/CPD Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Core Questions'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Managed Accounts Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Mock Tests'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Partner Centre Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Work Hard'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Partner Admin Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Group Learning'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Help Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Revision Advice'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/My Profile Link'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Tags'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Sign Out'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/span_Learning Journal'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Choose Questions Sub Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Choose Questions'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Mock Tests Sub Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Core Questions'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Group Learning Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Group Learning'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Revision Advice Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Learning Journal'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Tags Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Mock Tests'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Learning Journal Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_My Profile'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Performance Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Sign Out'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Button Start your revision session'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_Exam Revision - BMJ OnExaminat/div_Work Hard'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Button Group Learning'), 0)
 
-WebUI.click(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Sign Out'))
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Button Mock Tests'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Button My Performance'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Forward Arrow'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Back arrow'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Exam Details text'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Questions Answered details'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Count of Questions Details'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Count of Questions Details'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Count of Questions Details'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Count of Questions Details'), 0)
+
+WebUI.click(findTestObject('MVC Exam Revision/Home Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('My Activity Feed', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/CPD Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Our Self Assessment modules will help to keep your knowledge up-to-date and support your continuous professional development.', 
+    false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Managed Accounts Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('You do not have any groups associated.', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Partner Centre Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('PACES build', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Partner Admin Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Account Management', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Help Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Frequently Asked Questions', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Choose Questions Sub Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Choose Questions', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Mock Tests Sub Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Please select from one of these Mock Tests:', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Group Learning Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Join your peers in this quiz format revision tool and compete against them whilst you test your knowledge.', 
+    false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Revision Advice Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Revision Advice', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Tags Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Tagged Questions', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Learning Journal Tab'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Learning Journal', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC Exam Revision/Button Start your revision session'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Choose Questions', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC Exam Revision/Button Group Learning'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Join your peers in this quiz format revision tool and compete against them whilst you test your knowledge.', 
+    false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC Exam Revision/Button Mock Tests'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Please select from one of these Mock Tests:', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC Exam Revision/Button My Performance'))
+
+WebUI.delay(2)
+
+WebUI.verifyTextPresent('Score Analysis', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

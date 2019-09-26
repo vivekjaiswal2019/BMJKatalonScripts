@@ -6,16 +6,15 @@
    <elementGuidId>4994132d-c8ba-46e7-9968-bde9a5604791</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;settings&quot;][count(. | //div[@id = 'settings' and @class = 'settings-toggle' and (text() = 'Exam Options   ' or . = 'Exam Options   ')]) = count(//div[@id = 'settings' and @class = 'settings-toggle' and (text() = 'Exam Options   ' or . = 'Exam Options   ')])]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='settings']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;settings&quot;][count(. | //div[@id = 'settings' and @class = 'settings-toggle' and (text() = 'Exam Options   ' or . = 'Exam Options   ')]) = count(//div[@id = 'settings' and @class = 'settings-toggle' and (text() = 'Exam Options   ' or . = 'Exam Options   ')])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,42 +58,49 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
+      <type>Main</type>
       <value>//*[@id=&quot;settings&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='ExamSelector']/div/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Questions'])[2]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Learning Journal'])[1]/following::div[8]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Exam resource:'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Options Selected'])[1]/preceding::div[5]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[2]/div[2]/div/div/div</value>
    </webElementXpaths>
 </WebElementEntity>

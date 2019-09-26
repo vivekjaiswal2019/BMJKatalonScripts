@@ -65,8 +65,6 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Scores'))
 
-WebUI.delay(2)
-
 WebUI.verifyTextPresent('Score Analysis', false)
 
 WebUI.verifyElementText(findTestObject('Page_Score Analysis - BMJ OnExamina/QuestionsTotal'), '185')

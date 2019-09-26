@@ -6,12 +6,12 @@
    <elementGuidId>9fb856a4-88d4-4a6b-a8b5-7803a7f1fe3b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='qTag8']</value>
+         <key>BASIC</key>
+         <value>id(&quot;qTag8&quot;)[count(. | //input[@id = 'qTag8' and @value = '159315' and @type = 'checkbox' and @class = 'radioButton examTagParent']) = count(//input[@id = 'qTag8' and @value = '159315' and @type = 'checkbox' and @class = 'radioButton examTagParent'])]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//input[@value = '159315' and @type = 'checkbox' and @class = 'radioButton examTagParent']</value>
+         <key>XPATH</key>
+         <value>//input[@id='qTag8']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,7 +24,7 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -52,7 +52,7 @@
       <value>radioButton examTagParent</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

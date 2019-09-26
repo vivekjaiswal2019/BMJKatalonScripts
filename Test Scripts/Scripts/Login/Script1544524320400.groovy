@@ -17,7 +17,7 @@ WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(1)
 
@@ -27,29 +27,29 @@ WebUI.verifyTextPresent('Please enter your password', false)
 
 WebUI.delay(2)
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal@northgateps.com')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), '')
+WebUI.setText(findTestObject('MVC Login page/Password field'), '')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
 WebUI.verifyTextPresent('Please enter your password', false)
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal@northgateps.com')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'Password2')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'Password2')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('Forgot your password or changed your email address?', false)
+WebUI.verifyTextPresent('Download our Mobile App', false)
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
@@ -59,11 +59,11 @@ not_run: WebUI.closeBrowser()
 
 WebUI.navigateToUrl('https://testmy.onexamination.com/login.aspx')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'assa@gmail.com')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'assa@gmail.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword2')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword2')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(5)
 
@@ -73,11 +73,11 @@ not_run: WebUI.closeBrowser()
 
 WebUI.navigateToUrl('https://testmy.onexamination.com/login.aspx')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal@northgateps.com')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword2')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 

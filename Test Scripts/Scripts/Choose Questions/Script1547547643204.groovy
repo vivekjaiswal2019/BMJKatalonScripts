@@ -17,100 +17,117 @@ WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
 WebUI.maximizeWindow()
 
-Height = WebUI.getPageHeight()
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'testautomation@gmail.com')
 
-Width = WebUI.getPageWidth()
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'vivek.jaiswal@northgateps.com')
-
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword2')
-
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/Page_My Profile - BMJ OnExamination/a_Exam Revision'))
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
 
-WebUI.click(findTestObject('Page_Exam Revision - BMJ OnExaminat/a_Choose Questions'))
+WebUI.click(findTestObject('MVC Exam Revision/Choose Questions Sub Tab'))
+
+WebUI.verifyElementNotPresent(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 0)
 
 WebUI.verifyTextPresent('Choose Questions', false)
 
-WebUI.verifyTextPresent('Current Options Selected', false)
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC Exam Revision/Button Start your revision session'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementNotPresent(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 0)
+
+WebUI.verifyTextPresent('Choose Questions', false)
 
 WebUI.verifyTextPresent('Keywords: None', false)
 
-WebUI.verifyTextPresent('No of Questions', false)
+WebUI.verifyTextPresent('Current Options Selected', false)
 
 WebUI.verifyTextPresent('Curricula: All', false)
 
-WebUI.verifyTextPresent('Choose Questions', false)
+WebUI.verifyTextPresent('UKCAT', false)
 
-WebUI.verifyTextPresent('Choose Questions', false)
+WebUI.verifyTextPresent('185', false)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/a_Core Questions'), 0)
+WebUI.verifyElementAttributeValue(findTestObject('MVC_Choose Questions/Total Count of questions'), 'text', '185', 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/a_Group Learning'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Home Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/a_Learning Journal'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Exam Revision Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/a_Mock Tests'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/CPD Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/a_Revision Advice'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Help Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/a_Tags'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Mock Tests Sub Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/a_Work Hard'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Group Learning Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/button_Generate test'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Revision Advice Tab'), 0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_BMJ OnExamination Choose Generate/button_Generate test'), 'id', 'btnGenerateRight', 
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Tags Tab'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Learning Journal Tab'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Performance Tab'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Revision Advice Tab'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Core Questions checkbox'), 0)
+
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/All Curriculum'), 0)
+
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/With Questions - All'), 0)
+
+WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/With Questions - Not Seen Before'), 0)
+
+WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/With Questions - Wrong Before'), 0)
+
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Revision Type - Revision'), 0)
+
+WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Revision Type - Exam'), 0)
+
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Question Difficulty All'), 0)
+
+WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Question Difficulty Adapt For Me'), 0)
+
+WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Question Difficulty Select Difficulty Parent'), 0)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty Select Difficulty Parent'))
+
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All'), 
     0)
 
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/i_Exam Options_fa fa-cogs'), 0)
+not_run: WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All - Easy'), 
+    0)
 
-WebUI.verifyElementAttributeValue(findTestObject('Page_BMJ OnExamination Choose Generate/button_Generate test (1)'), 'id', 
-    'btnGenerateLeft', 0)
+not_run: WebUI.verifyElementNotChecked(findTestObject('null'), 0)
 
-WebUI.navigateToUrl('https://testmy.onexamination.com/Account/Default.aspx')
+not_run: WebUI.verifyElementNotChecked(findTestObject('null'), 0)
 
-WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/select_Active revision course_'), 0)
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'), 0)
 
-WebUI.selectOptionByLabel(findTestObject('Page_My Dashboard - BMJ OnExaminati/select_Active revision course_'), 'UKCAT', 
-    false)
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'), 0)
 
-WebUI.verifyOptionSelectedByLabel(findTestObject('Page_My Dashboard - BMJ OnExaminati/select_Active revision course_'), 
-    'UKCAT', false, 20)
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty All'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.delay(2)
+String ExpectedPlaceholder = 'eg. diabetes, thyroid'
 
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Home'))
-
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Choose Questions'))
-
-WebUI.delay(2)
-
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/input_With Questions..._Questi'), 0)
-
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/input_Filter by Curriculum_qCa'), 0)
-
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/input_All_coreAdvanceOption'))
-
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/input_Revision Type_RevisionTy'), 0)
-
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/input_Question Difficulty_qDif'), 0)
-
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/input_Filter by Tags_qTag'), 0)
-
-String ExpectedPlaceholder = 'eg, deep vein thrombosis, diabetes, thyroid'
-
-String placeholder = WebUI.getAttribute(findTestObject('Page_BMJ OnExamination Choose Generate/input_Keyword Filter_QuestionK'), 
-    'ActualPlaceholder')
+String placeholder = WebUI.getAttribute(findTestObject('MVC_Choose Questions/Keyword Filter Field'), 'ActualPlaceholder')
 
 if (ExpectedPlaceholder == placeholder) {
     KeywordUtil.markPassed('Placeholder is  as expected.')
 }
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/input_All curricula_qCat'))
+WebUI.click(findTestObject('MVC_Choose Questions/Select Curriculum'))
 
 WebUI.verifyTextPresent('Abstract Reasoning', false)
 
@@ -120,145 +137,352 @@ WebUI.verifyTextPresent('Quantitative Reasoning', false)
 
 WebUI.verifyTextPresent('Verbal Reasoning', false)
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
+WebUI.check(findTestObject('MVC_Choose Questions/Abstract Reasoning'))
 
-WebUI.check(findTestObject('Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego_UKCAT'))
+WebUI.delay(5)
 
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
-
-WebUI.delay(2)
-
-WebUI.scrollToPosition(99999, 99999)
-
-Count = WebUI.getNumberOfTotalOption(findTestObject('Page_BMJ OnExamination Choose Generate/select_10 questions20 question'))
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
 
 WebUI.verifyEqual(Count, 6)
 
-WebUI.verifyOptionsPresent(findTestObject('Page_BMJ OnExamination Choose Generate/select_10 questions20 question'), ['10 questions'
-        , '20 questions', '30 questions', '40 questions', '50 questions', '56 questions'])
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '20 questions', '30 questions'
+        , '40 questions', '50 questions', '56 questions'])
+
+WebUI.verifyTextPresent('Curricula: Abstract Reasoning', false)
+
+WebUI.uncheck(findTestObject('MVC_Choose Questions/Abstract Reasoning'))
+
+WebUI.delay(2)
+
+WebUI.check(findTestObject('MVC_Choose Questions/Quantitative Reasoning'))
+
+WebUI.delay(5)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
 
 WebUI.verifyTextPresent('Best Answer Question', false)
 
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Best Answer Question'), 
-    0)
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'), 0)
 
 WebUI.verifyTextPresent('Problem Solving Question', false)
 
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Best Answer Question_que_UKCAT_Problem Solving Question'), 
-    0)
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'), 0)
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/input_No tags_qTag'))
-
-WebUI.verifyElementVisible(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_My Tags_qTag0'))
-
-WebUI.scrollToPosition(99999, 99999)
-
-WebUI.verifyElementVisible(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_UKCAT'))
-
-not_run: WebUI.verifyElementNotPresent(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_UKCAT'), 
-    0)
-
-WebUI.focus(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags'))
+WebUI.uncheck(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'))
 
 WebUI.delay(2)
 
-WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_UKCAT.png')
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
 
-WebUI.scrollToPosition(0, 0)
+WebUI.verifyEqual(Count, 1)
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.selectOptionByLabel(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and'), 
-    'Tropical Health Education Trust module', false)
+WebUI.check(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'))
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
-
-WebUI.verifyTextPresent('Medicine', false)
-
-WebUI.verifyTextPresent('Obs and Gynae', false)
-
-WebUI.verifyTextPresent('Paediatrics', false)
-
-WebUI.verifyTextPresent('Surgery', false)
-
-WebUI.check(findTestObject('Page_BMJ OnExamination Choose Generate/input_Select curriculum_Catego - Tropical'))
+WebUI.uncheck(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'))
 
 WebUI.delay(2)
 
-WebUI.check(findTestObject('Page_BMJ OnExamination Choose Generate/input_I have got wrong before_'))
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.delay(1)
+
+WebUI.uncheck(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'))
+
+WebUI.delay(1)
+
+WebUI.uncheck(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'))
+
+WebUI.delay(2)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'))
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('MVC_Choose Questions/With Questions - Not Seen Before'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('MVC_Choose Questions/With Questions - Wrong Before'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/With Questions - All'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/DA1 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/DA2 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/DA3 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/DA4 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/DA5 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/DA6 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/QR1 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['1 questions'])
+
+WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/QR2 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['2 questions'])
+
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/QR3 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['3 questions'])
+
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/QR4 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['4 questions'])
+
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/QR5 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['5 questions'])
+
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/QR6 Tag'))
+
+WebUI.delay(1)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['6 questions'])
+
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+
+WebUI.delay(1)
+
+WebUI.verifyTextNotPresent('Editor\'s Choice', false)
+
+WebUI.delay(1)
+
+WebUI.check(findTestObject('MVC_Choose Questions/Abstract Reasoning'))
 
 WebUI.delay(0)
 
-WebUI.scrollToPosition(99999, 99999)
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
 
-Count = WebUI.getNumberOfTotalOption(findTestObject('Page_BMJ OnExamination Choose Generate/select_10 questions20 question'))
+WebUI.verifyEqual(Count, 1)
 
-WebUI.verifyEqual(Count, 4)
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['6 questions'])
 
-WebUI.verifyOptionsPresent(findTestObject('Page_BMJ OnExamination Choose Generate/select_10 questions20 question'), ['10 questions'
-        , '20 questions', '30 questions', '33 questions'])
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
 
-WebUI.delay(2)
+WebUI.delay(1)
 
-WebUI.verifyTextPresent('MCQ', false)
+WebUI.check(findTestObject('MVC_Choose Questions/Decision Analysis'))
 
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_MCQ'), 
-    0)
+WebUI.delay(0)
 
-WebUI.verifyTextPresent('EMQ', false)
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
 
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_EMQ'), 
-    0)
+not_run: WebUI.verifyEqual(Count, 2)
 
-WebUI.verifyTextPresent('n of Many', false)
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '12 questions'])
 
-WebUI.verifyElementChecked(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/input_Question Type_questionTy_Tropical_n of Many'), 
-    0)
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
 
-WebUI.focus(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags'))
+WebUI.delay(1)
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('MVC_Choose Questions/Keyword Filter Field'), 'test')
 
-WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_TropicalHealth.png')
+WebUI.click(findTestObject('MVC_Choose Questions/Button_Apply_Keyword Filter'))
 
-WebUI.scrollToPosition(0, 0)
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
+WebUI.verifyTextPresent('Keywords: test', false)
 
-WebUI.delay(2)
+WebUI.verifyTextPresent('Curricula: Abstract Reasoning, Decision Analysis & 1 Others', false)
 
-WebUI.selectOptionByLabel(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/select_DRCOGEndocrinology and'), 
-    'MRCGP', false)
+WebUI.delay(0)
 
-WebUI.delay(2)
+int count = 0
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/div_Exam Options'))
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
 
-WebUI.delay(2)
+not_run: WebUI.verifyEqual(Count, 1)
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Choose Generate/input_No tags_qTag'))
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['2 questions'])
 
-WebUI.delay(2)
+not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
 
-WebUI.scrollToPosition(99999, 99999)
-
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Core Questions_MRCGP'), 
-    0)
-
-WebUI.verifyElementPresent(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/Editors Choice_MRCGP'), 
-    0)
-
-WebUI.focus(findTestObject('Page_BMJ OnExamination Choose Generate/Page_BMJ OnExamination Generate Wor/div_Filter by Tags'))
-
-WebUI.delay(2)
-
-WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_MRCGP.png')
-
-WebUI.scrollToPosition(0, 0)
+WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_UKCAT.png')
 

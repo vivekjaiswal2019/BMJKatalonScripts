@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c03b90db-4c82-40db-ad25-13c709d03cfb</dataFileGUID>
-   <dataSourceUrl></dataSourceUrl>
+   <dataSourceUrl>E:\Projects\BMJ\Testing related\Sprint TCs\OE 1787 Score Analysis API 08052019.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName></sheetName>
+   <sheetName>Final</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

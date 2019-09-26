@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>OE 1787 Score Analysis API TC</description>
+   <name>OE 1787 Score Analysis API</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>70c9251f-c7b7-4a05-9564-6df9e53e9de5</testCaseGuid>
+</TestCaseEntity>

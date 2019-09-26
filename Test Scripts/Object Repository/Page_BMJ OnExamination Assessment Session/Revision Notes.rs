@@ -6,15 +6,11 @@
    <elementGuidId>4f80155e-60a4-4915-bc96-147965a6d5e7</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;ModuleReflectionToggleImage&quot;)[count(. | //img[@src = 'https://media.onexamination.com/Images/my/Plus.gif' and @id = 'ModuleReflectionToggleImage']) = count(//img[@src = 'https://media.onexamination.com/Images/my/Plus.gif' and @id = 'ModuleReflectionToggleImage'])]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//img[@id='ModuleReflectionToggleImage']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +34,7 @@
       <value>ModuleReflectionToggleImage</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
