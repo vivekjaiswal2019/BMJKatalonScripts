@@ -1,0 +1,104 @@
+1
+00:00:00,285 --> 00:00:00,287
+1. openBrowser("https://www.katalon.com/")
+
+2
+00:00:41,403 --> 00:00:41,407
+5. driver = getWebDriver()
+
+3
+00:00:41,435 --> 00:00:41,437
+9. baseUrl = "https://www.katalon.com/"
+
+4
+00:00:41,441 --> 00:00:41,443
+13. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+5
+00:00:41,604 --> 00:00:41,606
+17. selenium.open("https://testmy.onexamination.com/Exam/Dashboard")
+
+6
+00:00:47,495 --> 00:00:47,497
+21. maximizeWindow()
+
+7
+00:00:48,958 --> 00:00:48,959
+25. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal@northgateps.com")
+
+8
+00:00:49,770 --> 00:00:49,772
+29. setText(findTestObject("MVC Login page/Password field"), "P@ssword1")
+
+9
+00:00:50,342 --> 00:00:50,345
+33. click(findTestObject("MVC Login page/Login Button"))
+
+10
+00:00:52,615 --> 00:00:52,617
+37. delay(2)
+
+11
+00:00:54,625 --> 00:00:54,626
+41. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[1]")
+
+12
+00:00:54,818 --> 00:00:54,820
+45. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::div[14]")
+
+13
+00:00:54,974 --> 00:00:54,976
+49. verifyTextPresent("Your exam was on 05 July 2019", false)
+
+14
+00:00:55,246 --> 00:00:55,249
+53. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[2]")
+
+15
+00:00:55,412 --> 00:00:55,413
+57. delay(1)
+
+16
+00:00:56,421 --> 00:00:56,426
+61. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Your exam was on 05 July 2019'])[1]/following::div[4]")
+
+17
+00:00:56,433 --> 00:00:56,434
+65. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Your exam was on 05 July 2019'])[1]/following::div[5]")
+
+18
+00:00:56,670 --> 00:00:56,673
+69. verifyTextPresent("question(s) answered", false)
+
+19
+00:00:56,898 --> 00:00:56,905
+73. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[3]")
+
+20
+00:00:57,131 --> 00:00:57,133
+77. delay(1)
+
+21
+00:00:58,141 --> 00:00:58,143
+81. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='question(s) answered'])[1]/following::div[10]")
+
+22
+00:00:58,399 --> 00:00:58,401
+85. verifyTextPresent("Your Overall Progress:", false)
+
+23
+00:00:58,612 --> 00:00:58,615
+89. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Your Overall Progress:'])[1]/following::span[1]")
+
+24
+00:00:58,753 --> 00:00:58,755
+93. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='Your Overall Progress:'])[1]/following::span[2]")
+
+25
+00:00:58,894 --> 00:00:58,896
+97. verifyTextPresent("questions", false)
+
+26
+00:00:59,089 --> 00:00:59,091
+101. closeBrowser()
+

@@ -1,0 +1,944 @@
+1
+00:00:00,574 --> 00:00:00,575
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:21,824 --> 00:00:21,827
+5. maximizeWindow()
+
+3
+00:00:23,349 --> 00:00:23,351
+9. setText(findTestObject("MVC Login page/Email address field"), "testautomation@gmail.com")
+
+4
+00:00:23,882 --> 00:00:23,883
+13. setText(findTestObject("MVC Login page/Password field"), "P@ssword1")
+
+5
+00:00:24,207 --> 00:00:24,208
+17. click(findTestObject("MVC Login page/Login Button"))
+
+6
+00:00:27,988 --> 00:00:27,989
+21. delay(5)
+
+7
+00:00:33,024 --> 00:00:33,027
+25. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+8
+00:00:33,047 --> 00:00:33,052
+29. verifyTextPresent("Exam Revision", false)
+
+9
+00:00:33,284 --> 00:00:33,286
+33. click(findTestObject("MVC Exam Revision/Choose Questions Sub Tab"))
+
+10
+00:00:33,541 --> 00:00:33,544
+37. verifyElementNotPresent(findTestObject("MVC Exam Revision/Exam Resource dropdown"), 0)
+
+11
+00:00:34,598 --> 00:00:34,600
+41. verifyTextPresent("Choose Questions", false)
+
+12
+00:00:35,005 --> 00:00:35,007
+45. click(findTestObject("MVC Exam Revision/Exam Revision Tab"))
+
+13
+00:00:35,800 --> 00:00:35,803
+49. delay(2)
+
+14
+00:00:37,822 --> 00:00:37,823
+53. click(findTestObject("MVC Exam Revision/Button Start your revision session"))
+
+15
+00:00:38,734 --> 00:00:38,736
+57. delay(2)
+
+16
+00:00:40,757 --> 00:00:40,759
+61. verifyElementNotPresent(findTestObject("MVC Exam Revision/Exam Resource dropdown"), 0)
+
+17
+00:00:41,198 --> 00:00:41,200
+65. verifyTextPresent("Choose Questions", false)
+
+18
+00:00:41,657 --> 00:00:41,659
+69. verifyTextPresent("Keywords: None", false)
+
+19
+00:00:42,186 --> 00:00:42,189
+73. verifyTextPresent("Current Options Selected", false)
+
+20
+00:00:42,571 --> 00:00:42,573
+77. verifyTextPresent("Curricula: All", false)
+
+21
+00:00:42,905 --> 00:00:42,907
+81. verifyTextPresent("UKCAT", false)
+
+22
+00:00:43,217 --> 00:00:43,219
+85. verifyTextPresent("185", false)
+
+23
+00:00:43,572 --> 00:00:43,579
+89. verifyElementText(findTestObject("MVC_Choose Questions/Total Count of questions"), "185")
+
+24
+00:00:43,780 --> 00:00:43,781
+93. verifyElementPresent(findTestObject("MVC Exam Revision/Home Tab"), 0)
+
+25
+00:00:43,938 --> 00:00:43,940
+97. verifyElementPresent(findTestObject("MVC Exam Revision/Exam Revision Tab"), 0)
+
+26
+00:00:44,105 --> 00:00:44,108
+101. verifyElementPresent(findTestObject("MVC Exam Revision/CPD Tab"), 0)
+
+27
+00:00:44,220 --> 00:00:44,221
+105. verifyElementPresent(findTestObject("MVC Exam Revision/Help Tab"), 0)
+
+28
+00:00:44,346 --> 00:00:44,348
+109. verifyElementPresent(findTestObject("MVC Exam Revision/Mock Tests Sub Tab"), 0)
+
+29
+00:00:44,510 --> 00:00:44,511
+113. verifyElementPresent(findTestObject("MVC Exam Revision/Group Learning Tab"), 0)
+
+30
+00:00:44,629 --> 00:00:44,632
+117. verifyElementPresent(findTestObject("MVC Exam Revision/Revision Advice Tab"), 0)
+
+31
+00:00:44,739 --> 00:00:44,740
+121. verifyElementPresent(findTestObject("MVC Exam Revision/Tags Tab"), 0)
+
+32
+00:00:44,864 --> 00:00:44,867
+125. verifyElementPresent(findTestObject("MVC Exam Revision/Learning Journal Tab"), 0)
+
+33
+00:00:45,020 --> 00:00:45,023
+129. verifyElementPresent(findTestObject("MVC Exam Revision/Performance Tab"), 0)
+
+34
+00:00:45,144 --> 00:00:45,145
+133. verifyElementPresent(findTestObject("MVC Exam Revision/Revision Advice Tab"), 0)
+
+35
+00:00:45,270 --> 00:00:45,271
+137. verifyElementPresent(findTestObject("MVC_Choose Questions/Button Start Questions"), 0)
+
+36
+00:00:45,382 --> 00:00:45,383
+141. verifyElementNotChecked(findTestObject("MVC_Choose Questions/Core Questions checkbox"), 0)
+
+37
+00:00:45,564 --> 00:00:45,567
+145. verifyElementChecked(findTestObject("MVC_Choose Questions/All Curriculum"), 0)
+
+38
+00:00:45,710 --> 00:00:45,711
+149. verifyElementChecked(findTestObject("MVC_Choose Questions/With Questions - All"), 0)
+
+39
+00:00:45,849 --> 00:00:45,850
+153. verifyElementNotChecked(findTestObject("MVC_Choose Questions/With Questions - Not Seen Before"), 0)
+
+40
+00:00:45,995 --> 00:00:45,997
+157. verifyElementNotChecked(findTestObject("MVC_Choose Questions/With Questions - Wrong Before"), 0)
+
+41
+00:00:46,129 --> 00:00:46,131
+161. verifyElementChecked(findTestObject("MVC_Choose Questions/Revision Type - Revision"), 0)
+
+42
+00:00:46,298 --> 00:00:46,299
+165. verifyElementNotChecked(findTestObject("MVC_Choose Questions/Revision Type - Exam"), 0)
+
+43
+00:00:46,468 --> 00:00:46,470
+169. verifyElementChecked(findTestObject("MVC_Choose Questions/Question Difficulty All"), 0)
+
+44
+00:00:46,630 --> 00:00:46,632
+173. verifyElementNotChecked(findTestObject("MVC_Choose Questions/Question Difficulty Adapt For Me"), 0)
+
+45
+00:00:46,793 --> 00:00:46,796
+177. verifyElementNotChecked(findTestObject("MVC_Choose Questions/Question Difficulty Select Difficulty Parent"), 0)
+
+46
+00:00:47,021 --> 00:00:47,023
+181. click(findTestObject("MVC_Choose Questions/Question Difficulty Select Difficulty Parent"))
+
+47
+00:00:47,304 --> 00:00:47,306
+185. verifyElementChecked(findTestObject("MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All"), 0)
+
+48
+00:00:47,568 --> 00:00:47,570
+189. verifyElementNotChecked(findTestObject("MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All - Easy"), 0)
+
+49
+00:00:47,576 --> 00:00:47,578
+193. verifyElementNotChecked(findTestObject("null"), 0)
+
+50
+00:00:47,583 --> 00:00:47,586
+197. verifyElementNotChecked(findTestObject("null"), 0)
+
+51
+00:00:47,592 --> 00:00:47,594
+201. verifyElementChecked(findTestObject("MVC_Choose Questions/Check_Question Type_BAQ"), 0)
+
+52
+00:00:47,771 --> 00:00:47,773
+205. verifyElementChecked(findTestObject("MVC_Choose Questions/Check_Question Type_PSQ"), 0)
+
+53
+00:00:47,972 --> 00:00:47,973
+209. click(findTestObject("MVC_Choose Questions/Question Difficulty All"), STOP_ON_FAILURE)
+
+54
+00:00:48,186 --> 00:00:48,188
+213. ExpectedPlaceholder = "eg. diabetes, thyroid"
+
+55
+00:00:48,193 --> 00:00:48,196
+217. placeholder = getAttribute(findTestObject("MVC_Choose Questions/Keyword Filter Field"), "ActualPlaceholder")
+
+56
+00:00:48,358 --> 00:00:48,360
+221. if (ExpectedPlaceholder == placeholder)
+
+57
+00:00:48,364 --> 00:00:48,366
+225. click(findTestObject("MVC_Choose Questions/Select Curriculum"))
+
+58
+00:00:48,639 --> 00:00:48,641
+229. verifyTextPresent("Abstract Reasoning", false)
+
+59
+00:00:49,015 --> 00:00:49,016
+233. verifyTextPresent("Decision Analysis", false)
+
+60
+00:00:49,302 --> 00:00:49,303
+237. verifyTextPresent("Quantitative Reasoning", false)
+
+61
+00:00:49,563 --> 00:00:49,564
+241. verifyTextPresent("Verbal Reasoning", false)
+
+62
+00:00:49,826 --> 00:00:49,827
+245. check(findTestObject("MVC_Choose Questions/Abstract Reasoning"))
+
+63
+00:00:50,073 --> 00:00:50,076
+249. delay(5)
+
+64
+00:00:55,083 --> 00:00:55,085
+253. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+65
+00:00:55,262 --> 00:00:55,263
+257. verifyEqual(Count, 6)
+
+66
+00:00:55,284 --> 00:00:55,286
+261. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["10 questions", "20 questions", "30 questions", "40 questions", "50 questions", "56 questions"])
+
+67
+00:00:55,651 --> 00:00:55,653
+265. verifyTextPresent("Curricula: Abstract Reasoning", false)
+
+68
+00:00:55,948 --> 00:00:55,949
+269. uncheck(findTestObject("MVC_Choose Questions/Abstract Reasoning"))
+
+69
+00:00:56,158 --> 00:00:56,161
+273. delay(2)
+
+70
+00:00:58,171 --> 00:00:58,173
+277. check(findTestObject("MVC_Choose Questions/Quantitative Reasoning"))
+
+71
+00:00:58,428 --> 00:00:58,430
+281. delay(5)
+
+72
+00:01:03,441 --> 00:01:03,442
+285. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+73
+00:01:03,612 --> 00:01:03,613
+289. verifyEqual(Count, 2)
+
+74
+00:01:03,622 --> 00:01:03,623
+293. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["10 questions", "16 questions"])
+
+75
+00:01:03,859 --> 00:01:03,860
+297. verifyTextPresent("Curricula: Quantitative Reasoning", false)
+
+76
+00:01:04,129 --> 00:01:04,130
+301. verifyTextPresent("Best Answer Question", false)
+
+77
+00:01:04,397 --> 00:01:04,398
+305. verifyElementChecked(findTestObject("MVC_Choose Questions/Check_Question Type_BAQ"), 0)
+
+78
+00:01:04,543 --> 00:01:04,544
+309. verifyTextPresent("Problem Solving Question", false)
+
+79
+00:01:04,801 --> 00:01:04,803
+313. verifyElementChecked(findTestObject("MVC_Choose Questions/Check_Question Type_PSQ"), 0)
+
+80
+00:01:04,920 --> 00:01:04,921
+317. uncheck(findTestObject("MVC_Choose Questions/Check_Question Type_PSQ"))
+
+81
+00:01:05,145 --> 00:01:05,149
+321. delay(2)
+
+82
+00:01:07,157 --> 00:01:07,158
+325. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+83
+00:01:07,300 --> 00:01:07,302
+329. verifyEqual(Count, 1)
+
+84
+00:01:07,309 --> 00:01:07,310
+333. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+85
+00:01:07,493 --> 00:01:07,494
+337. delay(1)
+
+86
+00:01:08,501 --> 00:01:08,503
+341. check(findTestObject("MVC_Choose Questions/Check_Question Type_PSQ"))
+
+87
+00:01:08,706 --> 00:01:08,708
+345. delay(1)
+
+88
+00:01:09,718 --> 00:01:09,721
+349. uncheck(findTestObject("MVC_Choose Questions/Check_Question Type_BAQ"))
+
+89
+00:01:09,995 --> 00:01:09,999
+353. delay(2)
+
+90
+00:01:12,006 --> 00:01:12,007
+357. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+91
+00:01:12,159 --> 00:01:12,161
+361. verifyEqual(Count, 2)
+
+92
+00:01:12,171 --> 00:01:12,172
+365. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["10 questions", "16 questions"])
+
+93
+00:01:12,411 --> 00:01:12,412
+369. delay(1)
+
+94
+00:01:13,419 --> 00:01:13,421
+373. uncheck(findTestObject("MVC_Choose Questions/Check_Question Type_PSQ"))
+
+95
+00:01:13,631 --> 00:01:13,633
+377. delay(1)
+
+96
+00:01:14,640 --> 00:01:14,641
+381. uncheck(findTestObject("MVC_Choose Questions/Check_Question Type_BAQ"))
+
+97
+00:01:14,758 --> 00:01:14,760
+385. delay(2)
+
+98
+00:01:16,766 --> 00:01:16,769
+389. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+99
+00:01:17,010 --> 00:01:17,011
+393. verifyEqual(Count, 2)
+
+100
+00:01:17,020 --> 00:01:17,021
+397. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["10 questions", "16 questions"])
+
+101
+00:01:17,480 --> 00:01:17,482
+401. delay(1)
+
+102
+00:01:18,500 --> 00:01:18,503
+405. check(findTestObject("MVC_Choose Questions/Check_Question Type_PSQ"))
+
+103
+00:01:18,781 --> 00:01:18,783
+409. delay(1)
+
+104
+00:01:19,791 --> 00:01:19,793
+413. check(findTestObject("MVC_Choose Questions/Check_Question Type_BAQ"))
+
+105
+00:01:20,061 --> 00:01:20,063
+417. delay(1)
+
+106
+00:01:21,071 --> 00:01:21,072
+421. click(findTestObject("MVC_Choose Questions/With Questions - Not Seen Before"))
+
+107
+00:01:21,423 --> 00:01:21,425
+425. delay(1)
+
+108
+00:01:22,438 --> 00:01:22,440
+429. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+109
+00:01:22,607 --> 00:01:22,608
+433. verifyEqual(Count, 2)
+
+110
+00:01:22,616 --> 00:01:22,618
+437. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["10 questions", "16 questions"])
+
+111
+00:01:22,888 --> 00:01:22,889
+441. delay(1)
+
+112
+00:01:23,896 --> 00:01:23,898
+445. click(findTestObject("MVC_Choose Questions/With Questions - Wrong Before"))
+
+113
+00:01:24,143 --> 00:01:24,146
+449. delay(1)
+
+114
+00:01:25,153 --> 00:01:25,155
+453. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+115
+00:01:25,317 --> 00:01:25,318
+457. verifyEqual(Count, 1)
+
+116
+00:01:25,326 --> 00:01:25,327
+461. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+117
+00:01:25,544 --> 00:01:25,545
+465. delay(1)
+
+118
+00:01:26,554 --> 00:01:26,556
+469. check(findTestObject("MVC_Choose Questions/With Questions - All"))
+
+119
+00:01:26,810 --> 00:01:26,812
+473. delay(1)
+
+120
+00:01:27,820 --> 00:01:27,821
+477. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+121
+00:01:28,012 --> 00:01:28,014
+481. verifyEqual(Count, 2)
+
+122
+00:01:28,021 --> 00:01:28,022
+485. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["10 questions", "16 questions"])
+
+123
+00:01:28,302 --> 00:01:28,303
+489. delay(1)
+
+124
+00:01:29,311 --> 00:01:29,313
+493. check(findTestObject("MVC_Choose Questions/DA1 Tag"))
+
+125
+00:01:29,570 --> 00:01:29,572
+497. delay(1)
+
+126
+00:01:30,583 --> 00:01:30,584
+501. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+127
+00:01:30,890 --> 00:01:30,892
+505. verifyEqual(Count, 1)
+
+128
+00:01:30,900 --> 00:01:30,903
+509. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+129
+00:01:31,240 --> 00:01:31,242
+513. verifyElementNotVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+130
+00:01:31,509 --> 00:01:31,510
+517. delay(1)
+
+131
+00:01:32,518 --> 00:01:32,520
+521. check(findTestObject("MVC_Choose Questions/DA2 Tag"))
+
+132
+00:01:32,747 --> 00:01:32,750
+525. delay(1)
+
+133
+00:01:33,757 --> 00:01:33,758
+529. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+134
+00:01:33,924 --> 00:01:33,927
+533. verifyEqual(Count, 1)
+
+135
+00:01:33,935 --> 00:01:33,937
+537. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+136
+00:01:34,156 --> 00:01:34,157
+541. verifyElementNotVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+137
+00:01:34,298 --> 00:01:34,300
+545. delay(1)
+
+138
+00:01:35,306 --> 00:01:35,309
+549. check(findTestObject("MVC_Choose Questions/DA3 Tag"))
+
+139
+00:01:35,554 --> 00:01:35,556
+553. delay(1)
+
+140
+00:01:36,563 --> 00:01:36,565
+557. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+141
+00:01:36,777 --> 00:01:36,779
+561. verifyEqual(Count, 1)
+
+142
+00:01:36,788 --> 00:01:36,789
+565. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+143
+00:01:36,992 --> 00:01:36,993
+569. verifyElementNotVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+144
+00:01:37,148 --> 00:01:37,150
+573. delay(1)
+
+145
+00:01:38,157 --> 00:01:38,160
+577. check(findTestObject("MVC_Choose Questions/DA4 Tag"))
+
+146
+00:01:38,454 --> 00:01:38,456
+581. delay(1)
+
+147
+00:01:39,465 --> 00:01:39,467
+585. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+148
+00:01:39,691 --> 00:01:39,692
+589. verifyEqual(Count, 1)
+
+149
+00:01:39,701 --> 00:01:39,703
+593. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+150
+00:01:39,962 --> 00:01:39,964
+597. verifyElementNotVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+151
+00:01:40,135 --> 00:01:40,137
+601. delay(1)
+
+152
+00:01:41,145 --> 00:01:41,147
+605. check(findTestObject("MVC_Choose Questions/DA5 Tag"))
+
+153
+00:01:41,460 --> 00:01:41,461
+609. delay(1)
+
+154
+00:01:42,469 --> 00:01:42,471
+613. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+155
+00:01:42,663 --> 00:01:42,665
+617. verifyEqual(Count, 1)
+
+156
+00:01:42,675 --> 00:01:42,676
+621. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+157
+00:01:42,946 --> 00:01:42,948
+625. verifyElementNotVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+158
+00:01:43,142 --> 00:01:43,144
+629. delay(1)
+
+159
+00:01:44,151 --> 00:01:44,153
+633. check(findTestObject("MVC_Choose Questions/DA6 Tag"))
+
+160
+00:01:44,448 --> 00:01:44,451
+637. delay(1)
+
+161
+00:01:45,458 --> 00:01:45,460
+641. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+162
+00:01:45,640 --> 00:01:45,641
+645. verifyEqual(Count, 1)
+
+163
+00:01:45,649 --> 00:01:45,651
+649. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["0 questions"])
+
+164
+00:01:45,849 --> 00:01:45,850
+653. verifyElementNotVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+165
+00:01:45,994 --> 00:01:45,995
+657. delay(1)
+
+166
+00:01:47,003 --> 00:01:47,006
+661. check(findTestObject("MVC_Choose Questions/QR1 Tag"))
+
+167
+00:01:47,228 --> 00:01:47,229
+665. delay(1)
+
+168
+00:01:48,232 --> 00:01:48,234
+669. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+169
+00:01:48,398 --> 00:01:48,400
+673. verifyEqual(Count, 1)
+
+170
+00:01:48,406 --> 00:01:48,407
+677. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["1 questions"])
+
+171
+00:01:48,666 --> 00:01:48,668
+681. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+172
+00:01:48,819 --> 00:01:48,820
+685. delay(1)
+
+173
+00:01:49,825 --> 00:01:49,862
+689. check(findTestObject("MVC_Choose Questions/QR2 Tag"))
+
+174
+00:01:50,142 --> 00:01:50,144
+693. delay(1)
+
+175
+00:01:51,148 --> 00:01:51,150
+697. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+176
+00:01:51,314 --> 00:01:51,315
+701. verifyEqual(Count, 1)
+
+177
+00:01:51,319 --> 00:01:51,320
+705. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["2 questions"])
+
+178
+00:01:51,531 --> 00:01:51,532
+709. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+179
+00:01:51,677 --> 00:01:51,679
+713. delay(1)
+
+180
+00:01:52,682 --> 00:01:52,684
+717. check(findTestObject("MVC_Choose Questions/QR3 Tag"))
+
+181
+00:01:52,973 --> 00:01:52,976
+721. delay(1)
+
+182
+00:01:53,980 --> 00:01:53,981
+725. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+183
+00:01:54,166 --> 00:01:54,167
+729. verifyEqual(Count, 1)
+
+184
+00:01:54,172 --> 00:01:54,174
+733. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["3 questions"])
+
+185
+00:01:54,354 --> 00:01:54,355
+737. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+186
+00:01:54,496 --> 00:01:54,497
+741. delay(1)
+
+187
+00:01:55,500 --> 00:01:55,526
+745. check(findTestObject("MVC_Choose Questions/QR4 Tag"))
+
+188
+00:01:55,760 --> 00:01:55,763
+749. delay(1)
+
+189
+00:01:56,767 --> 00:01:56,769
+753. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+190
+00:01:56,931 --> 00:01:56,932
+757. verifyEqual(Count, 1)
+
+191
+00:01:56,936 --> 00:01:56,937
+761. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["4 questions"])
+
+192
+00:01:57,136 --> 00:01:57,137
+765. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+193
+00:01:57,293 --> 00:01:57,295
+769. delay(1)
+
+194
+00:01:58,304 --> 00:01:58,306
+773. check(findTestObject("MVC_Choose Questions/QR5 Tag"))
+
+195
+00:01:58,577 --> 00:01:58,578
+777. delay(1)
+
+196
+00:01:59,584 --> 00:01:59,585
+781. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+197
+00:01:59,804 --> 00:01:59,806
+785. verifyEqual(Count, 1)
+
+198
+00:01:59,811 --> 00:01:59,813
+789. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["5 questions"])
+
+199
+00:02:00,203 --> 00:02:00,205
+793. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+200
+00:02:00,440 --> 00:02:00,442
+797. delay(1)
+
+201
+00:02:01,446 --> 00:02:01,447
+801. check(findTestObject("MVC_Choose Questions/QR6 Tag"))
+
+202
+00:02:01,700 --> 00:02:01,702
+805. delay(1)
+
+203
+00:02:02,705 --> 00:02:02,707
+809. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+204
+00:02:02,874 --> 00:02:02,875
+813. verifyEqual(Count, 1)
+
+205
+00:02:02,879 --> 00:02:02,880
+817. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["6 questions"])
+
+206
+00:02:03,077 --> 00:02:03,079
+821. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+207
+00:02:03,218 --> 00:02:03,219
+825. delay(1)
+
+208
+00:02:04,223 --> 00:02:04,224
+829. verifyTextNotPresent("Editor's Choice", false)
+
+209
+00:02:04,544 --> 00:02:04,546
+833. delay(1)
+
+210
+00:02:05,550 --> 00:02:05,552
+837. check(findTestObject("MVC_Choose Questions/Abstract Reasoning"))
+
+211
+00:02:05,869 --> 00:02:05,872
+841. delay(0)
+
+212
+00:02:05,876 --> 00:02:05,878
+845. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+213
+00:02:06,112 --> 00:02:06,113
+849. verifyEqual(Count, 1)
+
+214
+00:02:06,118 --> 00:02:06,120
+853. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["6 questions"])
+
+215
+00:02:06,353 --> 00:02:06,359
+857. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+216
+00:02:06,501 --> 00:02:06,502
+861. delay(1)
+
+217
+00:02:07,504 --> 00:02:07,505
+865. check(findTestObject("MVC_Choose Questions/Decision Analysis"))
+
+218
+00:02:07,744 --> 00:02:07,746
+869. delay(0)
+
+219
+00:02:07,751 --> 00:02:07,752
+873. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+220
+00:02:07,914 --> 00:02:07,915
+877. verifyEqual(Count, 2)
+
+221
+00:02:07,917 --> 00:02:07,918
+881. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["10 questions", "12 questions"])
+
+222
+00:02:08,155 --> 00:02:08,157
+885. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+223
+00:02:08,291 --> 00:02:08,292
+889. delay(1)
+
+224
+00:02:09,295 --> 00:02:09,297
+893. setText(findTestObject("MVC_Choose Questions/Keyword Filter Field"), "test")
+
+225
+00:02:09,623 --> 00:02:09,625
+897. click(findTestObject("MVC_Choose Questions/Button_Apply_Keyword Filter"))
+
+226
+00:02:09,866 --> 00:02:09,868
+901. delay(1)
+
+227
+00:02:10,873 --> 00:02:10,874
+905. verifyTextPresent("Keywords: test", false)
+
+228
+00:02:11,173 --> 00:02:11,174
+909. verifyTextPresent("Curricula: Abstract Reasoning, Decision Analysis & 1 Others", false)
+
+229
+00:02:11,458 --> 00:02:11,460
+913. delay(0)
+
+230
+00:02:11,472 --> 00:02:11,473
+917. count = 0
+
+231
+00:02:11,474 --> 00:02:11,476
+921. Count = getNumberOfTotalOption(findTestObject("MVC_Choose Questions/Questions Dropdown"))
+
+232
+00:02:11,652 --> 00:02:11,653
+925. verifyEqual(Count, 1)
+
+233
+00:02:11,655 --> 00:02:11,656
+929. verifyOptionsPresent(findTestObject("MVC_Choose Questions/Questions Dropdown"), ["2 questions"])
+
+234
+00:02:11,840 --> 00:02:11,841
+933. verifyElementVisible(findTestObject("MVC_Choose Questions/Button Start Questions"), STOP_ON_FAILURE)
+
+235
+00:02:11,977 --> 00:02:11,978
+937. takeScreenshot("E:\Katalon Studio\Screenshots\Tags_UKCAT.png")
+
+236
+00:02:12,493 --> 00:02:12,495
+941. closeBrowser()
+

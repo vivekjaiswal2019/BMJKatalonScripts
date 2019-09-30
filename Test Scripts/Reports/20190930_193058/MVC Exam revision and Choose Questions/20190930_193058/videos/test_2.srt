@@ -1,0 +1,4 @@
+1
+00:00:00,787 --> 00:00:00,791
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+

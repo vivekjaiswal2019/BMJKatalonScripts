@@ -25,13 +25,19 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('My Activity Feed', false)
+not_run: WebUI.verifyTextPresent('My Activity Feed', false)
 
-WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+not_run: WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.verifyTextPresent('Exam Revision', false)
+
+not_run: selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'UKCAT\'])[2]/following::li[1]')
+
+not_run: selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'UKCAT\'])[2]/following::li[2]')
+
+not_run: selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'UKCAT\'])[2]/following::li[3]')
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Home Tab'), 0)
 
@@ -43,7 +49,7 @@ WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Partner Centre Tab'
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Partner Admin Tab'), 0)
 
-WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Help Tab'), 0)
+not_run: WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Help Tab'), 0)
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/My Profile Link'), 0)
 
@@ -150,17 +156,17 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('Exam Revision', false)
 
-WebUI.click(findTestObject('MVC Exam Revision/Help Tab'))
+not_run: WebUI.click(findTestObject('MVC Exam Revision/Help Tab'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.verifyTextPresent('Frequently Asked Questions', false)
+not_run: WebUI.verifyTextPresent('Frequently Asked Questions', false)
 
-WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+not_run: WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
-WebUI.verifyTextPresent('Exam Revision', false)
+not_run: WebUI.verifyTextPresent('Exam Revision', false)
 
 WebUI.click(findTestObject('MVC Exam Revision/Choose Questions Sub Tab'))
 

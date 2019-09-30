@@ -81,9 +81,9 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
-WebUI.verifyElementPresent(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Sign Out'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Sign Out'), 0)
 
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Sign Out'))
+WebUI.click(findTestObject('MVC Exam Revision/Sign Out'))
 
 WebUI.delay(5)
 

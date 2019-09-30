@@ -1,0 +1,144 @@
+1
+00:00:00,660 --> 00:00:00,663
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:14,486 --> 00:00:14,489
+5. maximizeWindow()
+
+3
+00:00:16,058 --> 00:00:16,060
+9. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal@northgateps.com")
+
+4
+00:00:16,703 --> 00:00:16,706
+13. setText(findTestObject("MVC Login page/Password field"), "P@ssword1")
+
+5
+00:00:17,312 --> 00:00:17,318
+17. click(findTestObject("MVC Login page/Login Button"))
+
+6
+00:00:20,175 --> 00:00:20,178
+21. delay(2)
+
+7
+00:00:22,202 --> 00:00:22,204
+25. verifyTextPresent("My Activity Feed", false)
+
+8
+00:00:22,216 --> 00:00:22,217
+29. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+9
+00:00:22,222 --> 00:00:22,224
+33. delay(2)
+
+10
+00:00:22,230 --> 00:00:22,231
+37. verifyTextPresent("Exam Revision", false)
+
+11
+00:00:22,457 --> 00:00:22,459
+41. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[1]")
+
+12
+00:00:22,466 --> 00:00:22,468
+45. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[2]")
+
+13
+00:00:22,476 --> 00:00:22,478
+49. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[3]")
+
+14
+00:00:22,483 --> 00:00:22,485
+53. verifyElementPresent(findTestObject("MVC Exam Revision/Home Tab"), 0)
+
+15
+00:00:22,643 --> 00:00:22,646
+57. verifyElementPresent(findTestObject("MVC Exam Revision/CPD Tab"), 0)
+
+16
+00:00:22,816 --> 00:00:22,818
+61. verifyElementPresent(findTestObject("MVC Exam Revision/Managed Accounts Tab"), 0)
+
+17
+00:00:22,944 --> 00:00:22,946
+65. verifyElementPresent(findTestObject("MVC Exam Revision/Partner Centre Tab"), 0)
+
+18
+00:00:23,098 --> 00:00:23,100
+69. verifyElementPresent(findTestObject("MVC Exam Revision/Partner Admin Tab"), 0)
+
+19
+00:00:23,258 --> 00:00:23,260
+73. verifyElementPresent(findTestObject("MVC Exam Revision/Help Tab"), 0)
+
+20
+00:00:23,266 --> 00:00:23,269
+77. verifyElementPresent(findTestObject("MVC Exam Revision/My Profile Link"), 0)
+
+21
+00:00:23,508 --> 00:00:23,512
+81. verifyElementPresent(findTestObject("MVC Exam Revision/Sign Out"), 0)
+
+22
+00:00:23,702 --> 00:00:23,703
+85. verifyElementPresent(findTestObject("MVC Exam Revision/Choose Questions Sub Tab"), 0)
+
+23
+00:00:23,830 --> 00:00:23,832
+89. verifyElementPresent(findTestObject("MVC Exam Revision/Mock Tests Sub Tab"), 0)
+
+24
+00:00:23,979 --> 00:00:23,981
+93. verifyElementPresent(findTestObject("MVC Exam Revision/Group Learning Tab"), 0)
+
+25
+00:00:24,216 --> 00:00:24,218
+97. verifyElementPresent(findTestObject("MVC Exam Revision/Revision Advice Tab"), 0)
+
+26
+00:00:24,422 --> 00:00:24,424
+101. verifyElementPresent(findTestObject("MVC Exam Revision/Tags Tab"), 0)
+
+27
+00:00:24,550 --> 00:00:24,551
+105. verifyElementPresent(findTestObject("MVC Exam Revision/Learning Journal Tab"), 0)
+
+28
+00:00:24,664 --> 00:00:24,666
+109. verifyElementPresent(findTestObject("MVC Exam Revision/Performance Tab"), 0)
+
+29
+00:00:24,803 --> 00:00:24,804
+113. verifyElementPresent(findTestObject("MVC Exam Revision/Button Start your revision session"), 0)
+
+30
+00:00:24,954 --> 00:00:24,955
+117. verifyElementPresent(findTestObject("MVC Exam Revision/Button Group Learning"), 0)
+
+31
+00:00:25,085 --> 00:00:25,088
+121. verifyElementPresent(findTestObject("MVC Exam Revision/Button Mock Tests"), 0)
+
+32
+00:00:25,271 --> 00:00:25,272
+125. verifyElementPresent(findTestObject("MVC Exam Revision/Button My Performance"), 0)
+
+33
+00:00:25,484 --> 00:00:25,487
+129. verifyElementPresent(findTestObject("MVC Exam Revision/Forward Arrow"), 0)
+
+34
+00:00:25,773 --> 00:00:25,779
+133. verifyElementPresent(findTestObject("MVC Exam Revision/Back arrow"), 0)
+
+35
+00:00:26,006 --> 00:00:26,009
+137. verifyElementPresent(findTestObject("MVC Exam Revision/Exam Details text"), 0)
+
+36
+00:00:26,242 --> 00:00:26,243
+141. verifyElementPresent(findTestObject("MVC Exam Revision/Questions Answered details"), 0)
+

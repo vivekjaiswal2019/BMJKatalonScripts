@@ -1,0 +1,140 @@
+1
+00:00:00,777 --> 00:00:00,800
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:44,962 --> 00:00:44,968
+5. maximizeWindow()
+
+3
+00:00:46,636 --> 00:00:46,643
+9. click(findTestObject("MVC Login page/Login Button"))
+
+4
+00:00:48,245 --> 00:00:48,251
+13. delay(1)
+
+5
+00:00:49,321 --> 00:00:49,326
+17. verifyTextPresent("Please enter your email address", false)
+
+6
+00:00:49,499 --> 00:00:49,501
+21. verifyTextPresent("Please enter your password", false)
+
+7
+00:00:49,664 --> 00:00:49,666
+25. delay(2)
+
+8
+00:00:51,675 --> 00:00:51,677
+29. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal@northgateps.com")
+
+9
+00:00:52,273 --> 00:00:52,276
+33. setText(findTestObject("MVC Login page/Password field"), "")
+
+10
+00:00:52,563 --> 00:00:52,566
+37. click(findTestObject("MVC Login page/Login Button"))
+
+11
+00:00:52,893 --> 00:00:52,896
+41. delay(2)
+
+12
+00:00:54,905 --> 00:00:54,906
+45. verifyTextPresent("Please enter your password", false)
+
+13
+00:00:55,019 --> 00:00:55,021
+49. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal@northgateps.com")
+
+14
+00:00:55,558 --> 00:00:55,560
+53. setText(findTestObject("MVC Login page/Password field"), "Password2")
+
+15
+00:00:55,855 --> 00:00:55,857
+57. click(findTestObject("MVC Login page/Login Button"))
+
+16
+00:00:56,548 --> 00:00:56,556
+61. delay(2)
+
+17
+00:00:58,574 --> 00:00:58,584
+65. verifyTextPresent("Download our Mobile App", false)
+
+18
+00:00:58,731 --> 00:00:58,733
+69. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal")
+
+19
+00:00:59,257 --> 00:00:59,258
+73. click(findTestObject("MVC Login page/Login Button"))
+
+20
+00:00:59,523 --> 00:00:59,525
+77. delay(2)
+
+21
+00:01:01,533 --> 00:01:01,535
+81. verifyTextPresent("Invalid email address entered", false)
+
+22
+00:01:01,838 --> 00:01:01,841
+85. closeBrowser()
+
+23
+00:01:01,860 --> 00:01:01,862
+89. navigateToUrl("https://testmy.onexamination.com/login.aspx")
+
+24
+00:01:02,697 --> 00:01:02,701
+93. setText(findTestObject("MVC Login page/Email address field"), "assa@gmail.com")
+
+25
+00:01:03,373 --> 00:01:03,376
+97. setText(findTestObject("MVC Login page/Password field"), "P@ssword2")
+
+26
+00:01:04,072 --> 00:01:04,074
+101. click(findTestObject("MVC Login page/Login Button"))
+
+27
+00:01:04,969 --> 00:01:04,974
+105. delay(5)
+
+28
+00:01:09,984 --> 00:01:09,993
+109. verifyTextPresent("Invalid login details entered", false)
+
+29
+00:01:10,134 --> 00:01:10,136
+113. closeBrowser()
+
+30
+00:01:10,143 --> 00:01:10,145
+117. navigateToUrl("https://testmy.onexamination.com/login.aspx")
+
+31
+00:01:10,690 --> 00:01:10,692
+121. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal@northgateps.com")
+
+32
+00:01:11,267 --> 00:01:11,269
+125. setText(findTestObject("MVC Login page/Password field"), "P@ssword1")
+
+33
+00:01:11,656 --> 00:01:11,657
+129. click(findTestObject("MVC Login page/Login Button"))
+
+34
+00:01:14,199 --> 00:01:14,201
+133. delay(2)
+
+35
+00:01:16,214 --> 00:01:16,218
+137. verifyElementPresent(findTestObject("Page_My Dashboard - BMJ OnExaminati/a_Sign Out"), 0)
+

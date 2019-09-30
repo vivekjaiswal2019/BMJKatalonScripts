@@ -55,15 +55,15 @@ WebUI.delay(2)
 
 WebUI.navigateToUrl('https://testmy.onexamination.com/login.aspx')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Email address_ctl00MainC'), 'testautomation@gmail.com')
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'testautomation@gmail.com')
 
-WebUI.setText(findTestObject('Page_BMJ OnExamination Sign In/input_Password_ctl00MainConten'), 'P@ssword1')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/input_Please enter your passwo'))
+WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Scores'))
+WebUI.click(findTestObject('MVC Exam Revision/Performance Tab'))
 
 WebUI.verifyTextPresent('Score Analysis', false)
 

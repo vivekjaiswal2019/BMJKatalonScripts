@@ -9,6 +9,10 @@
          <key>XPATH</key>
          <value>//div[@id='userStats']/div/div[3]/div[2]/div[2]/span</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;userStats&quot;)/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;carousel-item active&quot;]/div[@class=&quot;carousel-caption EDashboard-content&quot;]/div[@class=&quot;font-weight-bold&quot;]/span[@class=&quot;font-weight-bold fontsize24&quot;][count(. | //span[@class = 'font-weight-bold fontsize24' and (text() = '26/185' or . = '26/185')]) = count(//span[@class = 'font-weight-bold fontsize24' and (text() = '26/185' or . = '26/185')])]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -20,7 +24,7 @@
       <value>span</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,10 +35,10 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>20/185</value>
+      <value>26/185</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

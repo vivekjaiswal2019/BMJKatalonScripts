@@ -25,7 +25,9 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+not_run: WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.verifyTextPresent('Exam Revision', false)
 
 WebUI.click(findTestObject('MVC Exam Revision/Choose Questions Sub Tab'))
 
@@ -55,7 +57,7 @@ WebUI.verifyTextPresent('UKCAT', false)
 
 WebUI.verifyTextPresent('185', false)
 
-WebUI.verifyElementAttributeValue(findTestObject('MVC_Choose Questions/Total Count of questions'), 'text', '185', 0)
+WebUI.verifyElementText(findTestObject('MVC_Choose Questions/Total Count of questions'), '185')
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Home Tab'), 0)
 
@@ -272,7 +274,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
 
-WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementNotVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -286,7 +288,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementNotVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -300,7 +302,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementNotVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -314,7 +316,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementNotVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -328,7 +330,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementNotVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -342,7 +344,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
 
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementNotVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -356,7 +358,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['1 questions'])
 
-WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -370,7 +372,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['2 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -384,7 +386,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['3 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -398,7 +400,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['4 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -412,7 +414,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['5 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -426,7 +428,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['6 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -444,7 +446,7 @@ WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['6 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -458,7 +460,7 @@ not_run: WebUI.verifyEqual(Count, 2)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '12 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(1)
 
@@ -482,7 +484,9 @@ not_run: WebUI.verifyEqual(Count, 1)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['2 questions'])
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button Start Questions'), 0)
+WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.takeScreenshot('E:\\Katalon Studio\\Screenshots\\Tags_UKCAT.png')
+
+WebUI.closeBrowser()
 

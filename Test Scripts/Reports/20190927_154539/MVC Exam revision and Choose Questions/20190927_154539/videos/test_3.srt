@@ -1,0 +1,44 @@
+1
+00:00:00,813 --> 00:00:00,815
+1. openBrowser("https://www.katalon.com/")
+
+2
+00:00:19,561 --> 00:00:19,563
+5. driver = getWebDriver()
+
+3
+00:00:19,587 --> 00:00:19,589
+9. baseUrl = "https://www.katalon.com/"
+
+4
+00:00:19,594 --> 00:00:19,596
+13. selenium = new com.thoughtworks.selenium.webdriven.WebDriverBackedSelenium(driver, baseUrl)
+
+5
+00:00:19,754 --> 00:00:19,757
+17. selenium.open("https://testmy.onexamination.com/Exam/Dashboard")
+
+6
+00:00:29,834 --> 00:00:29,836
+21. maximizeWindow()
+
+7
+00:00:31,366 --> 00:00:31,368
+25. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal@northgateps.com")
+
+8
+00:00:32,198 --> 00:00:32,199
+29. setText(findTestObject("MVC Login page/Password field"), "P@ssword1")
+
+9
+00:00:32,711 --> 00:00:32,713
+33. click(findTestObject("MVC Login page/Login Button"))
+
+10
+00:00:35,418 --> 00:00:35,420
+37. delay(2)
+
+11
+00:00:37,430 --> 00:00:37,437
+41. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[1]")
+

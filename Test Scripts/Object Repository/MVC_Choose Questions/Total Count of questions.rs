@@ -7,15 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;customStatNumberOfQuestions&quot;)[count(. | //div[@class = 'fontsize31 font-weight-bold text-white text-center' and @id = 'customStatNumberOfQuestions' and (text() = '185' or . = '185')]) = count(//div[@class = 'fontsize31 font-weight-bold text-white text-center' and @id = 'customStatNumberOfQuestions' and (text() = '185' or . = '185')])]</value>
+         <value>id(&quot;customStatNumberOfQuestions&quot;)[count(. | //div[@id = 'customStatNumberOfQuestions' and (text() = '185' or . = '185')]) = count(//div[@id = 'customStatNumberOfQuestions' and (text() = '185' or . = '185')])]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='customStatNumberOfQuestions']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,7 +27,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

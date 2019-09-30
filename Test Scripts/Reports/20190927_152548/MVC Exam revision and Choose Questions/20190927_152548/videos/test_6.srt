@@ -1,0 +1,12 @@
+1
+00:00:00,339 --> 00:00:00,340
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:12,120 --> 00:00:12,121
+5. maximizeWindow()
+
+3
+00:00:22,162 --> 00:00:22,163
+9. setText(findTestObject("MVC Login page/Email address field"), "testautomation@gmail.com")
+
