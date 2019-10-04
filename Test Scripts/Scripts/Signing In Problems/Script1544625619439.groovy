@@ -17,41 +17,41 @@ WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
 WebUI.maximizeWindow()
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/a_Forgot your password or chan'))
+WebUI.click(findTestObject('MVC Login page/Forgot Password Link'))
 
 WebUI.verifyTextPresent('Changed your email address?', false)
 
-WebUI.click(findTestObject('Page_Sign in problems/input_Invalid email address pl'))
+WebUI.click(findTestObject('Page_Forgot Password/Button Continue'))
 
 WebUI.verifyTextPresent('Please enter your email address', false)
 
-WebUI.setText(findTestObject('Page_Sign in problems/input_Email address_ctl00MainC'), '    ')
+WebUI.setText(findTestObject('Page_Forgot Password/Email Address field'), '    ')
 
-WebUI.click(findTestObject('Page_Sign in problems/input_Invalid email address pl'))
-
-WebUI.verifyTextPresent('Please enter your email address', false)
-
-WebUI.setText(findTestObject('Page_Sign in problems/input_Email address_ctl00MainC'), 'abc')
-
-WebUI.click(findTestObject('Page_Sign in problems/input_Invalid email address pl'))
+WebUI.click(findTestObject('Page_Forgot Password/Button Continue'))
 
 WebUI.verifyTextPresent('Invalid email address, please check it is typed correctly', false)
 
-WebUI.setText(findTestObject('Page_Sign in problems/input_Email address_ctl00MainC'), 'abc@gmail')
+WebUI.setText(findTestObject('Page_Forgot Password/Email Address field'), 'abc')
 
-WebUI.click(findTestObject('Page_Sign in problems/input_Invalid email address pl'))
-
-WebUI.verifyTextPresent('Invalid email address, please check it is typed correctly', false)
-
-WebUI.setText(findTestObject('Page_Sign in problems/input_Email address_ctl00MainC'), '@gmail.com')
-
-WebUI.click(findTestObject('Page_Sign in problems/input_Invalid email address pl'))
+WebUI.click(findTestObject('Page_Forgot Password/Button Continue'))
 
 WebUI.verifyTextPresent('Invalid email address, please check it is typed correctly', false)
 
-WebUI.setText(findTestObject('Page_Sign in problems/input_Email address_ctl00MainC'), 'a1b2c3@gmail.com')
+WebUI.setText(findTestObject('Page_Forgot Password/Email Address field'), 'abc@gmail')
 
-WebUI.click(findTestObject('Page_Sign in problems/input_Invalid email address pl'))
+WebUI.click(findTestObject('Page_Forgot Password/Button Continue'))
+
+WebUI.verifyTextPresent('Invalid email address, please check it is typed correctly', false)
+
+WebUI.setText(findTestObject('Page_Forgot Password/Email Address field'), '@gmail.com')
+
+WebUI.click(findTestObject('Page_Forgot Password/Button Continue'))
+
+WebUI.verifyTextPresent('Invalid email address, please check it is typed correctly', false)
+
+WebUI.setText(findTestObject('Page_Forgot Password/Email Address field'), 'a1b2c3@gmail.com')
+
+WebUI.click(findTestObject('Page_Forgot Password/Button Continue'))
 
 WebUI.verifyTextPresent('Please check your email account inbox, the message should arrive within 5 minutes.', false)
 
@@ -65,11 +65,15 @@ not_run: WebUI.click(findTestObject('Page_Sign in problems/input_Invalid email a
 
 not_run: WebUI.verifyTextPresent('There\'s been a problem sending your message', false)
 
-WebUI.click(findTestObject('Page_Sign in problems/a_Sign In'))
+WebUI.click(findTestObject('Page_Forgot Password/Link Sign In'))
 
-WebUI.click(findTestObject('Page_BMJ OnExamination Sign In/a_Forgot your password or chan'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Page_Sign in problems/Page_Sign in problems/a_contact our support team'))
+WebUI.click(findTestObject('MVC Login page/Forgot Password Link'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_Forgot Password/Link Contact our support team'))
 
 WebUI.verifyTextPresent('Contact Us', false)
 
