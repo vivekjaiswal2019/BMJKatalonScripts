@@ -48,6 +48,14 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
+WebUI.click(findTestObject('MVC_Choose Questions/Exam Resource dropdown'))
+
+WebUI.delay(1)
+
+WebUI.selectOptionByLabel(findTestObject('MVC_Choose Questions/Exam Resource dropdown'), 'UKCAT', false)
+
+WebUI.delay(1)
+
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'UKCAT\'])[2]/following::li[1]')
 
 selenium.click('xpath=(.//*[normalize-space(text()) and normalize-space(.)=\'UKCAT\'])[2]/following::div[14]')

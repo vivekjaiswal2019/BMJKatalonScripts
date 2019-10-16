@@ -53,6 +53,20 @@ WebUI.delay(10)
 
 WebUI.verifyTextPresent('Question Session', false)
 
+WebUI.verifyTextPresent('Question 1 of 1', false)
+
+WebUI.verifyTextPresent('I wish I was like those who are not afraid and love to travel alone on ships', false)
+
+WebUI.navigateToUrl('https://testmy.onexamination.com/GenericAssessment/GenericAssessmentLearningJournal.aspx')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_QS_Link'))
+
+WebUI.delay(1)
+
+WebUI.getUrl()
+
 WebUI.verifyTextPresent('I wish I was like those who are not afraid and love to travel alone on ships', false)
 
 WebUI.scrollToPosition(9999999, 9999999)
@@ -62,6 +76,8 @@ WebUI.check(findTestObject('Page_BMJ OnExamination Assessment Session/DA2 RB'))
 WebUI.click(findTestObject('Page_BMJ OnExamination Assessment Session/SubmitAnswer'))
 
 WebUI.delay(5)
+
+WebUI.verifyTextPresent('Question 1 of 1', false)
 
 WebUI.scrollToElement(findTestObject('Page_BMJ OnExamination Assessment Session/Feedback Section'), 0)
 

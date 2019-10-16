@@ -17,6 +17,66 @@ WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
 WebUI.maximizeWindow()
 
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
+
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
+
+WebUI.click(findTestObject('MVC Login page/Login Button'))
+
+WebUI.delay(5)
+
+WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+
+WebUI.verifyTextPresent('Exam Revision', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Choose Questions Sub Tab'))
+
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'UKCAT', false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'MRCP Part 1', false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'MRCP Part 2 Written', false, 
+    0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'Tropical Health Education Trust module', 
+    false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'Medical Student Finals', false, 
+    0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'MRCPCH Foundation/Theory and Science (with T/F)', 
+    false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'MRCPsych Paper 1 and 2', false, 
+    0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'MRCPCH Part 2', false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'Endocrinology and Diabetes SCE', 
+    false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'GP ST', false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'Situational Judgement Test', 
+    false, 0)
+
+WebUI.verifyOptionPresentByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'FRCS - General Surgery', false, 
+    0)
+
+WebUI.verifyTextPresent('Choose Questions', false)
+
+WebUI.click(findTestObject('MVC Exam Revision/Sign Out'))
+
+WebUI.delay(0)
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
+
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('MVC Login page/Email address field'), 'testautomation@gmail.com')
 
 WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
@@ -47,9 +107,9 @@ WebUI.verifyElementNotPresent(findTestObject('MVC Exam Revision/Exam Resource dr
 
 WebUI.verifyTextPresent('Choose Questions', false)
 
-WebUI.verifyTextPresent('Keywords: None', false)
-
 WebUI.verifyTextPresent('Current Options Selected', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
 
 WebUI.verifyTextPresent('Curricula: All', false)
 
@@ -108,7 +168,7 @@ WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty Select Diff
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All'), 
     0)
 
-not_run: WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All - Easy'), 
+not_run: WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - Easy'), 
     0)
 
 not_run: WebUI.verifyElementNotChecked(findTestObject('null'), 0)
@@ -118,6 +178,8 @@ not_run: WebUI.verifyElementNotChecked(findTestObject('null'), 0)
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'), 0)
 
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'), 0)
+
+WebUI.verifyElementPresent(findTestObject('MVC_Choose Questions/Button_Apply_Keyword Filter'), 0)
 
 WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty All'), FailureHandling.STOP_ON_FAILURE)
 
@@ -129,6 +191,10 @@ if (ExpectedPlaceholder == placeholder) {
     KeywordUtil.markPassed('Placeholder is  as expected.')
 }
 
+WebUI.delay(1)
+
+WebUI.scrollToPosition(0, 0)
+
 WebUI.click(findTestObject('MVC_Choose Questions/Select Curriculum'))
 
 WebUI.verifyTextPresent('Abstract Reasoning', false)
@@ -138,6 +204,18 @@ WebUI.verifyTextPresent('Decision Analysis', false)
 WebUI.verifyTextPresent('Quantitative Reasoning', false)
 
 WebUI.verifyTextPresent('Verbal Reasoning', false)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 11)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '20 questions', '30 questions'
+        , '40 questions', '50 questions', '60 questions', '70 questions', '80 questions', '90 questions', '100 questions'
+        , 'All questions (185)'])
+
+WebUI.verifyTextPresent('All', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
 
 WebUI.check(findTestObject('MVC_Choose Questions/Abstract Reasoning'))
 
@@ -151,6 +229,8 @@ WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdo
         , '40 questions', '50 questions', '56 questions'])
 
 WebUI.verifyTextPresent('Curricula: Abstract Reasoning', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
 
 WebUI.uncheck(findTestObject('MVC_Choose Questions/Abstract Reasoning'))
 
@@ -169,6 +249,8 @@ WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdo
 WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
 
 WebUI.verifyTextPresent('Best Answer Question', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
 
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'), 0)
 

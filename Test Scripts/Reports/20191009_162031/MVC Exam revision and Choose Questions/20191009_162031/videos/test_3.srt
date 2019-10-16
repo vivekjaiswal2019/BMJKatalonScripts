@@ -1,0 +1,532 @@
+1
+00:00:00,578 --> 00:00:00,581
+1. openBrowser("https://testmy.onexamination.com/login.aspx")
+
+2
+00:00:16,613 --> 00:00:16,615
+5. maximizeWindow()
+
+3
+00:00:18,136 --> 00:00:18,140
+9. setText(findTestObject("MVC Login page/Email address field"), "vivek.jaiswal@northgateps.com")
+
+4
+00:00:19,230 --> 00:00:19,233
+13. setText(findTestObject("MVC Login page/Password field"), "P@ssword1")
+
+5
+00:00:19,919 --> 00:00:19,922
+17. click(findTestObject("MVC Login page/Login Button"))
+
+6
+00:00:22,507 --> 00:00:22,509
+21. delay(2)
+
+7
+00:00:24,530 --> 00:00:24,534
+25. verifyTextPresent("My Activity Feed", false)
+
+8
+00:00:24,542 --> 00:00:24,543
+29. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+9
+00:00:24,549 --> 00:00:24,551
+33. delay(2)
+
+10
+00:00:24,559 --> 00:00:24,562
+37. verifyTextPresent("Exam Revision", false)
+
+11
+00:00:24,900 --> 00:00:24,902
+41. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[1]")
+
+12
+00:00:24,911 --> 00:00:24,914
+45. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[2]")
+
+13
+00:00:24,921 --> 00:00:24,924
+49. selenium.click("xpath=(.//*[normalize-space(text()) and normalize-space(.)='UKCAT'])[2]/following::li[3]")
+
+14
+00:00:24,931 --> 00:00:24,933
+53. verifyElementPresent(findTestObject("MVC Exam Revision/Home Tab"), 0)
+
+15
+00:00:25,112 --> 00:00:25,115
+57. verifyElementPresent(findTestObject("MVC Exam Revision/CPD Tab"), 0)
+
+16
+00:00:25,274 --> 00:00:25,275
+61. verifyElementPresent(findTestObject("MVC Exam Revision/Managed Accounts Tab"), 0)
+
+17
+00:00:25,460 --> 00:00:25,462
+65. verifyElementPresent(findTestObject("MVC Exam Revision/Partner Centre Tab"), 0)
+
+18
+00:00:25,629 --> 00:00:25,631
+69. verifyElementPresent(findTestObject("MVC Exam Revision/Partner Admin Tab"), 0)
+
+19
+00:00:25,802 --> 00:00:25,804
+73. verifyElementPresent(findTestObject("MVC Exam Revision/Help Tab"), 0)
+
+20
+00:00:25,813 --> 00:00:25,815
+77. verifyElementPresent(findTestObject("MVC Exam Revision/My Profile Link"), 0)
+
+21
+00:00:26,062 --> 00:00:26,064
+81. verifyElementPresent(findTestObject("MVC Exam Revision/Sign Out"), 0)
+
+22
+00:00:26,225 --> 00:00:26,227
+85. verifyElementPresent(findTestObject("MVC Exam Revision/Choose Questions Sub Tab"), 0)
+
+23
+00:00:26,374 --> 00:00:26,375
+89. verifyElementPresent(findTestObject("MVC Exam Revision/Mock Tests Sub Tab"), 0)
+
+24
+00:00:26,775 --> 00:00:26,780
+93. verifyElementPresent(findTestObject("MVC Exam Revision/Group Learning Tab"), 0)
+
+25
+00:00:27,093 --> 00:00:27,096
+97. verifyElementPresent(findTestObject("MVC Exam Revision/Revision Advice Tab"), 0)
+
+26
+00:00:27,398 --> 00:00:27,400
+101. verifyElementPresent(findTestObject("MVC Exam Revision/Tags Tab"), 0)
+
+27
+00:00:27,815 --> 00:00:27,819
+105. verifyElementPresent(findTestObject("MVC Exam Revision/Learning Journal Tab"), 0)
+
+28
+00:00:28,116 --> 00:00:28,119
+109. verifyElementPresent(findTestObject("MVC Exam Revision/Performance Tab"), 0)
+
+29
+00:00:28,319 --> 00:00:28,322
+113. verifyElementPresent(findTestObject("MVC Exam Revision/Button Start your revision session"), 0)
+
+30
+00:00:28,490 --> 00:00:28,493
+117. verifyElementPresent(findTestObject("MVC Exam Revision/Button Group Learning"), 0)
+
+31
+00:00:28,699 --> 00:00:28,707
+121. verifyElementPresent(findTestObject("MVC Exam Revision/Button Mock Tests"), 0)
+
+32
+00:00:28,941 --> 00:00:28,943
+125. verifyElementPresent(findTestObject("MVC Exam Revision/Button My Performance"), 0)
+
+33
+00:00:29,153 --> 00:00:29,154
+129. verifyElementPresent(findTestObject("MVC Exam Revision/Forward Arrow"), 0)
+
+34
+00:00:29,403 --> 00:00:29,405
+133. verifyElementPresent(findTestObject("MVC Exam Revision/Back arrow"), 0)
+
+35
+00:00:29,616 --> 00:00:29,618
+137. verifyElementPresent(findTestObject("MVC Exam Revision/Exam Details text"), 0)
+
+36
+00:00:29,950 --> 00:00:29,953
+141. verifyElementPresent(findTestObject("MVC Exam Revision/Questions Answered details"), 0)
+
+37
+00:00:30,176 --> 00:00:30,180
+145. verifyElementPresent(findTestObject("MVC Exam Revision/Count of Questions Details"), 0)
+
+38
+00:00:30,358 --> 00:00:30,360
+149. verifyElementPresent(findTestObject("MVC Exam Revision/Exam Resource dropdown"), 0)
+
+39
+00:00:30,535 --> 00:00:30,538
+153. verifyElementPresent(findTestObject("MVC Exam Revision/Count of Questions Details"), 0)
+
+40
+00:00:30,669 --> 00:00:30,672
+157. verifyElementPresent(findTestObject("MVC Exam Revision/Count of Questions Details"), 0)
+
+41
+00:00:30,837 --> 00:00:30,839
+161. verifyElementPresent(findTestObject("MVC Exam Revision/Count of Questions Details"), 0)
+
+42
+00:00:30,987 --> 00:00:30,989
+165. click(findTestObject("MVC Exam Revision/Home Tab"))
+
+43
+00:00:31,257 --> 00:00:31,259
+169. delay(2)
+
+44
+00:00:33,269 --> 00:00:33,271
+173. verifyTextPresent("My Activity Feed", false)
+
+45
+00:00:34,961 --> 00:00:34,962
+177. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+46
+00:00:35,370 --> 00:00:35,371
+181. delay(2)
+
+47
+00:00:37,389 --> 00:00:37,392
+185. verifyTextPresent("Exam Revision", false)
+
+48
+00:00:38,069 --> 00:00:38,073
+189. click(findTestObject("MVC Exam Revision/CPD Tab"))
+
+49
+00:00:38,522 --> 00:00:38,524
+193. delay(2)
+
+50
+00:00:40,538 --> 00:00:40,540
+197. verifyTextPresent("Our Self Assessment modules will help to keep your knowledge up-to-date and support your continuous professional development.", false)
+
+51
+00:00:42,419 --> 00:00:42,422
+201. click(findTestObject("MVC Exam Revision/Exam Revision Tab"))
+
+52
+00:00:42,728 --> 00:00:42,732
+205. delay(2)
+
+53
+00:00:44,742 --> 00:00:44,743
+209. verifyTextPresent("Exam Revision", false)
+
+54
+00:00:44,988 --> 00:00:44,989
+213. click(findTestObject("MVC Exam Revision/Managed Accounts Tab"))
+
+55
+00:00:45,249 --> 00:00:45,251
+217. delay(2)
+
+56
+00:00:47,260 --> 00:00:47,262
+221. verifyTextPresent("You do not have any groups associated.", false)
+
+57
+00:00:47,525 --> 00:00:47,528
+225. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+58
+00:00:47,912 --> 00:00:47,914
+229. delay(2)
+
+59
+00:00:49,924 --> 00:00:49,925
+233. verifyTextPresent("Exam Revision", false)
+
+60
+00:00:50,210 --> 00:00:50,212
+237. click(findTestObject("MVC Exam Revision/Partner Centre Tab"))
+
+61
+00:00:50,505 --> 00:00:50,510
+241. delay(2)
+
+62
+00:00:52,519 --> 00:00:52,520
+245. verifyTextPresent("PACES build", false)
+
+63
+00:00:52,962 --> 00:00:52,964
+249. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+64
+00:00:53,656 --> 00:00:53,659
+253. delay(2)
+
+65
+00:00:55,679 --> 00:00:55,684
+257. verifyTextPresent("Exam Revision", false)
+
+66
+00:00:55,926 --> 00:00:55,928
+261. click(findTestObject("MVC Exam Revision/Partner Admin Tab"))
+
+67
+00:00:56,162 --> 00:00:56,164
+265. delay(2)
+
+68
+00:00:58,173 --> 00:00:58,175
+269. verifyTextPresent("Account Management", false)
+
+69
+00:01:01,462 --> 00:01:01,466
+273. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+70
+00:01:01,810 --> 00:01:01,812
+277. delay(2)
+
+71
+00:01:03,825 --> 00:01:03,827
+281. verifyTextPresent("Exam Revision", false)
+
+72
+00:01:04,100 --> 00:01:04,102
+285. click(findTestObject("MVC Exam Revision/Help Tab"))
+
+73
+00:01:04,109 --> 00:01:04,111
+289. delay(2)
+
+74
+00:01:04,117 --> 00:01:04,119
+293. verifyTextPresent("Frequently Asked Questions", false)
+
+75
+00:01:04,125 --> 00:01:04,128
+297. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+76
+00:01:04,134 --> 00:01:04,136
+301. delay(2)
+
+77
+00:01:04,144 --> 00:01:04,147
+305. verifyTextPresent("Exam Revision", false)
+
+78
+00:01:04,159 --> 00:01:04,162
+309. click(findTestObject("MVC Exam Revision/Choose Questions Sub Tab"))
+
+79
+00:01:04,469 --> 00:01:04,471
+313. delay(2)
+
+80
+00:01:06,488 --> 00:01:06,490
+317. verifyTextPresent("Choose Questions", false)
+
+81
+00:01:06,776 --> 00:01:06,778
+321. click(findTestObject("MVC Exam Revision/Exam Revision Tab"))
+
+82
+00:01:07,707 --> 00:01:07,709
+325. delay(2)
+
+83
+00:01:09,722 --> 00:01:09,726
+329. verifyTextPresent("Exam Revision", false)
+
+84
+00:01:10,186 --> 00:01:10,188
+333. click(findTestObject("MVC Exam Revision/Mock Tests Sub Tab"))
+
+85
+00:01:10,490 --> 00:01:10,498
+337. delay(2)
+
+86
+00:01:12,510 --> 00:01:12,512
+341. verifyTextPresent("Please select from one of these Mock Tests:", false)
+
+87
+00:01:12,787 --> 00:01:12,788
+345. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+88
+00:01:14,378 --> 00:01:14,381
+349. delay(2)
+
+89
+00:01:16,400 --> 00:01:16,402
+353. verifyTextPresent("Exam Revision", false)
+
+90
+00:01:16,679 --> 00:01:16,681
+357. click(findTestObject("MVC Exam Revision/Group Learning Tab"))
+
+91
+00:01:18,927 --> 00:01:18,931
+361. delay(2)
+
+92
+00:01:20,949 --> 00:01:20,951
+365. verifyTextPresent("Join your peers in this quiz format revision tool and compete against them whilst you test your knowledge.", false)
+
+93
+00:01:21,430 --> 00:01:21,432
+369. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+94
+00:01:22,489 --> 00:01:22,492
+373. delay(2)
+
+95
+00:01:24,508 --> 00:01:24,510
+377. verifyTextPresent("Exam Revision", false)
+
+96
+00:01:24,788 --> 00:01:24,790
+381. click(findTestObject("MVC Exam Revision/Revision Advice Tab"))
+
+97
+00:01:25,049 --> 00:01:25,051
+385. delay(2)
+
+98
+00:01:27,060 --> 00:01:27,063
+389. verifyTextPresent("Revision Advice", false)
+
+99
+00:01:27,410 --> 00:01:27,412
+393. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+100
+00:01:28,695 --> 00:01:28,696
+397. delay(2)
+
+101
+00:01:30,706 --> 00:01:30,707
+401. verifyTextPresent("Exam Revision", false)
+
+102
+00:01:30,965 --> 00:01:30,967
+405. click(findTestObject("MVC Exam Revision/Tags Tab"))
+
+103
+00:01:31,222 --> 00:01:31,225
+409. delay(2)
+
+104
+00:01:33,234 --> 00:01:33,235
+413. verifyTextPresent("Tagged Questions", false)
+
+105
+00:01:33,492 --> 00:01:33,494
+417. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+106
+00:01:34,611 --> 00:01:34,614
+421. delay(2)
+
+107
+00:01:36,626 --> 00:01:36,632
+425. verifyTextPresent("Exam Revision", false)
+
+108
+00:01:36,865 --> 00:01:36,866
+429. click(findTestObject("MVC Exam Revision/Learning Journal Tab"))
+
+109
+00:01:37,126 --> 00:01:37,127
+433. delay(2)
+
+110
+00:01:39,137 --> 00:01:39,139
+437. verifyTextPresent("Learning Journal", false)
+
+111
+00:01:39,523 --> 00:01:39,524
+441. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+112
+00:01:39,842 --> 00:01:39,844
+445. delay(2)
+
+113
+00:01:41,853 --> 00:01:41,854
+449. click(findTestObject("MVC Exam Revision/Button Start your revision session"))
+
+114
+00:01:43,060 --> 00:01:43,062
+453. delay(2)
+
+115
+00:01:45,085 --> 00:01:45,088
+457. verifyTextPresent("Choose Questions", false)
+
+116
+00:01:45,393 --> 00:01:45,394
+461. click(findTestObject("MVC Exam Revision/Exam Revision Tab"))
+
+117
+00:01:46,400 --> 00:01:46,409
+465. delay(2)
+
+118
+00:01:48,420 --> 00:01:48,423
+469. click(findTestObject("MVC Exam Revision/Button Group Learning"))
+
+119
+00:01:50,265 --> 00:01:50,267
+473. delay(2)
+
+120
+00:01:52,343 --> 00:01:52,345
+477. verifyTextPresent("Join your peers in this quiz format revision tool and compete against them whilst you test your knowledge.", false)
+
+121
+00:01:52,966 --> 00:01:52,968
+481. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+122
+00:01:54,356 --> 00:01:54,358
+485. delay(2)
+
+123
+00:01:56,367 --> 00:01:56,368
+489. click(findTestObject("MVC Exam Revision/Button Mock Tests"))
+
+124
+00:01:57,842 --> 00:01:57,844
+493. delay(2)
+
+125
+00:01:59,854 --> 00:01:59,856
+497. verifyTextPresent("Please select from one of these Mock Tests:", false)
+
+126
+00:02:00,161 --> 00:02:00,162
+501. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+127
+00:02:01,500 --> 00:02:01,504
+505. delay(2)
+
+128
+00:02:03,527 --> 00:02:03,529
+509. click(findTestObject("MVC Exam Revision/Button My Performance"))
+
+129
+00:02:04,953 --> 00:02:04,956
+513. delay(2)
+
+130
+00:02:06,977 --> 00:02:06,978
+517. verifyTextPresent("Score Analysis", false)
+
+131
+00:02:07,427 --> 00:02:07,428
+521. click(findTestObject("MVC Exam Revision/Exam Revision Tab - Old"))
+
+132
+00:02:07,694 --> 00:02:07,696
+525. delay(2)
+
+133
+00:02:09,704 --> 00:02:09,708
+529. closeBrowser()
+

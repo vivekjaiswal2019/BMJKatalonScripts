@@ -49,7 +49,7 @@ WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Partner Centre Tab'
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Partner Admin Tab'), 0)
 
-not_run: WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Help Tab'), 0)
+WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Help Tab'), 0)
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/My Profile Link'), 0)
 

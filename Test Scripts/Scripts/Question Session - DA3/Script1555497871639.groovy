@@ -53,6 +53,20 @@ WebUI.delay(10)
 
 WebUI.verifyTextPresent('Question Session', false)
 
+WebUI.verifyTextPresent('Question 1 of 1', false)
+
+WebUI.verifyTextPresent('Robots follow the instructions given', false)
+
+WebUI.navigateToUrl('https://testmy.onexamination.com/GenericAssessment/GenericAssessmentLearningJournal.aspx')
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_BMJ OnExamination Learning Jou/LJ_QS_Link'))
+
+WebUI.delay(1)
+
+WebUI.getUrl()
+
 WebUI.verifyTextPresent('Robots follow the instructions given', false)
 
 WebUI.scrollToPosition(9999999, 9999999)

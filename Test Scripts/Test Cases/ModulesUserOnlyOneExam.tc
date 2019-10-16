@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Modules seen when logged in user has no exam</description>
+   <name>ModulesUserOnlyOneExam</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>efe5f53c-93de-465f-99cb-ee94ce33cec8</testCaseGuid>
+</TestCaseEntity>

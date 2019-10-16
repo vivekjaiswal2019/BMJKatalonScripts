@@ -26,11 +26,11 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(2)
 
-WebUI.verifyTextPresent('My Activity Feed', false)
+not_run: WebUI.verifyTextPresent('My Activity Feed', false)
 
-WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+not_run: WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
 
-WebUI.delay(2)
+not_run: WebUI.delay(2)
 
 WebUI.verifyTextPresent('Exam Revision', false)
 

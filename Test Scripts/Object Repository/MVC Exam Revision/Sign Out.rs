@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='pageHeader']/div/div[2]/div/div[2]/span/span[2]/a</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/Account/SignOut' and (text() = 'Sign Out' or . = 'Sign Out')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
