@@ -25,7 +25,7 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(1)
 
-WebUI.verifyTextPresent('You currently have no purchased exam revision material.', false)
+not_run: WebUI.verifyTextPresent('You currently have no purchased exam revision material.', false)
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Help Tab - Old'), 0)
 

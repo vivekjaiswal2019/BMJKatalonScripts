@@ -6,12 +6,12 @@
    <elementGuidId>fe8d5638-65ed-459b-8123-716d67f3ac2d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='bs-example-navbar-collapse-1']/div[2]/div/ul/li[3]/a</value>
+         <key>BASIC</key>
+         <value>//a[@class = 'nav-link navItemInactive' and @href = '/Profile/ChangePassword' and (text() = 'Change Password' or . = 'Change Password')]</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;bs-example-navbar-collapse-1&quot;)/div[@class=&quot;secondary-navigation&quot;]/div[@class=&quot;container&quot;]/ul[@class=&quot;nav navbar-nav&quot;]/li[3]/a[@class=&quot;navItemInactive&quot;][count(. | //a[@class = 'navItemInactive' and @href = '/Account/ChangePassword.aspx' and (text() = 'Change Password' or . = 'Change Password')]) = count(//a[@class = 'navItemInactive' and @href = '/Account/ChangePassword.aspx' and (text() = 'Change Password' or . = 'Change Password')])]</value>
+         <key>XPATH</key>
+         <value>//div[@id='bs-example-navbar-collapse-1']/div[2]/div/ul/li[3]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -28,14 +28,14 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>navItemInactive</value>
+      <value>nav-link navItemInactive</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/Account/ChangePassword.aspx</value>
+      <value>/Profile/ChangePassword</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <value>Change Password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
@@ -55,36 +55,42 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
+      <type>Main</type>
       <value>//div[@id='bs-example-navbar-collapse-1']/div[2]/div/ul/li[3]/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Exam Dates'])[1]/following::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Details'])[1]/following::a[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
+      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='My Receipts'])[1]/preceding::a[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
+      <type>Main</type>
       <value>//a[contains(@href, '/Account/ChangePassword.aspx')]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
+      <type>Main</type>
       <value>//div[2]/div/ul/li[3]/a</value>
    </webElementXpaths>
 </WebElementEntity>

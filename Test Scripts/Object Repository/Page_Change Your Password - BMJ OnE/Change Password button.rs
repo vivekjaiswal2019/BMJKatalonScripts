@@ -4,7 +4,17 @@
    <name>Change password button</name>
    <tag></tag>
    <elementGuidId>917c956e-e876-4937-8148-bf2507159aaa</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@type = 'submit' and @name = 'ctl00$MainContent$ChangePassword1$ChangePasswordContainerID$ChangePasswordPushButton' and @value = 'Change password' and @onclick = 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MainContent$ChangePassword1$ChangePasswordContainerID$ChangePasswordPushButton&quot;, &quot;&quot;, true, &quot;ChangePassword1&quot;, &quot;&quot;, false, false))' and @id = 'MainContent_ChangePassword1_ChangePasswordContainerID_ChangePasswordPushButton' and @class = 'btn btn-primary marginRight']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='MainContent_ChangePassword1_ChangePasswordContainerID_ChangePasswordPushButton']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,14 +38,14 @@
       <value>ctl00$MainContent$ChangePassword1$ChangePasswordContainerID$ChangePasswordPushButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
       <value>Change password</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
@@ -49,7 +59,7 @@
       <value>MainContent_ChangePassword1_ChangePasswordContainerID_ChangePasswordPushButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>

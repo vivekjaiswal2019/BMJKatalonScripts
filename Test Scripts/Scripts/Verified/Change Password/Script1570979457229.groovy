@@ -13,6 +13,8 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('https://testmy.onexamination.com/Login')
 
@@ -20,13 +22,9 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword2')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
 WebUI.click(findTestObject('MVC Login page/Login Button'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('MVC Exam Revision/Home Tab - Old'))
 
 WebUI.delay(1)
 
@@ -54,7 +52,7 @@ WebUI.verifyTextPresent('Please confirm your new password', false)
 
 WebUI.comment('Invalid new and confirm password')
 
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword2')
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword1')
 
 WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/New password field'), 'P@ssword')
 
@@ -96,7 +94,7 @@ WebUI.clearText(findTestObject('Page_Change Your Password - BMJ OnE/Confirm new 
 
 WebUI.comment('Invalid current password')
 
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword1')
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword2')
 
 WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/New password field'), 'P@ssword3')
 
@@ -115,6 +113,14 @@ WebUI.openBrowser('https://testmy.onexamination.com/Login')
 WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
+
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword2')
+
+WebUI.click(findTestObject('MVC Login page/Login Button'))
+
+WebUI.delay(1)
+
+WebUI.verifyTextPresent('Invalid login details entered', false)
 
 WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword3')
 
@@ -130,18 +136,6 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(1)
 
-WebUI.verifyTextPresent('Invalid login details entered', false)
-
-WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword2')
-
-WebUI.click(findTestObject('MVC Login page/Login Button'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('MVC Exam Revision/Home Tab - Old'))
-
-WebUI.delay(1)
-
 WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_My Profile'))
 
 WebUI.delay(1)
@@ -154,11 +148,11 @@ WebUI.verifyTextPresent('Change Password', false)
 
 WebUI.comment('Cancel button')
 
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword2')
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword1')
 
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/New password field'), 'P@ssword3')
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/New password field'), 'P@ssword2')
 
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Confirm new password field'), 'P@ssword3')
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Confirm new password field'), 'P@ssword2')
 
 WebUI.click(findTestObject('Page_Change Your Password - BMJ OnE/Cancel button'), FailureHandling.STOP_ON_FAILURE)
 
@@ -174,7 +168,7 @@ WebUI.maximizeWindow()
 
 WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
-WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword3')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword2')
 
 WebUI.click(findTestObject('MVC Login page/Login Button'))
 
@@ -182,13 +176,9 @@ WebUI.delay(1)
 
 WebUI.verifyTextPresent('Invalid login details entered', false)
 
-WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword2')
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
 WebUI.click(findTestObject('MVC Login page/Login Button'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('MVC Exam Revision/Home Tab - Old'))
 
 WebUI.delay(1)
 
@@ -204,53 +194,7 @@ WebUI.verifyTextPresent('Change Password', false)
 
 WebUI.comment('Valid Change Password')
 
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword2')
-
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/New password field'), 'P@ssword3')
-
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Confirm new password field'), 'P@ssword3')
-
-WebUI.click(findTestObject('Page_Change Your Password - BMJ OnE/Change password button'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.verifyTextPresent('Message: Your password has been successfully changed', false)
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Sign Out'))
-
-WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
-
-WebUI.openBrowser('https://testmy.onexamination.com/Login')
-
-WebUI.maximizeWindow()
-
-WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
-
-WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword3')
-
-WebUI.click(findTestObject('MVC Login page/Login Button'))
-
-WebUI.delay(1)
-
-WebUI.verifyTextPresent('My Profile', false)
-
-WebUI.click(findTestObject('MVC Exam Revision/Home Tab - Old'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_My Profile'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Change Password'))
-
-WebUI.delay(1)
-
-WebUI.verifyTextPresent('Change Password', false)
-
-WebUI.comment('Resetting default values')
-
-WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword3')
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword1')
 
 WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/New password field'), 'P@ssword2')
 
@@ -273,6 +217,48 @@ WebUI.maximizeWindow()
 WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
 
 WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword2')
+
+WebUI.click(findTestObject('MVC Login page/Login Button'))
+
+WebUI.delay(1)
+
+WebUI.verifyTextPresent('My Profile', false)
+
+WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_My Profile'))
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_My Profile - BMJ OnExamination/a_Change Password'))
+
+WebUI.delay(1)
+
+WebUI.verifyTextPresent('Change Password', false)
+
+WebUI.comment('Resetting default values')
+
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Current Password field'), 'P@ssword2')
+
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/New password field'), 'P@ssword1')
+
+WebUI.setText(findTestObject('Page_Change Your Password - BMJ OnE/Confirm new password field'), 'P@ssword1')
+
+WebUI.click(findTestObject('Page_Change Your Password - BMJ OnE/Change password button'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyTextPresent('Message: Your password has been successfully changed', false)
+
+WebUI.delay(1)
+
+WebUI.click(findTestObject('Page_My Dashboard - BMJ OnExaminati/a_Sign Out'))
+
+WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.openBrowser('https://testmy.onexamination.com/Login')
+
+WebUI.maximizeWindow()
+
+WebUI.setText(findTestObject('MVC Login page/Email address field'), 'vivek.jaiswal@northgateps.com')
+
+WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 
 WebUI.click(findTestObject('MVC Login page/Login Button'))
 

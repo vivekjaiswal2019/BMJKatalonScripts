@@ -6,11 +6,15 @@
    <elementGuidId>636be740-3b03-4ac6-a86f-cc330db402b3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'nav-link navItemInactive' and @href = '/Exam/ChooseQuestions' and (text() = 'Choose Questions' or . = 'Choose Questions')]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//*[@id=&quot;submenu&quot;]/li[1]/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +24,7 @@
       <value>a</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -31,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>/GenericAssessment/Generate.aspx?type=Choose</value>
+      <value>/Exam/ChooseQuestions</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;submenu&quot;)/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link navItemInactive&quot;]</value>
+      <value>&lt;a class=&quot;nav-link navItemInactive&quot; href=&quot;/Exam/ChooseQuestions&quot;>Choose Questions&lt;/a></value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

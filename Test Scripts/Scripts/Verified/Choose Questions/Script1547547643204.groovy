@@ -25,11 +25,11 @@ WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(5)
 
-WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
+not_run: WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
 
 WebUI.verifyTextPresent('Exam Revision', false)
 
-WebUI.click(findTestObject('MVC Exam Revision/Choose Questions Sub Tab'))
+WebUI.click(findTestObject('MVC Exam Revision/Button Start your revision session'))
 
 WebUI.verifyElementPresent(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 0)
 
@@ -556,7 +556,7 @@ WebUI.verifyTextPresent('Keywords: test', false)
 
 WebUI.verifyTextPresent('Curricula: Abstract Reasoning, Decision Analysis & 1 Others', false)
 
-WebUI.delay(0)
+WebUI.delay(1)
 
 int count = 0
 

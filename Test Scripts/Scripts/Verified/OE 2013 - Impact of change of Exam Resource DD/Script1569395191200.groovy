@@ -36,6 +36,8 @@ WebUI.verifyTextPresent('Exam Revision', false)
 
 WebUI.click(findTestObject('MVC Exam Revision/Exam Resource dropdown'))
 
+WebUI.selectOptionByLabel(findTestObject('MVC_Choose Questions/Exam Resource dropdown'), 'UKCAT', false)
+
 WebUI.verifyOptionSelectedByLabel(findTestObject('MVC Exam Revision/Exam Resource dropdown'), 'UKCAT', false, 0)
 
 WebUI.verifyOptionsPresent(findTestObject('MVC Exam Revision/Exam Resource dropdown'), ['Endocrinology and Diabetes SCE'
