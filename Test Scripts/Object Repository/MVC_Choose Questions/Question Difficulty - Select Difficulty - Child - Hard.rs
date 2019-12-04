@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Question Difficulty - Select Difficulty - Child - Easy</name>
+   <name>Question Difficulty - Select Difficulty - Child - Hard</name>
    <tag></tag>
-   <elementGuidId>b36c2f8e-0e1e-4c51-987f-a66dcec18fad</elementGuidId>
+   <elementGuidId>dd408e89-7bbc-4f2d-91a5-ef5e33205ba2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Easy&quot;][count(. | //input[@id = 'Easy' and @name = 'difficultyLevel' and @type = 'radio' and @value = 'Easy' and @title = 'Easy']) = count(//input[@id = 'Easy' and @name = 'difficultyLevel' and @type = 'radio' and @value = 'Easy' and @title = 'Easy'])]</value>
+         <value>//*[@id=&quot;Hard&quot;][count(. | //input[@name = 'difficultyLevel' and @type = 'radio' and @value = 'Hard' and @title = 'Hard']) = count(//input[@name = 'difficultyLevel' and @type = 'radio' and @value = 'Hard' and @title = 'Hard'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -48,11 +48,11 @@
       <value>The difficultyLevel field is required.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Easy</value>
+      <value>difficultyLevel</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -73,21 +73,21 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Easy</value>
+      <value>Hard</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;Easy&quot;]</value>
+      <value>//*[@id=&quot;Hard&quot;]</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>title</name>
       <type>Main</type>
-      <value>Easy</value>
+      <value>Hard</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>false</isSelected>

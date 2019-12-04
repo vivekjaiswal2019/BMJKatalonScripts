@@ -142,6 +142,5 @@
 	<classpathentry kind="lib" path="E:/Katalon_Studio_Windows_64-7.1.0/Katalon_Studio_Windows_64-7.1.0/configuration/plugin/install/8864/1.0.0/katalon-studio-datetime-plugin.jar"/>
 	<classpathentry kind="lib" path="E:/Katalon_Studio_Windows_64-7.1.0/Katalon_Studio_Windows_64-7.1.0/configuration/plugin/install/8875/1.0.0/katalon-studio-DragAndDrop-plugin.jar"/>
 	<classpathentry exported="true" kind="con" path="GROOVY_SUPPORT"/>
-	<classpathentry exported="true" kind="con" path="GROOVY_DSL_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

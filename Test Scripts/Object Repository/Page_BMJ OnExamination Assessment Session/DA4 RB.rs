@@ -6,61 +6,60 @@
    <elementGuidId>724e9cce-4086-4e8e-bac9-02046b5c6bd8</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;MainContent_quTest_ctl01_rptOptions_spanText_0&quot;]</value>
+         <value>//*[@id=&quot;361758&quot;][count(. | //input[@type = 'radio' and @name = 'rdBtnOption190926' and @id = '361758' and @value = '361758']) = count(//input[@type = 'radio' and @name = 'rdBtnOption190926' and @id = '361758' and @value = '361758'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>/html/body/form/div[4]/div/div[3]/div[1]/div/div[3]/div/table/tbody/tr[1]/td[1]/input</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>radio</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>rdBtnOption70316</value>
+      <value>rdBtnOption190926</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>93829</value>
+      <value>361758</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>93829</value>
+      <value>361758</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;MainContent_quTest_ctl01_rptOptions_spanText_0&quot;]</value>
+      <value>//*[@id=&quot;361758&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

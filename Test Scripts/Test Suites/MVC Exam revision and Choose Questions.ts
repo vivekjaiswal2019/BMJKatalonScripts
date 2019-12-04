@@ -74,12 +74,12 @@
       <guid>f100c600-7dbc-41ca-baaf-b4ae1024d411</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Verified/Question Session - DA2</testCaseId>
+      <testCaseId>Test Cases/Verified/Question Session - DA2 - Correctly Answered</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>008c6879-ec20-4a26-a2fb-df924778a63e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Verified/Question Session - DA3</testCaseId>
+      <testCaseId>Test Cases/Verified/Question Session - DA3 - Incorrectly Answered</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

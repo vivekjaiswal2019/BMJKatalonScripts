@@ -16,9 +16,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.c
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\VIVEKJ~1.GLO\\AppData\\Local\\Temp\\Katalon\\Test Cases\\OE 2013 - Impact of change of Exam Resource DD\\20191125_181404\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\VIVEKJ~1.GLO\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Verified\\Question Session - With Questions - Not Seen Before\\20191127_125531\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/OE 2013 - Impact of change of Exam Resource DD', new TestCaseBinding('Test Cases/OE 2013 - Impact of change of Exam Resource DD',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Verified/Question Session - With Questions - Not Seen Before', new TestCaseBinding('Test Cases/Verified/Question Session - With Questions - Not Seen Before',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

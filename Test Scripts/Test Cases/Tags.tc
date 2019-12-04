@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Question Session - DA2</name>
+   <name>Tags</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>eb64723c-0293-43d8-bf43-1a7b6175c28f</testCaseGuid>
+   <testCaseGuid>06044e12-d12a-4be2-9db9-585b9e16a7dd</testCaseGuid>
 </TestCaseEntity>

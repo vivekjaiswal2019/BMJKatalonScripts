@@ -7,17 +7,17 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;customStatNumberOfQuestions&quot;)[count(. | //div[@id = 'customStatNumberOfQuestions' and (text() = '185' or . = '185')]) = count(//div[@id = 'customStatNumberOfQuestions' and (text() = '185' or . = '185')])]</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
+         <value>id(&quot;customStatNumberOfQuestions&quot;)[count(. | //div[@class = 'fontsize31 font-weight-bold text-white text-center' and @id = 'customStatNumberOfQuestions']) = count(//div[@class = 'fontsize31 font-weight-bold text-white text-center' and @id = 'customStatNumberOfQuestions'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='customStatNumberOfQuestions']</value>
       </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +27,7 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
@@ -41,7 +41,7 @@
       <value>customStatNumberOfQuestions</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -50,12 +50,12 @@
       <guid>92685a1c-fb7f-4715-a720-bf728bdff31f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Question Session - DA2</testCaseId>
+      <testCaseId>Test Cases/Verified/Question Session - DA2 - Correctly Answered</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>320440b5-194f-4a89-b6ed-17072e0a5ec3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Question Session - DA3</testCaseId>
+      <testCaseId>Test Cases/Verified/Question Session - DA3 - Incorrectly Answered</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

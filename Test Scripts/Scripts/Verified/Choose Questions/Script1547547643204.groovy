@@ -12,6 +12,8 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
 
 WebUI.openBrowser('https://testmy.onexamination.com/login.aspx')
 
@@ -24,8 +26,6 @@ WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(5)
-
-not_run: WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
 
 WebUI.verifyTextPresent('Exam Revision', false)
 
@@ -84,8 +84,6 @@ WebUI.setText(findTestObject('MVC Login page/Password field'), 'P@ssword1')
 WebUI.click(findTestObject('MVC Login page/Login Button'))
 
 WebUI.delay(5)
-
-not_run: WebUI.click(findTestObject('MVC Exam Revision/Exam Revision Tab - Old'))
 
 WebUI.verifyTextPresent('Exam Revision', false)
 
@@ -168,13 +166,6 @@ WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty Select Diff
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All'), 
     0)
 
-not_run: WebUI.verifyElementNotChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - Easy'), 
-    0)
-
-not_run: WebUI.verifyElementNotChecked(findTestObject('null'), 0)
-
-not_run: WebUI.verifyElementNotChecked(findTestObject('null'), 0)
-
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'), 0)
 
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_PSQ'), 0)
@@ -191,9 +182,120 @@ if (ExpectedPlaceholder == placeholder) {
     KeywordUtil.markPassed('Placeholder is  as expected.')
 }
 
-WebUI.delay(1)
+WebUI.delay(2)
 
 WebUI.scrollToPosition(0, 0)
+
+WebUI.comment('Check for Question Difficulty')
+
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Question Difficulty All'), 0)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Select Curriculum'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Quantitative Reasoning'))
+
+WebUI.delay(2)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty Adapt For Me'))
+
+WebUI.delay(2)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty Select Difficulty Parent'))
+
+WebUI.delay(2)
+
+WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - All'), 
+    0)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 2)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
+
+WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - Easy'))
+
+WebUI.delay(2)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['9 questions'])
+
+WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - Average'))
+
+WebUI.delay(2)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['7 questions'])
+
+WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty - Select Difficulty - Child - Hard'))
+
+WebUI.delay(2)
+
+Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
+
+WebUI.verifyEqual(Count, 1)
+
+WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['0 questions'])
+
+WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
+
+WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.verifyElementNotVisible(findTestObject('MVC_Choose Questions/Button Start Questions'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.uncheck(findTestObject('MVC_Choose Questions/Quantitative Reasoning'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC_Choose Questions/All Curriculum'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Question Difficulty All'))
+
+WebUI.delay(2)
+
+WebUI.comment('Check for Curricula')
 
 WebUI.click(findTestObject('MVC_Choose Questions/Select Curriculum'))
 
@@ -219,7 +321,7 @@ WebUI.verifyTextPresent('Keywords: None', false)
 
 WebUI.check(findTestObject('MVC_Choose Questions/Abstract Reasoning'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
 
@@ -238,7 +340,7 @@ WebUI.delay(2)
 
 WebUI.check(findTestObject('MVC_Choose Questions/Quantitative Reasoning'))
 
-WebUI.delay(5)
+WebUI.delay(2)
 
 Count = WebUI.getNumberOfTotalOption(findTestObject('MVC_Choose Questions/Questions Dropdown'))
 
@@ -251,6 +353,8 @@ WebUI.verifyTextPresent('Curricula: Quantitative Reasoning', false)
 WebUI.verifyTextPresent('Best Answer Question', false)
 
 WebUI.verifyTextPresent('Keywords: None', false)
+
+WebUI.comment('Check for Question Type')
 
 WebUI.verifyElementChecked(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'), 0)
 
@@ -310,6 +414,8 @@ WebUI.check(findTestObject('MVC_Choose Questions/Check_Question Type_BAQ'))
 
 WebUI.delay(1)
 
+WebUI.comment('With Questions...')
+
 WebUI.click(findTestObject('MVC_Choose Questions/With Questions - Not Seen Before'))
 
 WebUI.delay(1)
@@ -345,6 +451,8 @@ WebUI.verifyEqual(Count, 2)
 WebUI.verifyOptionsPresent(findTestObject('MVC_Choose Questions/Questions Dropdown'), ['10 questions', '16 questions'])
 
 WebUI.delay(1)
+
+WebUI.comment('Tags')
 
 WebUI.check(findTestObject('MVC_Choose Questions/DA1 Tag'))
 
@@ -546,6 +654,8 @@ WebUI.verifyElementVisible(findTestObject('MVC_Choose Questions/Button Start Que
 
 WebUI.delay(1)
 
+WebUI.comment('Keyword Filter')
+
 WebUI.setText(findTestObject('MVC_Choose Questions/Keyword Filter Field'), 'test')
 
 WebUI.click(findTestObject('MVC_Choose Questions/Button_Apply_Keyword Filter'))
@@ -554,9 +664,9 @@ WebUI.delay(1)
 
 WebUI.verifyTextPresent('Keywords: test', false)
 
-WebUI.verifyTextPresent('Curricula: Abstract Reasoning, Decision Analysis & 1 Others', false)
-
 WebUI.delay(1)
+
+WebUI.verifyTextPresent('Curricula: Abstract Reasoning, Decision Analysis & 1 Others', false)
 
 int count = 0
 
