@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tags Section</name>
+   <name>Tags Delete Icon</name>
    <tag></tag>
-   <elementGuidId>11f772ee-e5b5-414b-b7d3-cc146b3915f7</elementGuidId>
+   <elementGuidId>754a9fdc-9a7a-49bc-969a-0c99feed1a1a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,80 +11,45 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'panel-heading' and @role = 'tab' and @id = 'TagsHeader']</value>
+         <value>//*[@class = 'fa fa-times-circle remove-term']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#TagsContent</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel-heading</value>
+      <value>fa fa-times-circle remove-term</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>id</name>
       <type>Main</type>
-      <value>collapse</value>
+      <value>tagTextInput</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
+      <name>placeholder</name>
       <type>Main</type>
-      <value>false</value>
+      <value>tag question as...</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
+      <name>type</name>
       <type>Main</type>
-      <value>TagsContent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Tags</value>
+      <value>text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;TagsHeading&quot;)/a[@class=&quot;panel-collapse-toggle&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>tab</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>TagsHeader</value>
+      <value>//*[@id=&quot;tagTextInput&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

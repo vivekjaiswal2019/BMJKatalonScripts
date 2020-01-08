@@ -1,82 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe</name>
+   <name>Tags_RemoveSelectedTags</name>
    <tag></tag>
-   <elementGuidId>a3eea434-3273-4761-9d5e-11caa8fd59c8</elementGuidId>
+   <elementGuidId>9638e35f-c6ee-48d3-8d4f-031d64c41cf7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='contentArea1']/iframe</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;contentArea1&quot;)/iframe[1][count(. | //iframe[@src = '/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www' and @frameborder = '0' and @marginwidth = '0px' and @marginheight = '0px']) = count(//iframe[@src = '/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www' and @frameborder = '0' and @marginwidth = '0px' and @marginheight = '0px'])]</value>
+         <value>//input[@id='MainContent_RemoveSelectedTags_btn']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>type</name>
       <type>Main</type>
-      <value>/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www</value>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>name</name>
       <type>Main</type>
-      <value>0</value>
+      <value>ctl00$MainContent$RemoveSelectedTags_btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Remove Selected Tags</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>marginwidth</name>
+      <name>id</name>
       <type>Main</type>
-      <value>0px</value>
+      <value>MainContent_RemoveSelectedTags_btn</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>marginheight</name>
-      <type>Main</type>
-      <value>0px</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contentArea1&quot;)/iframe[1]</value>
+      <value>id(&quot;MainContent_RemoveSelectedTags_btn&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='contentArea1']/iframe</value>
+      <value>//input[@id='MainContent_RemoveSelectedTags_btn']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exam resource:'])[1]/following::iframe[1]</value>
+      <value>//form[@id='form1']/div[4]/div/div[2]/div[40]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
+      <value>//div[40]/input</value>
    </webElementXpaths>
 </WebElementEntity>

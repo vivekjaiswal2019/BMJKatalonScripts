@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tags Section</name>
+   <name>Label - Remove this Tag</name>
    <tag></tag>
-   <elementGuidId>11f772ee-e5b5-414b-b7d3-cc146b3915f7</elementGuidId>
+   <elementGuidId>36690ab0-9c35-40c9-aae9-8b612c009d6d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,80 +11,31 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@class = 'panel-heading' and @role = 'tab' and @id = 'TagsHeader']</value>
+         <value>//*[@id=&quot;MainContent_rptTags_rptQuestions_11_label_0&quot;][count(. | //*[@label = 'MainContent_rptTags_rptQuestions_11_RemoveTagCheckBox_0' and @id = 'MainContent_rptTags_rptQuestions_11_label_0']) = count(//*[@label = 'MainContent_rptTags_rptQuestions_11_RemoveTagCheckBox_0' and @id = 'MainContent_rptTags_rptQuestions_11_label_0'])]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#TagsContent</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>label</name>
       <type>Main</type>
-      <value>panel-heading</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
-      <type>Main</type>
-      <value>collapse</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
-      <type>Main</type>
-      <value>false</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>TagsContent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Tags</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath</name>
-      <type>Main</type>
-      <value>id(&quot;TagsHeading&quot;)/a[@class=&quot;panel-collapse-toggle&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>tab</value>
+      <value>MainContent_rptTags_rptQuestions_11_RemoveTagCheckBox_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>TagsHeader</value>
+      <value>MainContent_rptTags_rptQuestions_11_label_0</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;MainContent_rptTags_rptQuestions_11_label_0&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

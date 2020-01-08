@@ -1,90 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Tags Section</name>
+   <name>Button Tag</name>
    <tag></tag>
-   <elementGuidId>11f772ee-e5b5-414b-b7d3-cc146b3915f7</elementGuidId>
+   <elementGuidId>6f257c67-a03f-4ccd-a31a-de33df4f5adf</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;TagsContent&quot;]/div[3]/div/span/button[count(. | //*[@class = 'btn btn-primary' and @name = 'BookmarkButton' and @type = 'button']) = count(//*[@class = 'btn btn-primary' and @name = 'BookmarkButton' and @type = 'button'])]</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//h2[@id='TagsHeading']/a</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@class = 'panel-heading' and @role = 'tab' and @id = 'TagsHeader']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>tag</name>
-      <type>Main</type>
-      <value>a</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>#TagsContent</value>
-   </webElementProperties>
-   <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel-heading</value>
+      <value>btn btn-primary</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-toggle</name>
+      <name>name</name>
       <type>Main</type>
-      <value>collapse</value>
+      <value>BookmarkButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-expanded</name>
+      <name>type</name>
       <type>Main</type>
-      <value>false</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-controls</name>
-      <type>Main</type>
-      <value>TagsContent</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value> Tags</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;TagsHeading&quot;)/a[@class=&quot;panel-collapse-toggle&quot;]</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>role</name>
-      <type>Main</type>
-      <value>tab</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>TagsHeader</value>
+      <value>//*[@id=&quot;TagsContent&quot;]/div[3]/div/span/button</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

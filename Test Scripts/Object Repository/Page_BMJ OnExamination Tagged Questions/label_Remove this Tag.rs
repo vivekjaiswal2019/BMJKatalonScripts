@@ -1,82 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe</name>
+   <name>label_Remove this Tag</name>
    <tag></tag>
-   <elementGuidId>a3eea434-3273-4761-9d5e-11caa8fd59c8</elementGuidId>
+   <elementGuidId>0ef72cf0-b041-4066-a6b2-1561f01a2657</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='contentArea1']/iframe</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;contentArea1&quot;)/iframe[1][count(. | //iframe[@src = '/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www' and @frameborder = '0' and @marginwidth = '0px' and @marginheight = '0px']) = count(//iframe[@src = '/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www' and @frameborder = '0' and @marginwidth = '0px' and @marginheight = '0px'])]</value>
+         <value>//label[@id='MainContent_rptTags_rptQuestions_12_label_0']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>label</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>MainContent_rptTags_rptQuestions_12_RemoveTagCheckBox_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www</value>
+      <value>MainContent_rptTags_rptQuestions_12_label_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>text</name>
       <type>Main</type>
-      <value>0</value>
+      <value>Remove this Tag</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>marginwidth</name>
-      <type>Main</type>
-      <value>0px</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>marginheight</name>
-      <type>Main</type>
-      <value>0px</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contentArea1&quot;)/iframe[1]</value>
+      <value>id(&quot;MainContent_rptTags_rptQuestions_12_label_0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//label[@id='MainContent_rptTags_rptQuestions_12_label_0']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='contentArea1']/iframe</value>
+      <value>(//div[@id='RemoveTagWrapper']/label)[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exam resource:'])[1]/following::iframe[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Question Preview'])[13]/following::label[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Question'])[13]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
+      <value>//div[39]/label</value>
    </webElementXpaths>
 </WebElementEntity>

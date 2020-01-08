@@ -6,15 +6,15 @@
    <elementGuidId>0b405a37-1ad2-41bf-875f-38a621ab89d4</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;Average&quot;][count(. | //input[@name = 'difficultyLevel' and @type = 'radio' and @value = 'Average' and @title = 'Average']) = count(//input[@name = 'difficultyLevel' and @type = 'radio' and @value = 'Average' and @title = 'Average'])]</value>
+         <value>//*[@id=&quot;Average&quot;][count(. | //input[@checked = 'checked' and @data-val = 'true' and @data-val-required = 'The difficultyLevel field is required.' and @id = 'difficultyLevel' and @name = 'difficultyLevel' and @type = 'radio' and @value = 'Average' and @title = 'Average']) = count(//input[@checked = 'checked' and @data-val = 'true' and @data-val-required = 'The difficultyLevel field is required.' and @id = 'difficultyLevel' and @name = 'difficultyLevel' and @type = 'radio' and @value = 'Average' and @title = 'Average'])]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//input[@id='difficultyLevel']</value>
-      </entry>
-      <entry>
-         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -27,28 +27,28 @@
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>checked</name>
       <type>Main</type>
       <value>checked</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-val-required</name>
       <type>Main</type>
       <value>The difficultyLevel field is required.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>

@@ -1,82 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>iframe</name>
+   <name>input_Remove this Tag_ctl00MainContentrptTagsctl12rptQuestionsctl00RemoveTagCheckBox</name>
    <tag></tag>
-   <elementGuidId>a3eea434-3273-4761-9d5e-11caa8fd59c8</elementGuidId>
+   <elementGuidId>06e467a7-d49d-41d5-b814-dfd29e8099c6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='contentArea1']/iframe</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;contentArea1&quot;)/iframe[1][count(. | //iframe[@src = '/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www' and @frameborder = '0' and @marginwidth = '0px' and @marginheight = '0px']) = count(//iframe[@src = '/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www' and @frameborder = '0' and @marginwidth = '0px' and @marginheight = '0px'])]</value>
+         <value>//input[@id='MainContent_rptTags_rptQuestions_12_RemoveTagCheckBox_0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>iframe</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>src</name>
+      <name>id</name>
       <type>Main</type>
-      <value>/CMS/Default.aspx?SCRIPT_NAME=/Assessment/RevisionAdvice.aspx&amp;INSTANCE=1&amp;SITE=my&amp;TOOLBAR=www</value>
+      <value>MainContent_rptTags_rptQuestions_12_RemoveTagCheckBox_0</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>frameborder</name>
+      <name>type</name>
       <type>Main</type>
-      <value>0</value>
+      <value>checkbox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>marginwidth</name>
+      <name>name</name>
       <type>Main</type>
-      <value>0px</value>
+      <value>ctl00$MainContent$rptTags$ctl12$rptQuestions$ctl00$RemoveTagCheckBox</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>marginheight</name>
+      <name>onclick</name>
       <type>Main</type>
-      <value>0px</value>
+      <value>javascript:setTimeout('__doPostBack(\'ctl00$MainContent$rptTags$ctl12$rptQuestions$ctl00$RemoveTagCheckBox\',\'\')', 0)</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;contentArea1&quot;)/iframe[1]</value>
+      <value>id(&quot;MainContent_rptTags_rptQuestions_12_RemoveTagCheckBox_0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='contentArea1']/iframe</value>
+      <value>//input[@id='MainContent_rptTags_rptQuestions_12_RemoveTagCheckBox_0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exam resource:'])[1]/following::iframe[1]</value>
+      <value>(//div[@id='RemoveTagWrapper']/span/input)[13]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//iframe</value>
+      <value>//div[39]/span/input</value>
    </webElementXpaths>
 </WebElementEntity>
