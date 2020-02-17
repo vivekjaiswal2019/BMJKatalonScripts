@@ -29,7 +29,17 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('Exam Revision', false)
 
-WebUI.click(findTestObject('MVC Exam Revision/Revision Advice Tab'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('MVC_Choose Questions/Exam Resource dropdown'))
+
+WebUI.delay(1)
+
+WebUI.selectOptionByLabel(findTestObject('MVC_Choose Questions/Exam Resource dropdown'), 'UKCAT', false)
+
+WebUI.delay(1)
+
+WebUI.navigateToUrl('https://testmy.onexamination.com/Assessment/RevisionAdvice.aspx')
 
 WebUI.delay(2)
 
@@ -64,6 +74,8 @@ WebUI.doubleClick(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Hea
 
 WebUI.delay(2)
 
+WebUI.verifyElementPresent(findTestObject('Page_My Revision Advice - BMJ OnExamination/iframe'), 0)
+
 WebUI.verifyElementVisible(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Save Changes'))
 
 WebUI.verifyElementVisible(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Exit'))
@@ -74,18 +86,10 @@ WebUI.click(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Ex
 
 WebUI.delay(2)
 
-not_run: WebUI.verifyTextPresent('MRCP Part 1 Revision Advice', false)
+WebUI.verifyTextPresent('MRCP Part 1 Revision Advice', false)
 
-not_run: WebUI.verifyTextPresent('The MRCP Part 1 exam aims to test your knowledge and understanding of basic medical science and common disorders, whilst also assessing your problem solving skills.', 
+WebUI.verifyTextPresent('The MRCP Part 1 exam aims to test your knowledge and understanding of basic medical science and common disorders, whilst also assessing your problem solving skills.', 
     false)
-
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Save Changes'), 
-    0)
-
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Exit'), 0)
-
-not_run: WebUI.verifyElementNotPresent(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Edit History'), 
-    0)
 
 WebUI.click(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Exam Options Dropdown'))
 
@@ -113,7 +117,7 @@ WebUI.delay(2)
 
 WebUI.verifyTextPresent('Exam Revision', false)
 
-WebUI.click(findTestObject('MVC Exam Revision/Revision Advice Tab'))
+WebUI.navigateToUrl('https://testmy.onexamination.com/Assessment/RevisionAdvice.aspx')
 
 WebUI.delay(2)
 
@@ -122,15 +126,14 @@ WebUI.verifyTextPresent('MRCP Part 1 Revision Advice', false)
 WebUI.verifyTextPresent('The MRCP Part 1 exam aims to test your knowledge and understanding of basic medical science and common disorders, whilst also assessing your problem solving skills.', 
     false)
 
-WebUI.doubleClick(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Header Exam Name'))
+not_run: WebUI.verifyTextNotPresent('function frameMecontentArea1', false)
+
+WebUI.verifyElementNotPresent(findTestObject('Page_My Revision Advice - BMJ OnExamination/iframe'), 0)
+
+not_run: WebUI.waitForElementNotClickable(findTestObject('Page_My Revision Advice - BMJ OnExamination/Header Exam Name'), 
+    0)
 
 WebUI.delay(2)
-
-WebUI.verifyElementNotVisible(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Save Changes'))
-
-WebUI.verifyElementNotVisible(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Exit'))
-
-WebUI.verifyElementNotVisible(findTestObject('MVC_My Revision Advice - BMJ OnExamination/Button Edit History'))
 
 WebUI.click(findTestObject('MVC Exam Revision/Sign Out - Old'))
 

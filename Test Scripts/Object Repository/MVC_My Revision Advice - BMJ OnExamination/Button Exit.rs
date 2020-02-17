@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='btnCancel']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;btnCancel&quot;)[count(. | //input[@type = 'submit' and @name = 'btnCancel' and @value = 'Exit' and @id = 'btnCancel' and @class = 'cmsButton' and @ref_element = 'Object Repository/Page_My Revision Advice - BMJ OnExamination/iframe']) = count(//input[@type = 'submit' and @name = 'btnCancel' and @value = 'Exit' and @id = 'btnCancel' and @class = 'cmsButton' and @ref_element = 'Object Repository/Page_My Revision Advice - BMJ OnExamination/iframe'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +38,7 @@
       <value>btnCancel</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -48,14 +52,14 @@
       <value>btnCancel</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>cmsButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

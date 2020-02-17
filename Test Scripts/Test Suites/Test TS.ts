@@ -20,19 +20,19 @@
       <guid>8c3e4d08-3a0a-43c5-be44-d4416e9572ad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Signing In Problems</testCaseId>
+      <testCaseId>Test Cases/Verified on Test/Signing In Problems</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c42e2652-0a55-441f-9fbf-e933a8614822</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Login</testCaseId>
+      <testCaseId>Test Cases/Verified on Test/Login</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>973f08d4-9a2a-4c83-98f2-b9981c87bcc0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Reset Scores</testCaseId>
+      <testCaseId>Test Cases/Verified on Test/Reset Scores</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -68,6 +68,6 @@
       <guid>3f9b9925-6301-4876-9e3c-a51fe2f1243d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Choose Questions</testCaseId>
+      <testCaseId>Test Cases/Verified on Test/Choose Questions</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

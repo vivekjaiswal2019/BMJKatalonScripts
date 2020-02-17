@@ -14,7 +14,7 @@
       <guid>e7956640-509f-4a26-873f-9977c3784208</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Reset Scores</testCaseId>
+      <testCaseId>Test Cases/Verified on Test/Reset Scores</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -50,12 +50,12 @@
       <guid>92685a1c-fb7f-4715-a720-bf728bdff31f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Question Session - DA2 - Correctly Answered</testCaseId>
+      <testCaseId>Test Cases/Verified on Test/Question Session - DA2 - Correctly Answered</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>320440b5-194f-4a89-b6ed-17072e0a5ec3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Verified/Question Session - DA3 - Incorrectly Answered</testCaseId>
+      <testCaseId>Test Cases/Verified on Test/Question Session - DA3 - Incorrectly Answered</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

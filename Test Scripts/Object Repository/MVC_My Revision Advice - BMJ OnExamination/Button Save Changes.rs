@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//input[@id='btnSave']</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;btnSave&quot;)[count(. | //input[@type = 'submit' and @name = 'btnSave' and @value = 'Save changes' and @id = 'btnSave' and @ref_element = 'Object Repository/Page_My Revision Advice - BMJ OnExamination/iframe']) = count(//input[@type = 'submit' and @name = 'btnSave' and @value = 'Save changes' and @id = 'btnSave' and @ref_element = 'Object Repository/Page_My Revision Advice - BMJ OnExamination/iframe'])]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +38,7 @@
       <value>btnSave</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
@@ -48,7 +52,7 @@
       <value>btnSave</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

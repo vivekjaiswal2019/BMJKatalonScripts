@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Button Edit History</name>
+   <name>Summary button</name>
    <tag></tag>
-   <elementGuidId>302686fc-b775-49ca-9bd7-164867c1c282</elementGuidId>
+   <elementGuidId>92f20609-e411-4ebc-baec-d4fc61a8b3ad</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='btnHistory']</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>id(&quot;btnHistory&quot;)[count(. | //input[@type = 'submit' and @name = 'btnHistory' and @value = 'View edit history' and @id = 'btnHistory' and @ref_element = 'Object Repository/Page_My Revision Advice - BMJ OnExamination/iframe']) = count(//input[@type = 'submit' and @name = 'btnHistory' and @value = 'View edit history' and @id = 'btnHistory' and @ref_element = 'Object Repository/Page_My Revision Advice - BMJ OnExamination/iframe'])]</value>
+         <value>//input[@id='MainContent_genericAssessmentLauncher_GenericAssessmentSelfAssessments_SummaryButton_0']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -35,69 +31,55 @@
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>btnHistory</value>
+      <value>ctl00$MainContent$genericAssessmentLauncher$GenericAssessmentSelfAssessments$ctrl0$SummaryButton</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>View edit history</value>
+      <value>Summary</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>btnHistory</value>
+      <value>MainContent_genericAssessmentLauncher_GenericAssessmentSelfAssessments_SummaryButton_0</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm btn-default btn-responsive</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;btnHistory&quot;)</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ref_element</name>
-      <type>Main</type>
-      <value>Object Repository/Page_My Revision Advice - BMJ OnExamination/iframe</value>
+      <value>id(&quot;MainContent_genericAssessmentLauncher_GenericAssessmentSelfAssessments_SummaryButton_0&quot;)</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='btnHistory']</value>
+      <value>//input[@id='MainContent_genericAssessmentLauncher_GenericAssessmentSelfAssessments_SummaryButton_0']</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='form1']/div[4]/input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last edited by:'])[1]/following::input[2]</value>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'btnHistory', '&quot;', ')')])[1]/preceding::input[2]</value>
+      <value>//form[@id='form1']/div[4]/div/div[3]/div[2]/div[2]/div/p[2]/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input[2]</value>
+      <value>//p[2]/input</value>
    </webElementXpaths>
 </WebElementEntity>
